@@ -1,0 +1,396 @@
+{
+	"Generic": [
+		{
+			"Location": {
+				"Normal": "Loot Gear Crates",
+				"Hard": null,
+				"Pro": ["Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "All",
+			"Mod Type": "HP",
+			"Name": "Lifeforce Boost",
+			"Desc": "HP +12%",
+			"Rarity": "Legendary"
+		}
+	],
+	"Boots": [
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo PHI"],
+				"Pro": ["Silo PHI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Boots",
+			"Mod Type": ["Conditional", "Weapon DMG", "Status Damage"],
+			"Name": "Covered Advance",
+			"Desc": "Taking no DMG within 4s grants +20% Melee, Weapon and Status Damage for 30 seocnd. The effect resets when the duration ends",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo PHI"],
+				"Pro": ["Silo PHI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Boots",
+			"Mod Type": ["Conditional", "Weapon DMG", "Status Damage"],
+			"Name": "Slow and Steady",
+			"Desc": "+10% Melee, Weapon, Status DMG. When HP is above 90%, DMG +10%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo PHI"],
+				"Pro": ["Silo PHI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Boots",
+			"Mod Type": ["Conditional", "Weapon DMG", "Status Damage"],
+			"Name": "Secluded Strike",
+			"Desc": "Having no enemies within 7 meters around you grants +15% Weapon and Status Damage",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo PHI"],
+				"Pro": ["Silo PHI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Boots",
+			"Mod Type": ["Conditional", "Refill Ammo"],
+			"Name": "Ruthless Reeaper Precision",
+			"Desc": "After accumulating 2 kills, refill 100% of your magazine from your reserves",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo PHI"],
+				"Pro": ["Silo PHI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Boots",
+			"Mod Type": "General DMG",
+			"Name": "Ferocious Charge",
+			"Desc": "Killing enemies within 10 meters grants Melee, Weapon DMG, Status DMG +20% for 8s",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo PHI"],
+				"Pro": ["Silo PHI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Boots",
+			"Mod Type": ["Conditional", "Weapon DMG", "Status Damage"],
+			"Name": "Rush Hour",
+			"Desc": "Every 10% HP loss grants +4% Melee, Weapon and Status Damage",
+			"Rarity": "Legendary"
+		}
+	],
+	"Gloves": [
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo SIGMA"],
+				"Pro": ["Silo SIGMA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Gloves",
+			"Mod Type": ["Crit Rate", "Crit Damage"],
+			"Name": "Crit Amplifier",
+			"Desc": "Crit Rate +10%, Crit DMG + 15%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo SIGMA"],
+				"Pro": ["Silo SIGMA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Gloves",
+			"Mod Type": "Crit Rate",
+			"Name": "Crit Boost",
+			"Desc": "Crit Rate +15%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo SIGMA"],
+				"Pro": ["Silo SIGMA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Gloves",
+			"Mod Type": "Elemental DMG",
+			"Name": "Elemental Overload",
+			"Desc": "Element DMG (Blaze, Frost, Shock, Blast) +18%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo SIGMA"],
+				"Pro": ["Silo SIGMA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Gloves",
+			"Mod Type": ["Status DMG"],
+			"Name": "Status Enhancement",
+			"Desc": "Status DMG +20%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo SIGMA"],
+				"Pro": ["Silo SIGMA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Gloves",
+			"Mod Type": ["Weapon DMG"],
+			"Name": "Munitions Amplifier",
+			"Desc": "Weapon DMG +15%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo SIGMA"],
+				"Pro": ["Silo SIGMA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Gloves",
+			"Mod Type": ["HP"],
+			"Name": "Lifeforce Boost",
+			"Desc": "HP +12%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo SIGMA"],
+				"Pro": ["Silo SIGMA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Gloves",
+			"Mod Type": ["Weakspot DMG"],
+			"Name": "Weapokspot DMG Boost",
+			"Desc": "Weapokspot DMG Boost +25%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": null,
+				"Hard": ["Silo SIGMA"],
+				"Pro": ["Silo SIGMA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Gloves",
+			"Mod Type": ["Melee DMG"],
+			"Name": "Melee Amplifier",
+			"Desc": "Melee DMG +20%",
+			"Rarity": "Legendary"
+		}
+	],
+	"Pants": [
+		{
+			"Location": {
+				"Normal": "Silo PSI",
+				"Hard": "Silo PSI",
+				"Pro": ["Silo PSI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Pants",
+			"Mod Type": "Crit DMG",
+			"Name": "Deadshot",
+			"Desc": "Each Crit Hit by non-melee weapons grants +5% Crit DMG, upto 45%. The effect is removed upon the next reload",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo PSI",
+				"Hard": "Silo PSI",
+				"Pro": ["Silo PSI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Pants",
+			"Mod Type": ["Conditional", "Melee DMG"],
+			"Name": "Melee Momentum",
+			"Desc": "Killing with melee attacks restores 30% of Max Stamina and grants +20% Melee DMG for 8 seconds",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo PSI",
+				"Hard": "Silo PSI",
+				"Pro": ["Silo PSI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Pants",
+			"Mod Type": "Conditional",
+			"Name": "Reload Rampage",
+			"Desc": "Killings 2 enemies refills 2 bullets from inventory (no more than half of the mag), and grants +10% Weapon and Status DMG, lasting until the next reload",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo PSI",
+				"Hard": "Silo PSI",
+				"Pro": ["Silo PSI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Pants",
+			"Mod Type": ["Conditional", "Weakspot DMG"],
+			"Name": "Unstoppable",
+			"Desc": "Weakspot DMG +10% when a bullet hits a target more than 20m away. For every additional 1 meter away from the target, Weakspot DMG +1% up to 20%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo PSI",
+				"Hard": "Silo PSI",
+				"Pro": ["Silo PSI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Pants",
+			"Mod Type": "Weapon DMG",
+			"Name": "Bullet Siphon",
+			"Desc": "Weapon DMG +5%. Every 5 bullets consumed i nthe magazine grants +4% Weapon DMG, capped at 20%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo PSI",
+				"Hard": "Silo PSI",
+				"Pro": ["Silo PSI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Pants",
+			"Mod Type": "`Status DMG",
+			"Name": "Status Amplification",
+			"Desc": "When the magazine is empty, Status DMG +10% for 12s (up to 3 stacks)",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo PSI",
+				"Hard": "Silo PSI",
+				"Pro": ["Silo PSI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Pants",
+			"Mod Type": ["Conditional", "Elemental DMG"],
+			"Name": "Precision Charge",
+			"Desc": "For every 10% Weakspot hit rate of the previous magazine, Elemental DMG +4%, up to 24% lasting for 10s. Reloading resets the calculation",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo PSI",
+				"Hard": "Silo PSI",
+				"Pro": ["Silo PSI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Pants",
+			"Mod Type": ["Conditional", "Weakspot DMG"],
+			"Name": "Three Strikes",
+			"Desc": "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +30%",
+			"Rarity": "Legendary"
+		}
+	],
+	"Chest": [
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "Resist Advantage",
+			"Desc": "When out of combat, gain 1 stack of DMG Reduction 5% every 10s. Effect can stack up to 5 times. 1 stack is removed when hit.",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "Head Guard",
+			"Desc": "When HP is above 70%, the head area is no longer a weakspot",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "Healing Fortification",
+			"Desc": "When using a healing shot, DMG reduction 40% for 2s",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "Quick Comeback",
+			"Desc": "When using a healing shot, Movement Speed +20% for 2s and refill the magazine from the inventory up to 100%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "Enduring Shield",
+			"Desc": "When out of combat, gain 1 stack of Safe Haven every 5s. Effect can stack up to 5 times. With every 5 damage received, remove 1 stack of Safe Haven to get 8% shield for 3s",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "DMG Reduce",
+			"Name": "Head-on Conflict",
+			"Desc": "Having enemies within 7 meters around you grants a 10% DMG Reduction. Taking melee DMG from enemies grants an extra 10% DMG Reduction for 5 seconds",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "Critical Rescue",
+			"Desc": "DMG Reduction 20% and Healing Recived +20% when HP is below 30%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "Status Immune",
+			"Desc": "When HP is lower than 60%, purge all Deviated State (Cooldown: 15s)",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Conditional",
+			"Name": "Rejuvenating",
+			"Desc": "When HP is above 60%, a kill recovers 15% lost HP",
+			"Rarity": "Legendary"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+  "SniperRifles": [
+    {
+      "name": "HAMR - Brahminy",
+      "damage": 218,
+      "fireRate": 85,
+      "mag": 8,
+      "rarity": "Legendary",
+      "weaponType": "Sniper Rifles"
+    },
+    {
+      "name": "SN700 - Gulped Lore",
+      "damage": 287,
+      "fireRate": 40,
+      "mag": 5,
+      "rarity": "Epic",
+      "weaponType": "Sniper Rifles"
+    },
+    {
+      "name": "HAMR - Crumble",
+      "damage": 175,
+      "fireRate": 85,
+      "mag": 8,
+      "rarity": "Fine",
+      "weaponType": "Sniper Rifles"
+    },
+    {
+      "name": "SN700",
+      "damage": 255,
+      "fireRate": 40,
+      "mag": 5,
+      "rarity": "Common",
+      "weaponType": "Sniper Rifles"
+    },
+    {
+      "name": "AWS.338 - Black Panther",
+      "damage": 284,
+      "fireRate": 40,
+      "mag": 5,
+      "rarity": "Epic",
+      "weaponType": "Sniper Rifles"
+    },
+    {
+      "name": "AWS.338 - Bullseye",
+      "damage": 316,
+      "fireRate": 40,
+      "mag": 5,
+      "rarity": "Legendary",
+      "weaponType": "Sniper Rifles"
+    }
+  ]
+}

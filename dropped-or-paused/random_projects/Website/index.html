@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Order Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Online Order Form</h1>
+        <form id="order-form">
+            <label>Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label>Address:</label>
+            <input type="text" id="address" name="address" required>
+            <br>
+            <label>Item:</label>
+            <input type="text" id="item" name="item" required>
+            <br>
+            <input type="button" value="Order" onclick="submitOrder()" class="submit-button">
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

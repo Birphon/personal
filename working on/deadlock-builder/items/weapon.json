@@ -1,0 +1,830 @@
+{
+	"t1": {
+		"Basic Magazine": {
+			"s1": "+24% Ammo",
+			"s2": "+15% Ammo",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": "Titanic Magazine"
+		},
+		"Close Quarters": {
+			"s1": "+85 Bullet Shield Health",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "Deal addition weapon damage when in close range to your target",
+			"ps": {
+				"effect": "+25% Weapon Damage",
+				"condition": "15m close range",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"High-Velocity Mag": {
+			"s1": "+5% Fire Rate",
+			"s2": "+40 Bullet Shield Health",
+			"s3": "",
+			"s4": "",
+			"p": "Deal bonus weapon damage with headshots",
+			"ps": {
+				"effect": "+45 Headshot bonus Damage",
+				"condition": "Headshot",
+				"duration": "",
+				"cooldown": "7s"
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Headshot Booster": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Hollow Point Ward": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Rapid Rounds": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Monster Rounds": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Restorative Shot": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		}
+	},
+	"t2": {
+		"Soul Shredder Bullets": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Mystic Shot": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Active Reload": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Slowing Bullets": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Long Range": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Berserker": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Swift Striker": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Kinetic Dash": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Fleetfoot": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Melee Charge": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Veil Walker": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		}
+	},
+	"t3": {
+		"Tesla Bullets": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Titanic Magazine": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Point Blank": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Burst Fire": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Pristine Emblem": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Toxic Bullets": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Intensifying Magazine": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Sharpshooter": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Warp Stone": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Hunter's Aura": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Heroic Aura": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Escalating Resilience": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Alchemical Fire": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		}
+	},
+	"t4": {
+		"Lucky Shot": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Glass Cannon": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Siphon Bullets": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Ricochet": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Crippling Headshot": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Spiritual Overflow": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Frenzy": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Vampiric Burst": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		},
+		"Silencer": {
+			"s1": "",
+			"s2": "",
+			"s3": "",
+			"s4": "",
+			"p": "",
+			"ps": {
+				"effect": "",
+				"condition": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"a": "",
+			"as": {
+				"effect": "",
+				"duration": "",
+				"cooldown": ""
+			},
+			"c": ""
+		}
+	}
+}

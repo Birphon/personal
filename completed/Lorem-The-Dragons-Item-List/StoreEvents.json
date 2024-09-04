@@ -1,0 +1,45 @@
+{
+	"incitems" : [
+	{
+		"abr": "raid",
+		"price": 1200,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "siegeraid",
+		"price": 1800,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "mechanoidraid",
+		"price": 1200,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "pawn",
+		"price": 900,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "levelskill",
+		"price": 1500,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "trait",
+		"price": 600,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "removetrait",
+		"price": 600,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "genderswap",
+		"price": 50,
+		"karmatype": "Neutral"
+	}
+	],
+	"total": 8
+}

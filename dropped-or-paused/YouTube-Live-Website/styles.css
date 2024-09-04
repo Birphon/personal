@@ -1,0 +1,111 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body CSS initalizer */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #181818;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Home.HTML CSS */
+
+#streamSelector {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#streamSelector h1 {
+    font-size: 36px;
+    /* Increase font size */
+    color: white;
+    /* Red text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add a text shadow */
+}
+
+input[type="text"] {
+    width: 80%;
+    /* Slightly reduce input width */
+    padding: 15px;
+    /* Increase padding */
+    margin-top: 15px;
+    /* Increase top margin */
+    border: none;
+    border-radius: 25px;
+    /* Increase border radius */
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Semi-transparent white background */
+    color: #fff;
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#embedVideo {
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    /* Increase padding */
+    border-radius: 25px;
+    /* Increase border radius */
+    cursor: pointer;
+    margin-top: 20px;
+    /* Increase top margin */
+    font-size: 20px;
+    /* Increase font size */
+    text-transform: uppercase;
+    /* Uppercase text */
+    transition: background-color 0.3s ease;
+    /* Add a smooth background color transition */
+}
+
+#embedVideo:hover {
+    background-color: #FF4444;
+    /* Darker red on hover */
+}
+
+
+/* Bellow CSS is for watch.html */
+
+#videoFrame {
+    flex: 79;
+    height: 100vh;
+    position: flex;
+}
+
+#chatFrame {
+    flex: 20;
+    height: 100vh;
+    border: none;
+    position: flex;
+}
+
+#overlayButton {
+    position: absolute;
+    top: 0;
+    /* Align the button to the top of chatFrame */
+    right: 0;
+    /* Align the button to the right of chatFrame */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    /* Vertical padding remains 10px, and the width matches chatFrame */
+    width: 20.2%;
+    /* Button width matches chatFrame width */
+    cursor: pointer;
+    z-index: 999;
+}

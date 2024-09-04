@@ -1,0 +1,73 @@
+BARBARIAN
+The strong embrace the wild that hides inside - keen instincts, primal physicality, and most of all, an unbridled, unquenchable rage.
+
+berserker subclass iconBerserker, wildheart subclass iconWildheart,  wild magic icon baldursgate3 wiki guide 75pxWild Magic
+
+BARD
+You know music is more than a fancy - it is power. Through study and adventure, you have mastered song, speech, and the magic within.
+
+bard college of lore class bg3 wiki guideCollege of Lore, bard college of valor class bg3 wiki guideCollege of Valour,  swords icon baldursgate3 wiki guide 75pxCollege of Swords
+
+CLERIC
+Clerics are representatives of the gods they worship, wielding potent divine magic for good or ill.
+
+cleric lifedomain class icon baldursgate3 wiki guide 75pxLife Domain, cleric lightdomain class icon baldursgate3 wiki guide 75pxLight Domain, cleric trickerydomain class icon baldursgate3 wiki guide 75pxTrickery Domain, knowledge domain icon baldursgate3 wiki guide 75pxKnowledge Domain, nature domain icon baldursgate3 wiki guide 75pxNature Domain, tempest domain icon baldursgate3 wiki guide 75pxTempest Domain, war domain icon baldursgate3 wiki guide 75pxWar Domain
+
+DRUID
+Druids channel the elemental forces of nature and share a deep kinship with animals. Mastery of Wild Shape allows them to transform into beasts from all over the Realms
+
+circle of the moon sub class baldursgate3 wiki guide 30pxCircle of the Moon, circle of the land sub class baldursgate3 wiki guide 30pxCircle of the Land, spore icon baldursgate3 wiki guide 75pxCircle of the Spores
+
+FIGHTER
+Fighters have mastered the art of combat, wielding weapons with unmatched skill and wearing armour like a second skin.
+
+fighter battlemaster class icon baldursgate3 wiki guide 75pxBattle Master, fighter eldritchknight class icon baldursgate3 wiki guide 75pxEldritch Knight, champion icon baldursgate3 wiki guide 75pxChampion
+
+MONK
+Channel your cosmic enlightenment by deftly dodging and efficiently disassembling your foes through stunning strikes and a whirlwind of martial art attacks.
+
+open hand icon baldursgate3 wiki guide 75pxWay of the Open Hand,  shadow icon baldursgate3 wiki guide 75pxWay of Shadow, four elements icon baldursgate3 wiki guide 75pxWay of the Four Elements
+
+PALADIN
+Fuelled by the Oaths you swore to uphold justice and righteousness, you are a beacon of hope in dark times.
+
+oath of devotion paladin class bg3 wiki guide75pxOath of Devotion, oath of the ancients paladin class bg3 wiki guide75pxOath of the Ancients, vengeance icon baldursgate3 wiki guide 75pxOath of Vengeance,  oathbreaker paladin class bg3 wiki guide75pxOathbreaker 
+
+RANGER
+Rangers are unrivalled scouts and trackers, honing a deep connection with nature in order to hunt their favoured prey.
+
+ranger beastmaster class icon baldursgate3 wiki guide 75pxBeast Master, ranger hunter class icon baldursgate3 wiki guide 75pxHunter, gloom stalker icon baldursgate3 wiki guide 75pxGloom Stalker
+
+ROGUE
+With stealth, skill and uncanny reflexes, a rogue's versatility lets them get the upper hand in almost any situation.
+
+rogue thief class icon baldursgate3 wiki guide 75pxThief, rogue trickster class icon baldursgate3 wiki guide 75pxArcane Trickster,  assassin icon baldursgate3 wiki guide 75pxAssassin
+
+SORCERER
+Sorcerers are natural spellcasters, drawing on inherent magic from a gift or bloodline.
+
+draconic bloodline subclass icon baldurs gate 3 wiki guide 128pxDraconic Bloodline, wild magic subclass icon baldurs gate 3 wiki guide 128pxWild Magic,  storm sorcery icon baldursgate3 wiki guide 75pxStorm Sorcery
+
+WARLOCK
+Bound by a pact to an all-powerful patron, warlocks trade their loyalty for supernatural abilities and unique magic.
+
+warlock fiend class icon baldursgate3 wiki guide 75pxThe Fiend, warlock greatoldone class icon baldursgate3 wiki guide 75pxThe Great Old One, archfey icon baldursgate3 wiki guide 75pxArchfey
+
+WIZARD
+Wizards master the arcane by specialising in individual schools of magic, combining ancient spells with modern research.
+
+wizard abjuration class icon baldursgate3 wiki guide 75pxAbjuration School, conjuration domain icon baldursgate3 wiki guide 75pxConjuration School,  divination icon baldursgate3 wiki guide 75pxDivination School,  enchantment icon baldursgate3 wiki guide 75pxEnchantment School,  wizard evocation class icon baldursgate3 wiki guide 75pxEvocation School,  necromancy icon baldursgate3 wiki guide 75pxNecromancy School,  illusion icon baldursgate3 wiki guide 75pxIllusion School,  transmutation icon baldursgate3 wiki guide 75pxTransmutation School
+
+Class	Description	Hit Die	Primary Ability	Saving Throw Proficiencies	Armor and Weapon Proficiencies
+Barbarian	A fierce warrior of primitive background who can enter a battle rage	d12	Strength	Strength & Constitution	Light and medium armor, shields, simple and martial weapons
+Bard	An inspiring magician whose power echoes the music of creation	d8	Charisma	Dexterity & Charisma	Light armor, simple weapons, hand crossbows, longswords, rapiers, shortswords
+Cleric	A priestly champion who wields divine magic in service of a higher power	d8	Wisdom	Wisdom & Charisma	Light and medium armor, shields, simple weapons
+Druid	A priest of the Old Faith, wielding the powers of nature— moonlight and plant growth, fire and lightning— and adopting animal forms	d8	Wisdom	Intelligence & Wisdom	Light and medium armor, shields, clubs, daggers, darts, javelins, maces, Quarterstaves, scimitars, sickles, slings, spears
+Fighter	A master of martial combat, skilled with a variety of weapons and armor	d10	Strength or Dexterity	Strength & Constitution	All armor, shields, simple and martial weapons
+Monk	Channel your cosmic enlightenment by deftly dodging and efficiently disassembling your foes through stunning strikes and a whirlwind of martial art attacks.	d8	Dexterity & Wisdom	Strength & Dexterity	Simple weapons, shortswords
+Paladin	A holy warrior bound to a sacred oath	d10	Strength & Charisma	Wisdom & Charisma	All armor, shields, simple and martial weapons
+Ranger	A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization	d10	Dexterity & Wisdom	Strength & Dexterity	Light and medium armor, shields, simple and martial weapons
+Rogue	A scoundrel who uses stealth and trickery to overcome obstacles and enemies	d8	Dexterity	Dexterity & Intelligence	Light armor, simple weapons, hand crossbows, longswords, rapiers, shortswords
+Sorcerer	A spellcaster who draws on inherent magic from a gift or bloodline	d6	Charisma	Constitution & Charisma	Daggers, Quarterstaves, Light Crossbows
+Warlock	A wielder of magic that is derived from a bargain with an extraplanar entity	d8	Charisma	Wisdom & Charisma	Light armor, simple weapons
+Wizard	A scholarly magic-user capable of manipulating the structures of reality	d6	Intelligence	Intelligence & Wisdom	Daggers, darts, slings, Quarterstaves, light crossbow

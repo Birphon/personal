@@ -1,0 +1,60 @@
+{
+  "Pistols": [
+    {
+      "name": "DE.50",
+      "damage": 102,
+      "fireRate": 190,
+      "mag": 7,
+      "rarity": "Common",
+      "weaponType": "Pistols"
+    },
+    {
+      "name": "R500 - Memento",
+      "damage": 170,
+      "fireRate": 145,
+      "mag": 5,
+      "rarity": "Legendary",
+      "weaponType": "Pistols"
+    },
+    {
+      "name": "DE.50 - Wildfire",
+      "damage": 115,
+      "fireRate": 190,
+      "mag": 8,
+      "rarity": "Epic",
+      "weaponType": "Pistols"
+    },
+    {
+      "name": "R500 - Hammerhead Shark",
+      "damage": 153,
+      "fireRate": 145,
+      "mag": 5,
+      "rarity": "Epic",
+      "weaponType": "Pistols"
+    },
+    {
+      "name": "DE.50 - Jaws",
+      "damage": 128,
+      "fireRate": 190,
+      "mag": 8,
+      "rarity": "Legendary",
+      "weaponType": "Pistols"
+    },
+    {
+      "name": "R500 - Hunter",
+      "damage": 136,
+      "fireRate": 145,
+      "mag": 5,
+      "rarity": "Fine",
+      "weaponType": "Pistols"
+    },
+    {
+      "name": "G17 - Dusty",
+      "damage": 54,
+      "fireRate": 410,
+      "mag": 13,
+      "rarity": "Epic",
+      "weaponType": "Pistols"
+    }
+  ]
+}

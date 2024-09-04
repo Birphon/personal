@@ -1,0 +1,30 @@
+{
+  "name": "DE.50 - Jaws",
+  "dmg": 128,
+  "fire_rate": 190,
+  "mag": 8,
+  "crit_rate": 6,
+  "weakspot_dmg": 60,
+  "crit_dmg": 25,
+  "dmg_bonus": "None",
+  "blueprint_fragment_type": "Beyonder",
+  "rarity": "Legendary",
+  "weapon_features": [
+    {
+      "number": 1,
+      "description": "Every 4 hits will trigger Unstable Bomber."
+    },
+    {
+      "number": 2,
+      "description": "Crit hits count as +1 hits."
+    },
+    {
+      "number": 3,
+      "description": "After defeating an enemy, Blast DMG +30% for 12s."
+    },
+    {
+      "number": 4,
+      "description": "Unstable Bomber can Crit, Crit Rate +25%."
+    }
+  ]
+}

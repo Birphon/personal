@@ -1,0 +1,336 @@
+{
+	"races": [
+		{
+			"Dragonborn": {
+				"Racial Features": ["Draconic Ancestry", "Base Racial Speed"],
+				"Description": "The Dragonborn race are descendants of dragons and share many of their traits and racial features. They possess the Draconic Ancestry that allows them to breathe fire, acids, lightning, poison, ice, and others. Each Dragonborn corresponds to the ten types of dragons that you can find in Dungeons and Dragons. The Dragonborns possess the Breath Weapon which gives them the power to breathe destructive energy. The damage dealt in an area is based on the ancestry, and players may only use this attack once until they complete a long rest. The Dragonborn race is distantly related to a particular kind of dragon. This will determine the type of damage, the area of the Breath Weapon, and the type of resistance gained.",
+				"Subraces": [
+					"Black Dragonborn",
+					"Blue Dragonborn",
+					"Brass Dragonborn",
+					"Bronze Dragonborn",
+					"Copper Dragonborn",
+					"Gold Dragonborn",
+					"Green Dragonborn",
+					"Red Dragonborn",
+					"Silver Dragonborn",
+					"White Dragonborn"
+				]
+			}
+		},
+		{
+			"Drow": {
+				"Racial Features": [
+					"Base Racial Speed",
+					"Drow Weapon Training",
+					"Superior Darkvision",
+					"Fey Ancestry",
+					"Perception Proficiency"
+				],
+				"Description": "In the world of Faerûn, the Drow presents a dark elven race with a history of conflict between the two Elven deities. After Lolth was found guilty of high treachery, she was banished into the Underdark by her own elven kind, where she conquered the deep abyss and regained powers for herself. After millennia of war between the elves that caused endless bloody conflict, the other Elves have decided to turn all the Dark Elves, indiscriminately, into \"Drow\", into what they are today in Dungeons and Dragons.",
+				"Subraces": {
+					"LOLTH-SWORN DROW": {
+						"Description": "Raised by Lolth's cult in the city of Menzoberranzan, this Drow race extols the virtues of their corrupt and merciless goddess. Lolth marks her followers with bright red eyes so the Underdark will learn to fear drow on sight.",
+						"Abilities": [
+							{
+								"spell": "faerie fire",
+								"gain": "At level 3",
+								"usage": "once per Long Rest."
+							},
+							{
+								"spell": "darkness",
+								"gain": "At level 5",
+								"usage": "once per Long Rest."
+							}
+						]
+					},
+					"SELDARINE DROW": {
+						"Description": "Drow is the result of an ancient schism between the elven deities Corellon Larethian and Lolth. The latter's treachery drove the drow into the Underdark, where they splintered into warring factions. Seldarine Drow can be found seeking allies from all over Faerün, aiming to settle their conflict with Lolth - and each other - by any means necessary.",
+						"Abilities": [
+							{
+								"spell": "faerie fire",
+								"gain": "At level 3",
+								"usage": "once per Long Rest."
+							},
+							{
+								"spell": "darkness",
+								"gain": "At level 5",
+								"usage": "once per Long Rest."
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"Dwarf": {
+				"Racial Features": [
+					"Base Racial Speed",
+					"Dwarven Combat Training",
+					"Darkvision",
+					"Dwarven Resilience"
+				],
+				"Subraces": {
+					"GOLD DWARF": {
+						"Description": "Gold dwarves are known for their confidence and keen intuition. The culture of their Deep Kingdom values family, ritual, and fine craftsmanship.",
+						"Abilities": [{ "ability": "Dwarven Toughness" }]
+					},
+					"SHIELD DWARF": {
+						"Description": "Shield dwarves survived a long fall from grace, surrendering many of their ancient kingdoms in wars with goblins and Orcs. These losses have led to a cynical mindset, yet shield dwarves will endure anything to restore their ancestral homelands.",
+						"Abilities": [{ "ability": "Dwarven Armour Training" }]
+					},
+					"DUERGAR": {
+						"Description": "Duergar are dwarves whose ancestors were transformed by centuries living in the deepest places of the Underdark. They possess psionic powers due to their history of exposure to Underdark magic and experiments.",
+						"Abilities": [
+							{ "ability": "Superior Darkvision" },
+							{ "ability": "Duergar Resilience" },
+							{
+								"spell": "enlarge",
+								"gain": "At level 3",
+								"usage": "once per Long Rest."
+							},
+							{
+								"spell": "invisibility",
+								"gain": "At level 5",
+								"usage": "once per Long Rest."
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"Elf": {
+				"Racial Features": [
+					"Base Racial Speed",
+					"Elven Weapon Training",
+					"Darkvision",
+					"Fey Ancestry",
+					"Perception Proficiency"
+				],
+				"Subraces": {
+					"HIGH ELF": {
+						"Description": "Heirs of the mystical Feywild, high elves value magic in all its forms, and even those who do not study spellcraft can manipulate the Weave.",
+						"Abilities": [
+							{
+								"ability": "1 High Elf Cantrip",
+								"description": "Select one cantrip from the Wizard Spell List"
+							}
+						]
+					},
+					"WOOD ELF": {
+						"Description": "Wood elves spend their reclusive lives in Faerün's forests. Decades of training in archery and camouflage are enhanced by an otherworldly swiftness.",
+						"Abilities": [
+							{ "ability": "Fleet of Foot" },
+							{ "ability": "Stealth Proficiency" }
+						]
+					}
+				}
+			}
+		},
+		{
+			"Githyanki": {
+				"Racial Features": [
+					"Base Racial Speed",
+					"Martial Prodigy",
+					"Githyanki Psionics: Mage Hand",
+					"Astral Knowledge"
+				],
+				"Level Up Features": {
+					"Githyanki Psionics": [
+						{ "ability": "Jump", "level": 3 },
+						{ "ability": "Misty Step", "level": 5 }
+					]
+				},
+				"Description": "Githyanki are peerless warriors from the Astral Plane, known for their legendary silver blades and red dragon mounts. They seek the total destruction of mind flayers, whose ancient empire enslaved the Githyanki for millennia.",
+				"Subraces": "None"
+			}
+		},
+		{
+			"Gnomes": {
+				"Racial Features": ["Base Racial Speed", "Gnome Cunning"],
+				"Subraces": {
+					"DEEP GNOME": {
+						"Abilities": [
+							{
+								"ability": "Superior Darkvision",
+								"desc": "This creature can see in the dark within 24m."
+							},
+							{
+								"ability": "Stone Camouflage",
+								"desc": "You have advantage on Stealth checks."
+							}
+						],
+						"FOREST GNOME": {
+							"Abilities": [
+								{
+									"ability": "Darkvision",
+									"desc": "This creature can see in the dark within 12m."
+								},
+								{ "spell": "Speak with Animals" }
+							]
+						},
+						"ROCK GNOME": {
+							"Abilities": [
+								{
+									"ability": "Darkvision",
+									"desc": "Can see in the dark up to 12 m."
+								},
+								{
+									"ability": "Artificer's Lore",
+									"desc": "Add twice your proficiency bonus to History checks."
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"Half-Elf": {
+				"Racial Features": [
+					"Base Racial Speed",
+					"Civil Militia",
+					"Darkvision",
+					"Fey Ancestry"
+				],
+				"Subraces": {
+					"HIGH HALF-ELF": {
+						"Description": "A touch of the Feywild remains in half-elves with this bloodline, and even those untrained in magic possess a hint of wild power.",
+						"Abilities": [
+							{
+								"ability": "1 High Elf Cantrip",
+								"description": "Select one cantrip from the Wizard Spell List"
+							}
+						]
+					},
+					"WOOD HALF-ELF": {
+						"Description": "Like their wood elf parent, these half-elves have a quickened stride and eye for stealth. Yet many break away from isolation in Faerün's forests to explore the rest of the Realms.",
+						"Abilities": [
+							{ "ability": "Fleet of Foot" },
+							{ "ability": "Stealth Proficiency" }
+						]
+					},
+					"DROW HALF-ELF": {
+						"Description": "Most half-drow result from liaisons between Seldarine drow and surfacers. While half-drow inherit a few magical gifts, they aren't usually raised in the Underdark.",
+						"Abilities": [
+							{ "spell": "dancing lights" },
+							{
+								"spell": "faerie fire",
+								"gain": "At level 5",
+								"usage": "once per Long Rest."
+							},
+							{
+								"spell": "darkness",
+								"gain": "At level 5",
+								"usage": "once per Long Rest."
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"Half-Orc": {
+				"Racial Features": [
+					"Base Racial Speed",
+					"Darkvision",
+					"Relentless Endurance",
+					"Menacing",
+					"Savage Attacks",
+					"Intimidation Proficiency"
+				],
+				"Description": "Creatures of intense emotion, half-orcs are more inclined to act than contemplate - whether the rage burning their bodies compels them to fight, or the love filling their hearts inspires acts of incredible kindness.",
+				"Subraces": "None"
+			}
+		},
+		{
+			"Halfling": {
+				"Racial Features": ["Base Racial Speed", "Lucky", "Brave"],
+				"Subraces": {
+					"LIGHTFOOT HALFLING": {
+						"Description": "Lightfoot halflings are stealthy but social, traveling all over Faerün to make names for themselves.",
+						"Special Ability": "Naturally Stealthy"
+					},
+					"STRONGHEART HALFLING": {
+						"Description": "Legends say dwarven blood gave stronghearts their hardiness. Resistant to poison and wellsprings of endurance, these halflings easily hold their own.",
+						"Special Ability": "Strongheart Resilience"
+					}
+				}
+			}
+		},
+		{
+			"Human": {
+				"Racial Features": [
+					"Base Racial Speed",
+					"Civil Militia",
+					"Human Versatility"
+				],
+				"Subraces": "None",
+				"Description": "The most common face to see in Faerün, humans are known for their tenacity, creativity, and endless capacity for growth."
+			}
+		},
+		{
+			"Tiefling": {
+				"Racial Features": [
+					"Base Racial Speed",
+					"Darkvision",
+					"Hellish Resistance"
+				],
+				"desc": "Descended from devils of the Nine Hells tieflings face constant suspicion in Faerun. Thankfully, their arcane abilities make them natural survivors.",
+				"Subraces": {
+					"ASMODEUS TIEFLING": {
+						"desc": "Bound to Nessus, the deepest layer of the Hells. These tieflings inherit the ability to wield fire and darkness from the archdevil Asmodeus infernal bloodline.",
+						"Abilities": [
+							{ "spell": "produce flame" },
+							{
+								"spell": "hellish rebuke",
+								"gain": "At level 3",
+								"usage": "once per Long Rest."
+							},
+							{
+								"spell": "darkness",
+								"gain": "At level 5",
+								"usage": "once per Long Rest."
+							}
+						]
+					},
+					"MEPHISTOPHELES TIEFLING": {
+						"desc": "Descended from the archdevil Mephistopheles these tieflings are gifted with a particular affinity for arcane magic.",
+						"Abilities": [
+							{
+								"spell": "mage hand"
+							},
+							{
+								"spell": "burning hands",
+								"gain": "At level 3",
+								"usage": "once per Long Rest."
+							},
+							{
+								"spell": "flame blade",
+								"gain": "At level 5",
+								"usage": "once per Long Rest."
+							}
+						]
+					},
+					"ZARIEL TIEFLING": {
+						"desc": "Tieflings from Zariel's bloodline are empowered with martial strength, and can channel searing flame to punish their enemies.",
+						"Abilities": [
+							{ "spell": "thaumaturgy" },
+							{
+								"spell": "searing smite",
+								"gain": "At level 3",
+								"usage": "once per Long Rest."
+							},
+							{
+								"spell": "branding smite",
+								"gain": "At level 5",
+								"usage": "once per Long Rest."
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

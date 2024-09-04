@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}

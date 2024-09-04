@@ -1,0 +1,68 @@
+{
+  "MeleeWeapons": [
+    {
+      "name": "Stun Baton",
+      "damage": 182,
+      "attackSpeed": "Middle",
+      "attackRange": "Middle",
+      "rarity": "Epic",
+      "weaponType": "Melee"
+    },
+    {
+      "name": "Long Axe",
+      "damage": 216,
+      "attackSpeed": "Slow",
+      "attackRange": "Far",
+      "rarity": "Epic",
+      "weaponType": "Melee"
+    },
+    {
+      "name": "Baseball Bat",
+      "damage": 162,
+      "attackSpeed": "Middle",
+      "attackRange": "Middle",
+      "rarity": "Fine",
+      "weaponType": "Melee"
+    },
+    {
+      "name": "Torch",
+      "damage": 142,
+      "attackSpeed": "Middle",
+      "attackRange": "Middle",
+      "rarity": "Common",
+      "weaponType": "Melee"
+    },
+    {
+      "name": "Wrench",
+      "damage": 192,
+      "attackSpeed": "Middle",
+      "attackRange": "Middle",
+      "rarity": "Fine",
+      "weaponType": "Melee"
+    },
+    {
+      "name": "Camping Knife",
+      "damage": 162,
+      "attackSpeed": "Middle",
+      "attackRange": "Middle",
+      "rarity": "Fine",
+      "weaponType": "Melee"
+    },
+    {
+      "name": "Frozen Northern Pike",
+      "damage": 192,
+      "attackSpeed": "Middle",
+      "attackRange": "Middle",
+      "rarity": "Epic",
+      "weaponType": "Melee"
+    },
+    {
+      "name": "Northern Pike",
+      "damage": 171,
+      "attackSpeed": "Middle",
+      "attackRange": "Middle",
+      "rarity": "Fine",
+      "weaponType": "Melee"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Orange Soda",
+		"survival": { "Hydration": 50 },
+		"effect": "Wont Spoil",
+		"ingredient": { "slot1": "Orange", "slot2": "Glass" },
+		"count": { "slot1": 2, "slot2": 1 }
+	},
+	{
+		"name": "Fruit Tea",
+		"survival": { "Hydration": 50, "Sanity": 400 },
+		"effect": null,
+		"ingredient": { "slot1": "Herb", "slot2": "Water" },
+		"count": { "slot1": 1, "slot2": 1 }
+	},
+	{
+		"name": "Cornbread",
+		"survival": { "Energy": 50 },
+		"effect": null,
+		"ingredient": { "slot1": "Corn", "slot2": "Corn Oil" },
+		"count": { "slot1": 1, "slot2": 2 }
+	},
+	{
+		"name": "Pan-Fried Fish",
+		"survival": { "Energy": 50 },
+		"effect": null,
+		"ingredient": { "slot1": "Fish", "slot2": "Salt" },
+		"count": { "slot1": 1, "slot2": 1 }
+	},
+	{
+		"name": "Veggie Stir Fry",
+		"survival": { "Energy": 50 },
+		"effect": null,
+		"ingredient": { "slot1": "Cabbage", "slot2": "Gara Masala" },
+		"count": { "slot1": 2, "slot2": 1 }
+	}
+]

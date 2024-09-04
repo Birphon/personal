@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Grilled Fish",
+		"survival": { "Energy": 30 },
+		"effect": null,
+		"ingredient": { "slot1": "Fish" },
+		"count": { "slot1": 1 }
+	},
+	{
+		"name": "Roasted Meat",
+		"survival": { "Energy": 30 },
+		"effect": "",
+		"ingredient": { "slot1": "Meat" },
+		"count": { "slot1": 1 }
+	},
+	{
+		"name": "Hawthorn Juice",
+		"survival": { "Hydration": 30 },
+		"effect": null,
+		"ingredient": { "slot1": "Hawthorn Berry" },
+		"count": { "slot1": 1 }
+	},
+	{
+		"name": "Roasted Cabbage",
+		"survival": { "Energy": 30 },
+		"effect": null,
+		"ingredient": { "slot1": "Cabbage" },
+		"count": { "slot1": 1 }
+	},
+	{
+		"name": "Orange Juice",
+		"survival": { "Hydration": 30 },
+		"effect": null,
+		"ingredient": { "slot1": "Orange" },
+		"count": { "slot1": 1 }
+	},
+	{
+		"name": "Dried Orange",
+		"survival": { "Energy": 20 },
+		"effect": null,
+		"ingredient": { "slot1": "Orange" },
+		"count": { "slot1": 1 }
+	}
+]

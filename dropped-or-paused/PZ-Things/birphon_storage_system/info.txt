@@ -1,0 +1,20 @@
+Applied Energistics 2 but in Zomboid
+
+Using generic construction items such as Wood Planks, Nails, Screws and Metal Objects (Pipes, Plates etc) in Project Zomboid code up a mod that:
+
+    Make a crate called an "Input Crate"
+    Make a "Blank Crate" (non place-able)
+    Make a "Unsort Crate" (Place-able)
+    Make a "Combined Crate"
+        Combined Crate itself can not be placed however when it has been combined it will be placed
+        Combined Crates will take a Blank Crate + Item
+            Item can be any item in the game, the combined Crate will then be named by its Category i.e. a Book or Magazine will make a "literature crate" the likes of a Combined Crate + Short Pipe will make a "Weapon - Short Blunt Crate"
+    Add the following logic:
+        An input create and an Unsort create must be placed
+        Only one Combined Create can be placed
+            Additional combined creates can be placed however they must be stacked on top of the first combined create, the stacked creates add the storage value to the first create i.e. if each create is 50 storage and there are 3 creates stacked on top it would give 200 storage
+            The user can interact with any of the creates if they wish to manually take/store items
+        As soon as an item enters the Input Create it will be moved to the correct storage crate
+            i.e. a Firearm is added to the Input Box it will be moved to "Weapon - Firearm Create"
+        If there is no create type for the item it gets moved to the "Unsort Create"
+            Unsort Create has Infinite Storage however the user can not put items in it themselves

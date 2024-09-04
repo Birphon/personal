@@ -1,0 +1,128 @@
+Stage,Category,Level,Items
+Stage 0,Logging,Level 1,Butchery Table
+Stage 0,Logging,Level 1,Hewn Chair
+Stage 0,Logging,Level 2,Hewn Table
+Stage 0,Logging,Level 2,Hewn Bench
+Stage 0,Logging,Level 3,Hewn Dresser
+Stage 0,Logging,Level 4,Hewn Nightstand
+Stage 0,Hunting,Level 4,Bison Mount
+Stage 0,Hunting,Level 4,Elk Mount
+Stage 0,Hunting,Level 4,Goat Mount
+Stage 0,Hunting,Level 4,Sheep Mount
+Stage 0,Hunting,Level 5,Stuffed Bison
+Stage 0,Hunting,Level 5,Stuffed Elk
+Stage 0,Hunting,Level 5,Stuffed Jaguar
+Stage 0,Hunting,Level 5,Stuffed Goat
+Stage 0,Hunting,Level 5,Stuffed Wolf
+Stage 0,Hunting,Level 5,Stuffed Alligator
+Stage 1,Carpentry,Level 1,Icebox
+Stage 1,Carpentry,Level 1,Wooden Straw Bed
+Stage 1,Carpentry,Level 2,Lumber Chair
+Stage 1,Carpentry,Level 2,Decrotive Ship Wheel
+Stage 1,Carpentry,Level 2,Wooden Latrine
+Stage 1,Carpentry,Level 3,Lumber Bench
+Stage 1,Carpentry,Level 4,Bookshelf
+Stage 1,Carpentry,Level 4,Ornate Frame
+Stage 1,Carpentry,Level 4,Wooden Frame
+Stage 1,Carpentry,Level 4,Towel Rack
+Stage 1,Carpentry,Level 5,Lumber Dresser
+Stage 1,Carpentry,Level 5,Shelf Cabinet
+Stage 1,Carpentry,Level 5,Wooden Ceiling Light
+Stage 1,Carpentry,Level 5,Wooden Floor Lamp
+Stage 1,Carpentry,Level 6,Lumber Table
+Stage 1,Carpentry,Level 6,Kitchen
+Stage 1,Carpentry,Level 6,Wooden Kitchen Lamp
+Stage 1,Carpentry,Level 6,Wooden Table Lamp
+Stage 1,Carpentry,Level 6,Wooden Fabric Bed
+Stage 1,Masonry,Level 1,Mill
+Stage 1,Masonry,Level 1,Stone Brazier
+Stage 1,Masonry,Level 1,Mortared Stone Chair
+Stage 1,Masonry,Level 2,Mortared Stone Table
+Stage 1,Masonry,Level 2,Limestone Otter Statue
+Stage 1,Masonry,Level 2,Tallow Lmap
+Stage 1,Masonry,Level 3,Mortared Stone Bench
+Stage 1,Masonry,Level 3,Limestone Wolf Statue
+Stage 1,Masonry,Level 4,Limestone Owl Statue
+Stage 1,Masonry,Level 5,Mortared Stone Fireplace
+Stage 1,Masonry,Level 6,Limestone Bison Statue
+Stage 1,Farming,Level 2,Tallow Candle
+Stage 1,Farming,Level 3,Salt Basket
+Stage 1,Shipwright,Level 2,Decrotive Life Preserver
+Stage 1,Shipwright,Level 4,Decrotive Hanging Buoy
+Stage 1.5,Smelting,Level 2,Brazier
+Stage 1.5,Smelting,Level 3,Candle Stand
+Stage 1.5,Smelting,Level 3,Ceiling Candle
+Stage 1.5,Smelting,Level 3,Wall Candle
+Stage 1.5,Smelting,Level 3,Tallow Wall Lamp
+Stage 1.5,Smelting,Level 4,Decrotive Anchor
+Stage 1.5,Smelting,Level 4,Orante Gold Frame
+Stage 1.5,Smelting,Level 4,Orante Iron Frame
+Stage 1.5,Smelting,Level 4,Gold Frame
+Stage 1.5,Smelting,Level 4,Iron Frame
+Stage 1.5,Smelting,Level 4,Copper Frame
+Stage 1.5,Paper Milling,Level 1,Large Festive Paper Lantern
+Stage 1.5,Paper Milling,Level 1,Large Paper Lantern
+Stage 1.5,Paper Milling,Level 1,Small Paper Lantern
+Stage 1.5,Tailoring,Level 1,Padded Chair
+Stage 1.5,Tailoring,Level 1,Rug Small
+Stage 1.5,Tailoring,Level 2,Weave Small Cotton Bunting Red
+Stage 1.5,Tailoring,Level 2,Weave Large Cotton Bunting Red
+Stage 1.5,Tailoring,Level 2,Large Cotton Bunting Red
+Stage 1.5,Tailoring,Level 2,Large Nylon Bunting Red
+Stage 1.5,Tailoring,Level 2,Small Cotton Bunting Red
+Stage 1.5,Tailoring,Level 2,Small Nylon Bunting Red
+Stage 1.5,Tailoring,Level 3,Nylon Futon Couch
+Stage 1.5,Tailoring,Level 3,Couch
+Stage 1.5,Tailoring,Level 3,Rug Medium
+Stage 1.5,Tailoring,Level 3,Small Bath Mat
+Stage 1.5,Tailoring,Level 3,Washboard
+Stage 1.5,Tailoring,Level 6,Nylon Futon Bed
+Stage 1.5,Tailoring,Level 6,Cast Iron Bed
+Stage 1.5,Tailoring,Level 6,Weave Large Bath Mat
+Stage 1.5,Tailoring,Level 6,Large Bath Mat
+Stage 1.5,Tailoring,Level 6,Rug Large
+Stage 1.5,Tailoring,Level 6,Weave Small Bath Mat
+Stage 1.5,Tailoring,Level 6,Upholstered Chair
+Stage 1.5,Tailoring,Level 6,Upholstered Couch
+Stage 1.5,Tailoring,Level 7,Cast Iron Royal Bed
+Stage 2,Pottery,Level 1,Bakery Oven
+Stage 2,Pottery,Level 2,Round Pot
+Stage 2,Pottery,Level 2,Square Pot
+Stage 2,Pottery,Level 3,Brick Fireplace
+Stage 2,Pottery,Level 4,Small Sink
+Stage 2,Pottery,Level 4,Toilet
+Stage 2,Pottery,Level 7,Bathtub
+Stage 2,Mechanics,Level 4,Sink
+Stage 2,Mechanics,Level 5,Stove
+Stage 2,Glassworking,Level 1,Orange Vase
+Stage 2,Glassworking,Level 1,Galaxy Vase
+Stage 2,Glassworking,Level 1,Plant Vase
+Stage 2,Glassworking,Level 1,Swirl Vase
+Stage 2,Glassworking,Level 1,Purple Vase
+Stage 2,Glassworking,Level 1,Red Vase
+Stage 2,Glassworking,Level 2,Decrotive Glass Bouy
+Stage 3,Advanced Masonry,Level 1,Ashlar Stone Chair
+Stage 3,Advanced Masonry,Level 2,Ashlar Stone Table
+Stage 3,Advanced Masonry,Level 4,Ashlar Stone Bench
+Stage 3,Advanced Masonry,Level 4,Ashlar Large Stone Fountain
+Stage 3,Advanced Masonry,Level 4,Ashlar Small Stone Fountain
+Stage 3,Advanced Masonry,Level 5,Adorned Ashlar Stone Chair
+Stage 3,Advanced Masonry,Level 6,Adorned Ashlar Stone Table
+Stage 3,Advanced Masonry,Level 6,Adorned Ashlar Stone Fireplace
+Stage 3,Advanced Masonry,Level 7,Adorned Ashlar Stone Bench
+Stage 3,Composites,Level 1,Composite Lumber Chair
+Stage 3,Composites,Level 3,Composite Lumber Table
+Stage 3,Composites,Level 3,Composite Lumber Bench
+Stage 3,Electronics,Level 1,Electric Wall Lamp
+Stage 3,Electronics,Level 1,Steel Ceiling Lamp
+Stage 3,Electronics,Level 2,Steel Table Lamp
+Stage 3,Electronics,Level 3,Steel Square Fixture
+Stage 3,Electronics,Level 3,Steel Kitchen Lamp
+Stage 3,Electronics,Level 4,Steel Hanging Fixture
+Stage 3,Electronics,Level 4,Steel Hanging Lamp
+Stage 3,Electronics,Level 4,Steel Abstract Fixture
+Stage 3,Electronics,Level 5,Modern Double Street Lamp
+Stage 3,Electronics,Level 5,Modern Street Lamp
+Stage 3,Electronics,Level 5,Street Lamp
+Stage 3,Industry,Level 3,Washing Machine
+Stage 3,Industry,Level 4,Refrigerator

@@ -1,0 +1,33 @@
+/* Define variables for color, font-size, etc. */
+$primary-color: #333;
+$secondary-color: #fff;
+$font-size: 16px;
+
+/* Global styles */
+body {
+	font-size: $font-size;
+	color: $primary-color;
+	background-color: $secondary-color;
+}
+
+header,
+footer {
+	background-color: $primary-color;
+	color: $secondary-color;
+}
+
+nav a {
+	color: $secondary-color;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+	section {
+		margin-bottom: 20px;
+	}
+}

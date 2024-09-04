@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #001528;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: #012B4F;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #E1E7EC;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #004682;
+    color: #E1E7EC;
+}
+
+.topnav-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.main,
+footer {
+    background: #E1E7EC;
+    max-width: 66.66%;
+    margin: 5px auto;
+    padding: 32px 24px;
+    border-radius: 3px;
+}
+
+.main h2 {
+    color: #013866;
+    font-weight: bold;
+    margin: 0 0 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main p {
+    line-height: 140%;
+    margin: 16px 0 24px;
+    font-size: 14px;
+}
+
+.tourpage {
+    display: block;
+    text-align: center;
+    background: #039be5;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #E1E7EC;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.alt {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    background: #E1E7EC;
+}
+
+
+.card>a>img {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.card>a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.card>a:visited {
+    color: black;
+}
+
+.card>a:hover,
+.card>a:active {
+    text-decoration: none;
+    background: #2E78B8;
+    color: #004682;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.grid>div {
+    background: black;
+    padding: 1rem;
+    position: relative;
+}
+
+.grid>div::before {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.grid>div img {
+    position: absolute;
+    max-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navtext {
+    text-align: left;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media (max-width: 600px) {
+
+    body,
+    .main {
+        margin-top: 0;
+        background: #E1E7EC;
+        box-shadow: none;
+    }
+
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}

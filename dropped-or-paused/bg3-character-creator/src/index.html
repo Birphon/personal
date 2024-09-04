@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Creator</title>
+</head>
+<body>
+  <div id="app">
+    <select id="class-select">
+    </select>
+    <select id="subclass-select" disabled>
+    </select>
+  </div>
+  <script src="CharacterClass.js"></script>
+  <script>
+    const classSelect = document.getElementById('class-select');
+    const subclassSelect = document.getElementById('subclass-select');
+
+    classes.forEach(c => {
+      const option = document.createElement('option');
+      option.value = c.name;
+      option.text = c.name;
+      classSelect.appendChild(option);
+    });
+
+    classSelect.addEventListener('change', () => {
+      const selectedClass = classes.find(c => c.name === classSelect.value);
+      subclassSelect.innerHTML = '';
+      selectedClass.subclasses.forEach(sc => {
+        const option = document.createElement('option');
+        option.value = sc;
+        option.text = sc;
+        subclassSelect.appendChild(option);
+      });
+      subclassSelect.disabled = false;
+    });
+  </script>
+</body>
+</html>

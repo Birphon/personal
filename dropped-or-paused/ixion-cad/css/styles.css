@@ -1,0 +1,19 @@
+html {
+    background-color: black;
+}
+
+.grid-container {
+    border: 20px solid white;
+}
+
+.cell {
+    width: 56px;
+    height: 30px;
+    border: 1px solid pink;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: azure;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Assasstiant</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Project Zomboid: Cooking Assisstant</h1>
+
+    <label for="cookingLevel">Cooking Level:</label>
+    <input type="number" id="cookingLevel" name="cookingLevel"><br>
+
+    <h2>Magazines:</h2>
+    <label for="magazine1">Good Cooking Magazine Vol.1</label>
+    <input type="checkbox" id="magazine1" name="magazine1">
+    <label for="magazine2">Good Cooking Magazine Vol.2</label>
+    <input type="checkbox" id="magazine2" name="magazine2"><br>
+
+    <h2>Equipment:</h2>
+    <label for="bowl">Bowl</label>
+    <input type="checkbox" id="bowl" name="bowl"><br>
+    <label for="pot">Cooking Pot</label>
+    <input type="checkbox" id="pot" name="pot"><br>
+    <label for="frypan">Frying Pan</label>
+    <input type="checkbox" id="frypan" name="frypan"><br>
+    <label for="gridpan">Griddle Pan</label>
+    <input type="checkbox" id="gridpan" name="gridpan"><br>
+    <label for="jar">Empty Jar</label>
+    <input type="checkbox" id="jar" name="jar"><br>
+    <label for="mug">Empty Mug</label>
+    <input type="checkbox" id="mug" name="mug"><br>
+    <label for="roastpan">Roasting Pan</label>
+    <input type="checkbox" id="roastpan" name="roastpan"><br>
+    <label for="saucepan">Saucepan</label>
+    <input type="checkbox" id="saucepan" name="saucepan"><br>
+
+    <h2>Tiles:</h2>
+    <label for="antove">Antique Oven</label>
+    <input type="checkbox" id="antove" name="antove"><br>
+    <label for="campfire">Campfire</label>
+    <input type="checkbox" id="campfire" name="campfire"><br>
+    <label for="redbbq">Charcoal Barbecue</label>
+    <input type="checkbox" id="redbbq" name="redbbq"><br>
+    <label for="fireplace">Fireplace</label>
+    <input type="checkbox" id="fireplace" name="fireplace"><br>
+    <label for="microwave">Microwave</label>
+    <input type="checkbox" id="microwave" name="microwave"><br>
+    <label for="oven">Oven</label>
+    <input type="checkbox" id="oven" name="oven"><br>
+    <label for="propbqq">Propane Barbecue</label>
+    <input type="checkbox" id="propbqq" name="propbqq"><br>
+
+    <button id="submit">Submit</button>
+
+    <h1>Food Checklist</h1>
+    <div>
+        <input type="checkbox" id="deadRabbitCheckbox" onclick="toggleRabbitMeat()"> Dead Rabbit
+    </div>
+    <div id="rabbitMeatSection" style="display: none;">
+        <h2>Rabbit Meat</h2>
+        <!-- Display information about Rabbit Meat here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

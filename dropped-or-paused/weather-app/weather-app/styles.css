@@ -1,0 +1,117 @@
+:root {
+    --bg-color: #f5f5f5;
+    --text-color: #333;
+    --container-bg-color: #fff;
+    --container-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode {
+    --bg-color: #333;
+    --text-color: #f5f5f5;
+    --container-bg-color: #444;
+    --container-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--container-bg-color);
+    box-shadow: var(--container-shadow);
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.dark-mode-toggle {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#weather-info {
+    text-align: center;
+}
+
+#weather-info h2 {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+#weather-info p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin: 5px 0;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    input[type="text"],
+    button[type="submit"] {
+        font-size: 0.9rem;
+    }
+
+    #weather-info h2 {
+        font-size: 1.5rem;
+    }
+
+    #weather-info p {
+        font-size: 1rem;
+    }
+}

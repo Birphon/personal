@@ -1,0 +1,112 @@
+{
+	"Chest": [
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "Resist Advantage",
+			"Desc": "When out of combat, gain 1 stack of DMG Reduction 5% every 10s. Effect can stack up to 5 times. 1 stack is removed when hit.",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "Head Guard",
+			"Desc": "When HP is above 70%, the head area is no longer a weakspot",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "DMG Reduce",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Defense",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo THETA",
+				"Hard": "Silo THETA",
+				"Pro": ["Silo THETA", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Chest",
+			"Mod Type": "Conditional",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+Addition of renewable sources for a series of resoruces in the game.
+With this also comes modifications that can be applied to vehicles and generators.
+
+BioFuel
+    - A replacement for when Gas Pumps and Vehicles run out
+        - Allowing for the likes of Little to No Gas settings to be enabled
+    - Processing of Corn to make Ethonal
+    - BioFuel Conversion (Vehicle)
+    - BioFuel Conversion (Generators)
+
+Hemp
+    - Fabric
+    - Cigarettes
+    

@@ -1,0 +1,22 @@
+bathroom_items = {
+    "Bathtub": {"Room": "Bathroom", "Type": "Sink", "Dim. Return %": "50%", "Value": 3},
+    "Large Bath Mat": {"Room": "Bathroom", "Type": "Rug", "Dim. Return %": "50%", "Value": 2},
+    "Sink": {"Room": "Bathroom", "Type": "Sink", "Dim. Return %": "20%", "Value": 5},
+    "Small Bath Mat": {"Room": "Bathroom", "Type": "Rug", "Dim. Return %": "50%", "Value": 1},
+    "Small Sink": {"Room": "Bathroom", "Type": "Sink", "Dim. Return %": "70%", "Value": 2},
+    "Toilet": {"Room": "Bathroom", "Type": "Toilet", "Dim. Return %": "10%", "Value": 3},
+    "Towel Rack": {"Room": "Bathroom", "Type": "Hanger", "Dim. Return %": "10%", "Value": 1.5},
+    "Washboard": {"Room": "Bathroom", "Type": "Washing", "Dim. Return %": "50%", "Value": 2},
+    "Washing Machine": {"Room": "Bathroom", "Type": "Washing", "Dim. Return %": "20%", "Value": 5},
+    "Wooden Latrine": {"Room": "Bathroom", "Type": "Toilet", "Dim. Return %": "10%", "Value": 1.5},
+    "Cast Iron Bed": {"Room": "Bedroom", "Type": "Bed", "Dim. Return %": "30%", "Value": 4},
+    "Cast Iron Royal Bed": {"Room": "Bedroom", "Type": "Bed", "Dim. Return %": "20%", "Value": 4.5},
+    "Hardwood Lumber Dresser": {"Room": "Bedroom", "Type": "Dresser", "Dim. Return %": "50%", "Value": 3},
+    "Hewn Dresser": {"Room": "Bedroom", "Type": "Dresser", "Dim. Return %": "50%", "Value": 1},
+    "Hewn Nightstand": {"Room": "Bedroom", "Type": "Nightstand", "Dim. Return %": "60%", "Value": 2.5},
+    "Lumber Dresser": {"Room": "Bedroom", "Type": "Dresser", "Dim. Return %": "50%", "Value": 3},
+    "Nylon Futon Bed": {"Room": "Bedroom", "Type": "Bed", "Dim. Return %": "20%", "Value": 5},
+    "Softwood Lumber Dresser": {"Room": "Bedroom", "Type": "Dresser", "Dim. Return %": "50%", "Value": 3},
+    "Wooden Fabric Bed": {"Room": "Bedroom", "Type": "Bed", "Dim. Return %": "30%", "Value": 4},
+    "Wooden Straw Bed": {"Room": "Bedroom", "Type": "Bed", "Dim. Return %": "40%", "Value": 3}
+}

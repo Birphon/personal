@@ -1,0 +1,59 @@
+Zone (main)
+        Stockpile zone • Dumping stockpile zone • Growing zone • Allowed area • Home area • Build roof area • Remove roof area • Snow clear area
+    Structure (main)
+        Animal flap • Autodoor • Bridge • Column • Door • Fence • Fence gate • Wall
+    Production (main)
+        Production-Neolithic
+            Art bench • Brewery • Butcher spot • Butcher table • Campfire • Crafting spot • Fueled stove • Fermenting barrel • Simple research bench
+        Production-Medieval
+            Fueled smithy • Hand tailor bench • Stonecutters table
+        Production-Industrial
+            Biofuel refinery • Deep drill • Drug lab • Electric crematorium • Electric smelter • Electric smithy • Electric stove • Electric tailor bench • Fabrication bench • Hi-tech research bench • Hydroponics basin • Machining table • Nutrient paste dispenser • Hopper
+    Furniture (main)
+        Basic-Furniture
+            Animal bed • Animal sleeping box • Animal sleeping spot • Bedroll • Bedroll Double • Plant pot • Sculptures Small • Sculptures Large • Sculptures Grand • Sculptures Terror (Ideology DLC) • Sleeping Spot •  Sleeping Spot Double, • Sleeping Spot Baby (Biotech DLC) • Stool • Table 1x2 • Table 2x2 • Table 2x4 • Table 3x3 • Torch lamp • Urn • Animus stone (Royalty DLC) • Nature shrine Small (Royalty DLC) • Nature shrine Large (Royalty DLC) • Darktorch (Ideology DLC) • Fungus darktorch (Ideology DLC) • Crib (Biotech DLC)
+        Complex-Furniture
+            Armchair • Bed (Double) • Dining chair • Dresser • End table • Royal bed • Shelf (Small) • Brazier (Royalty DLC) • Brazier Darklight  (Ideology DLC Royalty DLC) • Drape (Royalty DLC) • Grand meditation throne (Royalty DLC) • Meditation throne (Royalty DLC) • Slab bed (Double)  (Ideology DLC
+        Complex-Furniture-Research
+            Hospital bed • Standing lamp • Sun lamp • Harp (Royalty DLC) • Harpsichord (Royalty DLC) • Piano (Royalty DLC) • Bonsai pot  (Ideology DLC
+    Power (main)
+        Basic-Power
+            Power conduit (Waterproof) • Power switch • Wood-fired generator • Chemfuel powered generator • Wind turbine
+        Power-Research
+            Battery • Geothermal generator • Solar generator • Watermill generator
+        Power-Uncraftable
+            Vanometric power cell • Unstable power cell (Royalty DLC
+    Secutiry (main)
+        Basic-Secutiry
+            Barricade • Sandbags • Spike trap
+        Secutiry-Research
+            Autocannon turret • Foam turret • Mini-turret • Rocketswarm launcher • Uranium slug turret • Mortar
+        Secutiry-IEDs
+            IED trap • IED incendiary trap • IED EMP trap • IED firefoam trap • IED smoke trap • IED antigrain warhead trap • IED tox trap (Biotech DLC
+        Secutiry-Related    
+            Antigrain warhead • EMP shell • Firefoam shell • High-explosive shell • Incendiary shell • Smoke shell • Tox shell (Biotech DLC
+    Misc (main)
+        Basic-Misc
+            Caravan hitching spot • Egg box • Grave • Marriage spot • Party spot • Pen marker • Sarcophagus • Tool cabinet • Meditation spot (Royalty DLC) • Nature shrine Large (Royalty DLC) •  Nature shrine Small (Royalty DLC) • Altar Small(Ideology DLC) • Altar Medium(Ideology DLC) •Altar Large(Ideology DLC) •Altar Grand (Ideology DLC) • Burnbong (Ideology DLC) • Cannibal platter (Ideology DLC) • Christmas tree (Ideology DLC) • Drum (Ideology DLC) • Effigy (Ideology DLC) • Gibbet cage (Ideology DLC) • Ideogram (Ideology DLC) • Incense shrine (Ideology DLC) • Kneel pillow (Ideology DLC) • Kneel sheet (Ideology DLC) • Lectern (Ideology DLC) • Pew (Ideology DLC) • Pyre (Ideology DLC) • Ritual spot (Ideology DLC) • Sacrificial flag (Ideology DLC)
+        Misc-Research
+            Comms console • Cryptosleep casket • Firefoam popper • Ground-penetrating scanner • Long-range mineral scanner • Moisture pump • Multi-analyzer • Orbital trade beacon • Pod launcher • Stele Large • Stele Grand) • Transport pod • Vitals monitor • Ship landing beacon (Royalty DLC) • Autobong (Ideology DLC) • Biosculpter pod (Ideology DLC) • Lightball (Ideology DLC) • Loudspeaker (Ideology DLC) • Neural supercharger (Ideology DLC) • Sleep accelerator (Ideology DLC)
+    Floors (main)
+        Basic-Floors
+            Burned floors Carpet, Burned floors Straw matting, Burned floors Wood floor) • Concrete • Flagstones Sandstone,Flagstones Granite,Flagstones Limestone,Flagstones Slate,Flagstones Marble) • Gold tile • Paved tile • Silver tile • Steel tile • Sterile tile • Straw matting • Wood floor • Fungal gravel (Ideology DLC) • Hex tile (Ideology DLC) • Spikecore plates (Ideology DLC) • Totemic boards 
+        Floors-Research
+            Carpet • Stone tiles Sandstone,Stone tiles Granite,Stone tiles Limestone,Stone tiles Slate,Stone tiles Marble • Fine carpets (Royalty DLC) • Fine stone tiles Sandstone (Royalty DLC) • Fine stone tiles Granite (Royalty DLC) • Fine stone tiles Limestone (Royalty DLC) • Fine stone tiles Slate (Royalty DLC) • Fine stone tiles Marble (Royalty DLC) • Hex carpet (Ideology DLC) • Mindbend carpet (Ideology DLC) • Morbid carpet (Ideology DLC) • Morbid stone tiles Sandstone (Royalty DLC) • Morbid stone tiles Granite (Royalty DLC) • Morbid stone tiles Limestone (Royalty DLC) • Morbid stone tiles Slate (Royalty DLC) • Morbid stone tiles Marble (Royalty DLC) • Spikecore stone tiles Sandstone (Royalty DLC) • Spikecore stone tiles Granite (Royalty DLC) • Spikecore stone tiles Limestone (Royalty DLC) • Spikecore stone tiles Slate (Royalty DLC) • Spikecore stone tiles Marble (Royalty DLC)  • Totemic stone tiles Sandstone (Royalty DLC) • Totemic stone tiles Granite (Royalty DLC) • Totemic stone tiles Limestone (Royalty DLC) • Totemic stone tiles Slate (Royalty DLC) • Totemic stone tiles Marble (Royalty DLC)
+        Floor-Coverings
+            Animalist slab Broad (Ideology DLC) • Animalist slab Medium  (Ideology DLC)• Morbid slab Broad • Morbid slab Medium • Rustic rug Broad (Ideology DLC) • Rustic rug Medium (Ideology DLC) • Spikecore floor-star Broad (Ideology DLC) • Spikecore floor-star Medium (Ideology DLC) • Totemic slab Broad (Ideology DLC) • Totemic slab Medium (Ideology DLC)
+    Recreation (main)
+        Basic-Recreation
+            Horseshoes pin (Colony) • Hoopstone ring (Tribal) • Game-of-Ur board (Tribal)
+        Recreation-Complex-Furniture
+            Billiards table • Chess table (Colony) • Poker table
+        Recreation-Complex-Furniture-Research
+            Tube television • Flatscreen television • Harp (Royalty DLC) • Harpsichord (Royalty DLC) • Piano (Royalty DLC)
+        Recreation-Complex-Furniture-Trade
+            Megascreen television • Telescope
+    Ship (main)
+        Ship structural beam • Ship cryptosleep casket • Ship computer core • Ship reactor • Ship engine • Sensor cluster
+    Temperature (main)
+        Campfire • Heater • Cooler • Passive cooler • Vent

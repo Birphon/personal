@@ -1,0 +1,291 @@
+{
+    "type": "champion",
+    "format": "standAloneComplex",
+    "version": "14.11.1",
+    "data": {
+        "Nasus": {
+            "id": "Nasus",
+            "key": "75",
+            "name": "Nasus",
+            "title": "the Curator of the Sands",
+            "tags": [
+                "Fighter",
+                "Tank"
+            ],
+            "partype": "Mana",
+            "info": {
+                "attack": 7,
+                "defense": 5,
+                "magic": 6,
+                "difficulty": 6
+            },
+            "stats": {
+                "hp": 631,
+                "hpperlevel": 104,
+                "mp": 326,
+                "mpperlevel": 62,
+                "movespeed": 350,
+                "armor": 34,
+                "armorperlevel": 4.7,
+                "spellblock": 32,
+                "spellblockperlevel": 2.05,
+                "attackrange": 125,
+                "hpregen": 9,
+                "hpregenperlevel": 0.9,
+                "mpregen": 7.45,
+                "mpregenperlevel": 0.5,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 67,
+                "attackdamageperlevel": 4,
+                "attackspeedperlevel": 3.48,
+                "attackspeed": 0.638
+            },
+            "spells": [
+                {
+                    "id": "NasusQ",
+                    "name": "Siphoning Strike",
+                    "description": "Nasus strikes his foe, dealing damage and increasing the power of his future Siphoning Strikes if he slays his target.",
+                    "tooltip": "Nasus' next Attack deals an additional <physicalDamage>{{ totaldamage }} physical damage</physicalDamage>. Killing an enemy with this Attack permanently increases its damage by {{ e2 }}, increased to {{ e4 }} against champions, large minions and large jungle monsters.<br /><br /><rules>This Ability triggers spell effects upon dealing damage.</rules>{{ spellmodifierdescriptionappend }}",
+                    "leveltip": {
+                        "label": [
+                            "Base Damage",
+                            "Cooldown"
+                        ],
+                        "effect": [
+                            "{{ e1 }} -> {{ e1NL }}",
+                            "{{ cooldown }} -> {{ cooldownNL }}"
+                        ]
+                    },
+                    "maxrank": 5,
+                    "cooldown": [
+                        7.5,
+                        6.5,
+                        5.5,
+                        4.5,
+                        3.5
+                    ],
+                    "cooldownBurn": "7.5/6.5/5.5/4.5/3.5",
+                    "cost": [
+                        20,
+                        20,
+                        20,
+                        20,
+                        20
+                    ],
+                    "costBurn": "20",
+                    "datavalues": {},
+                    "effectBurn": [
+                        null,
+                        "40/60/80/100/120",
+                        "3",
+                        "50",
+                        "12",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "vars": [],
+                    "costType": " {{ abilityresourcename }}",
+                    "maxammo": "-1",
+                    "range": [
+                        300,
+                        300,
+                        300,
+                        300,
+                        300
+                    ],
+                    "rangeBurn": "300",
+                    "resource": "{{ cost }} {{ abilityresourcename }}"
+                },
+                {
+                    "id": "NasusW",
+                    "name": "Wither",
+                    "description": "Nasus ages an enemy champion, decelerating their Move Speed and Attack Speed over time.",
+                    "tooltip": "Nasus ages a champion, <status>Slowing</status> them by {{ slowbase }}%, increasing to {{ maxslowtooltiponly }}% over {{ duration }} seconds. Their <attackSpeed>Attack Speed</attackSpeed> is also reduced by {{ attackspeedslowmult*100 }}% of the <status>Slow</status>.{{ spellmodifierdescriptionappend }}",
+                    "leveltip": {
+                        "label": [
+                            "Max Slow",
+                            "Cooldown"
+                        ],
+                        "effect": [
+                            "{{ maxslowtooltiponly }}% -> {{ maxslowtooltiponlyNL }}%",
+                            "{{ cooldown }} -> {{ cooldownNL }}"
+                        ]
+                    },
+                    "maxrank": 5,
+                    "cooldown": [
+                        15,
+                        14,
+                        13,
+                        12,
+                        11
+                    ],
+                    "cooldownBurn": "15/14/13/12/11",
+                    "cost": [
+                        80,
+                        80,
+                        80,
+                        80,
+                        80
+                    ],
+                    "costBurn": "80",
+                    "datavalues": {},
+                    "effectBurn": [
+                        null,
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "vars": [],
+                    "costType": " {{ abilityresourcename }}",
+                    "maxammo": "-1",
+                    "range": [
+                        700,
+                        700,
+                        700,
+                        700,
+                        700
+                    ],
+                    "rangeBurn": "700",
+                    "resource": "{{ cost }} {{ abilityresourcename }}"
+                },
+                {
+                    "id": "NasusE",
+                    "name": "Spirit Fire",
+                    "description": "Nasus unleashes a spirit flame at a location, dealing damage and reducing the Armor of enemies who stand on it.",
+                    "tooltip": "Nasus ignites a spirit flame, dealing <magicDamage>{{ initialdamage }} magic damage</magicDamage>. Enemies in the area lose <scaleArmor>{{ e2 }}% Armor</scaleArmor> and take <magicDamage>{{ totaldotdamage }} magic damage</magicDamage> over {{ e3 }} seconds.{{ spellmodifierdescriptionappend }}",
+                    "leveltip": {
+                        "label": [
+                            "Initial Damage",
+                            "Damage Per Second",
+                            "Armor Reduction %",
+                            "@AbilityResourceName@ Cost"
+                        ],
+                        "effect": [
+                            "{{ e4 }} -> {{ e4NL }}",
+                            "{{ e1 }} -> {{ e1NL }}",
+                            "{{ effect2amount*-100.000000 }}% -> {{ effect2amountnl*-100.000000 }}%",
+                            "{{ cost }} -> {{ costNL }}"
+                        ]
+                    },
+                    "maxrank": 5,
+                    "cooldown": [
+                        12,
+                        12,
+                        12,
+                        12,
+                        12
+                    ],
+                    "cooldownBurn": "12",
+                    "cost": [
+                        60,
+                        70,
+                        80,
+                        90,
+                        100
+                    ],
+                    "costBurn": "60/70/80/90/100",
+                    "datavalues": {},
+                    "effectBurn": [
+                        null,
+                        "11/19/27/35/43",
+                        "30/35/40/45/50",
+                        "5",
+                        "55/95/135/175/215",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "vars": [],
+                    "costType": " {{ abilityresourcename }}",
+                    "maxammo": "-1",
+                    "range": [
+                        650,
+                        650,
+                        650,
+                        650,
+                        650
+                    ],
+                    "rangeBurn": "650",
+                    "resource": "{{ cost }} {{ abilityresourcename }}"
+                },
+                {
+                    "id": "NasusR",
+                    "name": "Fury of the Sands",
+                    "description": "Nasus unleashes a mighty sandstorm that batters nearby enemies. While the storm rages, he gains increased Health, Attack Range, damages nearby enemies, has a reduced cooldown on Siphoning Strike, and gains bonus Armor and Magic Resistance.",
+                    "tooltip": "Nasus becomes empowered in the sandstorm for 15 seconds, increasing his <healing>maximum Health by {{ bonushealth }}</healing> and <scaleArmor>Armor</scaleArmor> and <scaleMR>Magic Resistance</scaleMR> by {{ initialresistgain }}.<br /><br />While the storm rages, nearby enemies take <magicDamage>{{ damagecalc }} of their maximum Health as magic damage</magicDamage> each second and <spellName>Siphoning Strike</spellName> has a {{ qcdr*100 }}% reduced Cooldown.{{ spellmodifierdescriptionappend }}",
+                    "leveltip": {
+                        "label": [
+                            "Bonus Health",
+                            "Max Health %",
+                            "Bonus Armor and Magic Resistance",
+                            "Cooldown"
+                        ],
+                        "effect": [
+                            "{{ bonushealth }} -> {{ bonushealthNL }}",
+                            "{{ aoedamagepercent*100.000000 }}% -> {{ aoedamagepercentnl*100.000000 }}%",
+                            "{{ initialresistgain }} -> {{ initialresistgainNL }}",
+                            "{{ cooldown }} -> {{ cooldownNL }}"
+                        ]
+                    },
+                    "maxrank": 3,
+                    "cooldown": [
+                        120,
+                        100,
+                        80
+                    ],
+                    "cooldownBurn": "120/100/80",
+                    "cost": [
+                        100,
+                        100,
+                        100
+                    ],
+                    "costBurn": "100",
+                    "datavalues": {},
+                    "effectBurn": [
+                        null,
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "vars": [],
+                    "costType": " {{ abilityresourcename }}",
+                    "maxammo": "-1",
+                    "range": [
+                        20,
+                        20,
+                        20
+                    ],
+                    "rangeBurn": "20",
+                    "resource": "{{ cost }} {{ abilityresourcename }}"
+                }
+            ],
+            "passive": {
+                "name": "Soul Eater",
+                "description": "Nasus drains his foe's spiritual energy, giving him bonus Life Steal."
+            },
+            "recommended": []
+        }
+    }
+}

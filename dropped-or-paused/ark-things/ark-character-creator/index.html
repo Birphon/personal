@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ark Stats Calculator</title>
+</head>
+
+<body>
+    <div class="stats-grid">
+        <div class="stat-container" id="health">
+            <h2>Health:</h2>
+            <span id="health-value">100.0</span>
+            <div class="buttons">
+                <button onclick="adjustStat('health', 'add')">+</button>
+                <button onclick="adjustStat('health', 'subtract')">-</button>
+            </div>
+        </div>
+
+        <div class="stat-container" id="stamina">
+            <h2>Stamina:</h2>
+            <span id="stamina-value">100.0</span>
+            <div class="buttons">
+                <button onclick="adjustStat('stamina', 'add')">+</button>
+                <button onclick="adjustStat('stamina', 'subtract')">-</button>
+            </div>
+        </div>
+
+        <div class="stat-container" id="oxygen">
+            <h2>Oxygen:</h2>
+            <span id="oxygen-value">100.0</span>
+            <div class="buttons">
+                <button onclick="adjustStat('oxygen', 'add')">+</button>
+                <button onclick="adjustStat('oxygen', 'subtract')">-</button>
+            </div>
+        </div>
+
+        <div class="stat-container" id="food">
+            <h2>Food:</h2>
+            <span id="food-value">100.0</span>
+            <div class="buttons">
+                <button onclick="adjustStat('food', 'add')">+</button>
+                <button onclick="adjustStat('food', 'subtract')">-</button>
+            </div>
+        </div>
+
+        <div class="stat-container" id="weight">
+            <h2>Weight:</h2>
+            <span id="weight-value">100.0</span>
+            <div class="buttons">
+                <button onclick="adjustStat('weight', 'add')">+</button>
+                <button onclick="adjustStat('weight', 'subtract')">-</button>
+            </div>
+        </div>
+
+        <div class="stat-container" id="melee-damage">
+            <h2>Melee Damage:</h2>
+            <span id="melee-damage-value">100.0%</span>
+            <div class="buttons">
+                <button onclick="adjustStat('melee-damage', 'add')">+</button>
+                <button onclick="adjustStat('melee-damage', 'subtract')">-</button>
+            </div>
+        </div>
+
+        <div class="stat-container" id="fortitude">
+            <h2>Fortitude:</h2>
+            <span id="fortitude-value">0</span>
+            <div class="buttons">
+                <button onclick="adjustStat('fortitude', 'add')">+</button>
+                <button onclick="adjustStat('fortitude', 'subtract')">-</button>
+            </div>
+        </div>
+
+        <div class="stat-container" id="crafting-skill">
+            <h2>Crafting Skill:</h2>
+            <span id="crafting-skill-value">100.0%</span>
+            <div class="buttons">
+                <button onclick="adjustStat('crafting-skill', 'add')">+</button>
+                <button onclick="adjustStat('crafting-skill', 'subtract')">-</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

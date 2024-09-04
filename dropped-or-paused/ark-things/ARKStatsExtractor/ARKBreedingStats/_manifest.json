@@ -1,0 +1,31 @@
+﻿{
+  "format": "1.0",
+  "modules":{
+    "ARK Smart Breeding": {
+      "Id": "ARK Smart Breeding",
+      "Category": "main",
+      "version": "0.58.1.0"
+    },
+    "SpeciesColorImages": {
+      "Id": "SpeciesColorImages",
+      "Category": "Species Images",
+      "Name": "Species Images",
+      "Author": "cadaei and Myrmecoleon",
+      "Description": "Download this package to have a visualization for the colors of creatures (~20 MB), uncheck if you don't want to download these files.",
+      "Url": "https://github.com/cadon/ARKStatsExtractor/raw/master/speciesImages/speciesImages.zip",
+      "LocalPath": "images/speciesImages",
+      "IsFolder": true,
+      "Selectable": true,
+      "version": "2022.11.13"
+    },
+    "NamePatternTemplates": {
+      "Id": "NamePatternTemplates",
+      "Category": "Name Pattern Templates",
+      "Name": "Name Pattern Templates",
+      "Description": "Templates for naming patterns",
+      "Url": "https://github.com/cadon/ARKStatsExtractor/raw/master/json/namePatternTemplates.json",
+      "LocalPath": "json/namePatternTemplates.json",
+      "version": "2021.5.11"
+    }
+  }
+}

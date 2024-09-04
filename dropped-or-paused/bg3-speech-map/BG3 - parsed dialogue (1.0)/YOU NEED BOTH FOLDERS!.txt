@@ -1,0 +1,1 @@
+You need both folders for the styles to work! If your text is all black and the 'hide' button on top don't work, make sure to go back and download the "jscssetc" folder!

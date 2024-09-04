@@ -1,0 +1,7 @@
+[
+  {"name": "Auckland", "latitude": -36.8597287, "longitude": 174.5660391},
+  {"name": "Hamilton", "latitude": -37.7778003, "longitude": 175.1783506},
+  {"name": "Wellington", "latitude": -41.252871, "longitude": 174.6107362},
+  {"name": "Christchurch", "latitude": -43.5121211, "longitude": 172.5289621},
+  {"name": "Dunedin", "latitude": -45.8828871, "longitude": 170.3954002}
+]

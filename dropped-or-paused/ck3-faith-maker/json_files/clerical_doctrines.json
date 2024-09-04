@@ -1,0 +1,17 @@
+{
+	"Clerical Doctrines": {
+		"Clerical Function": [
+			"Control",
+			"Alms and Pacification",
+			"Recruitment"
+		],
+		"Clerical Gender": ["Only Men", "Either", "Only Women"],
+		"Clerical Marriage": ["Allowed", "Disallowed"],
+		"Clerical Appointment": [
+			"Temporal+Revocable",
+			"Spiritual+Revocable",
+			"Temporal+for Life",
+			"Spiritual+for Life"
+		]
+	}
+}

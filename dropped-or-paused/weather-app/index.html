@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm2KjrW0RPQe0+5OXb9+4npwWVQNQiw/PPMkqXZPvfUBE0YbvTWGybP6dxoxvhA8O2PDDs1/k4bHZKpYxqA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>WeatherWise</h1>
+            <span class="dark-mode-toggle" title="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </span>
+        </header>
+        <main>
+            <form id="weather-form">
+                <input type="text" id="location" placeholder="Enter city, state code or ZIP">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <div id="weather-info"></div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

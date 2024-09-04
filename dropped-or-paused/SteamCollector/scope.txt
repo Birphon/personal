@@ -1,0 +1,9 @@
+Steam Collector:
+    Web App
+    Pulls Steam Store API
+    Lets users Login with Steam
+    Lets users "make bundles"
+        allows users to track total price of bundle - including sales
+            notification if there are sales?
+        allows users to track individual prices of items in the bundle - including sales
+            notification if there are sales?

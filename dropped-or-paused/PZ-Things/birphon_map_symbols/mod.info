@@ -1,0 +1,11 @@
+id=BirphonsMapSymbols
+name=Birphons Map Symbols
+description=Informational Based Map Symbols
+authors=Birphon,Wipe,Lexx
+
+modversion=0.1
+versionMin=41.65
+tags=Build 41,Interface,Map
+
+poster=preview_symbols.png
+icon=icon.png

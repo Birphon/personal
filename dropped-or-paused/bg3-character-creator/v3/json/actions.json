@@ -1,0 +1,98 @@
+{
+	"Actions": [
+		{
+			"Name": "ABJURE ENEMY",
+			"Type": "Action, Channel Oath Charge",
+			"Description": "Frighten an enemy. They'll be easier to hit and cannot move. Fiends and undead have Disadvantage on this Saving Throw.\nOn Save: Target is Slowed instead.\nCast Range: 18m",
+			"WeaponRequirement": "N/A", 
+			"Requirements": "Paladin (Oath of Vengeance) at level 3"
+		},
+		{
+			"Name": "ABSOLUTE POWER",
+			"Type": "Action",
+			"Icon": "action icon baldursgate3 wiki guide 25pxAction",
+			"Description": "A surge of divine energy accompanies your swing. It deals an additional 1d6 Force damage and possibly pushes your target back 5m.",
+			"Attack/Save": "Melee Attack",
+			"Recharge": "Once per Short Rest",
+			"Range": "1.5 m",
+			"WeaponRequirement": "Faithbreaker Martial Versatile Weapon"
+		},
+		{
+			"ACTION SURGE": {
+				"Type": "Action",
+				"Icon": "action icon baldursgate3 wiki guide 25pxAction",
+				"Description": "Inflicts Action Surge. Push Yourself beyond your limits and gain one additional action.",
+				"Class Needed": "Fighter Lv 2"
+			},
+			"ARCANE RECOVERY": {
+				"Type": "Action",
+				"Icon": "action icon baldursgate3 wiki guide 25pxAction",
+				"Description": "Once per day out of combat, replenish expended spell slots, which allows you to cast Spells requiring them.",
+				"Recharge": "arcane recovery charge baldurs gate 3 wiki guide 25pxArcane Recovery Charge",
+				"Class Needed": "Wizard"
+			},
+			"ATTACK OF OPPORTUNITY": {
+				"Type": "Reaction",
+				"Icon": "reaction icon bg3 wiki guideReaction",
+				"Description": "Automatically attack an enemy moving out of your reach. This is a Reaction. Toggle a reaction during your turn. It will automatically execute when needed.",
+				"Action Type": "Toggleable Passive Feature"
+			},
+			"BACKBREAKER": {
+				"Type": "Action",
+				"Icon": "action icon baldursgate3 wiki guide 25pxAction",
+				"Description": "Put extra force behind your strike to possibly knock your enemy Prone.",
+				"Attack/Save": "Melee attack, Strength.",
+				"Recharge": "Once per short rest.",
+				"Range": "1.5m",
+				"Weapon Requirement": "Warhammers"
+			},
+			"BARDIC INSPIRATION": {
+				"Type": "Bonus Action",
+				"Icon": "bonus action icon baldursgate3 wiki guide 25pxBonus Action",
+				"Description": "Inspire an ally to add a +1d6 bonus to their next Attack Roll, Ability Check or Saving Throw.\n\nAt Bard Level 5, the Bardic Inspiration bonus increases to +1d8. At Bard Level 10, the Bardic Inspiration bonus increases to +1d10.",
+				"Until": "Long Rest",
+				"Range": "18m",
+				"Class Needed": "Bard"
+			},
+			"BITE": {
+				"Type": "Class Action",
+				"Icon": "actionAction",
+				"Description": "Bite a target.",
+				"Attack/Save": "Melee Attack Roll",
+				"Recharge": "Per Turn",
+				"Granted by": "A Mother's Loathing"
+			},
+			"BLESSING OF THE TRICKSTER": {
+				"Type": "Action",
+				"Icon": "action icon baldursgate3 wiki guide 25pxAction",
+				"Description": "Grant another creature advantage on Stealth checks. Only affect one target at a time.",
+				"Concentration": "Melee",
+				"Class Needed": "Trickery Domain (Cleric Lvl 1 Subclass)"
+			},
+			"BRACE (MELEE)": {
+				"Type": "7.5 movement speed action",
+				"Icon": "action icon baldurs gate3 guide 64px",
+				"Movement Speed": "Spend 7.5m of your movement speed.",
+				"Description": "For the rest of your turn, roll Melee damage twice and use the highest result.",
+				"Status Effect": "braced status effect icon baldurs gate3 guide 64pxApplies Braced",
+				"Recharge": "Once per short rest.",
+				"Weapon Requirement": "Pikes, Glaives"
+			},
+			"BRACE (RANGED)": {
+				"Type": "7.5 movement speed action",
+				"Icon": "action icon baldurs gate3 guide 64px",
+				"Movement Speed": "Spend 7.5m of your movement speed.",
+				"Description": "For the rest of your turn, your Damage Rolls for your Ranged Weapon Have Advantage, but you can't move.",
+				"Status Effect": "braced status effect icon baldurs gate3 guide 64pxApplies Braced",
+				"Recharge": "Once per short rest.",
+				"Additional Requirement": "A Ranged Weapon needs to be equipped."
+			},
+			"CLAWS": {
+				"Type": "Action",
+				"Icon": "action icon baldursgate3 wiki guide 25pxAction",
+				"Description": "Lash out with deadly claws to deal Slashing damage.",
+				"Range": "1.5 m"
+			}
+		}
+	]
+}

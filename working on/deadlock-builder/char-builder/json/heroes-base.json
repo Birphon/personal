@@ -1,0 +1,64 @@
+[
+	{
+		"CharacterName": "",
+		"Ability": {
+			"1": {
+				"Name": "",
+				"Type": "Active",
+				"Range": "",
+				"Duration": "",
+				"Cooldown": "",
+				"Desc": "",
+				"Details": {},
+				"Levels": { "1": "", "2": "", "5": "" }
+			},
+			"2": {
+				"Name": "",
+				"Type": "Active",
+				"Range": "",
+				"Duration": "",
+				"Cooldown": "",
+				"Desc": "",
+				"Details": {},
+				"Levels": { "1": "", "2": "", "5": "" }
+			},
+			"3": {
+				"Name": "",
+				"Type": "Active",
+				"Range": "",
+				"Duration": "",
+				"Cooldown": "",
+				"Desc": "",
+				"Details": {},
+				"Levels": { "1": "", "2": "", "5": "" }
+			},
+			"4": {
+				"Name": "",
+				"Type": "Active",
+				"Range": "",
+				"Duration": "",
+				"Cooldown": "",
+				"Desc": "",
+				"Details": {},
+				"Levels": { "1": "", "2": "", "5": "" }
+			}
+		},
+		"Weapon": {
+			"DPS": "",
+			"BulletDamage": "",
+			"Ammo": "",
+			"FireRate": "",
+			"LightMelee": "",
+			"HeavyMelee": ""
+		},
+		"Vitality": {
+			"MaxHP": "",
+			"HealthRegen": "",
+			"BulletRes": "",
+			"SpritRes": "",
+			"MoveSpeed": "",
+			"SprintSpeed": "",
+			"Stamina": ""
+		}
+	}
+]

@@ -1,0 +1,52 @@
+{
+  "LMGs": [
+    {
+      "name": "MG4 - Predator",
+      "damage": 32,
+      "fireRate": 700,
+      "mag": 75,
+      "rarity": "Legendary",
+      "weaponType": "LMGs"
+    },
+    {
+      "name": "MG4",
+      "damage": 25,
+      "fireRate": 700,
+      "mag": 75,
+      "rarity": "Common",
+      "weaponType": "LMGs"
+    },
+    {
+      "name": "MG4 - Wrath Of Hades",
+      "damage": 29,
+      "fireRate": 700,
+      "mag": 75,
+      "rarity": "Epic",
+      "weaponType": "LMGs"
+    },
+    {
+      "name": "MG4 - Mr Squid",
+      "damage": 29,
+      "fireRate": 700,
+      "mag": 75,
+      "rarity": "Epic",
+      "weaponType": "LMGs"
+    },
+    {
+      "name": "KVD - Boom! Boom!",
+      "damage": 44,
+      "fireRate": 500,
+      "mag": 100,
+      "rarity": "Legendary",
+      "weaponType": "LMGs"
+    },
+    {
+      "name": "KVD - Icebreaker",
+      "damage": 35,
+      "fireRate": 500,
+      "mag": 100,
+      "rarity": "Fine",
+      "weaponType": "LMGs"
+    }
+  ]
+}

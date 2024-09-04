@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Display</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Nav Menu |</li>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <!-- <li><a href="submit.html" class="nav-link">NewInfo</a></li> -->
+        </ul>
+    </nav>
+
+    <h1>Data Display with Search</h1>
+
+    <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search for names..">
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>UUID</th>
+                <th>Name</th>
+                <th>Stats</th>
+                <th>Display Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data rows will be dynamically added here -->
+        </tbody>
+    </table>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>

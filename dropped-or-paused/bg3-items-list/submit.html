@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Page</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Nav Menu |</li>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="submit.html" class="nav-link">NewInfo</a></li>
+        </ul>
+    </nav>
+    <h1> New Item Submission </h1>
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>UUID</th>
+                <th>Name</th>
+                <th>Stats</th>
+                <th>Display Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="dataRow">
+                <td contenteditable="true"></td>
+                <td contenteditable="true"></td>
+                <td contenteditable="true"></td>
+                <td contenteditable="true"></td>
+                <td contenteditable="true" onblur="addRowIfLastCell(this)"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="submit.js"></script>
+</body>
+
+</html>

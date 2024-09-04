@@ -1,0 +1,68 @@
+item_types:
+  clothing: "Equipable equipment that give varius resistances in different fields"
+  artifact: "Temp Text"
+  attchments: "Temp Text"
+  backpack: "Temp Text"
+  ammo: "Temp Text"
+  containers: "Temp Text"
+  grenades: "Temp Text"
+  medicine: "Temp Text"
+  weapons: "Temp Text"
+  resource: "Temp Text"
+
+recipe_type:
+  Barter: "Traded Item"
+  Quest: "Quest Item"
+
+
+resources:
+  Roubles:
+    recipies:
+    - recipe_type: "Currency"
+    - item_type: resource
+  Green Mold:
+    recipes:
+    - recipe_type: Raw Resource
+    - item_types: resource
+  Swamp Stone:
+    recipes:
+    - recipe_type: Raw Resource
+    - item_types: resource
+  Seeds:
+    recipes:
+    - recipe_type: Raw Resource
+    - item_types: resource
+  Stinky Root:
+    recipes:
+    - recipe_type: Raw Resource
+    - item_types: resource
+  Pieces of Aluminium Wire:
+    recipes:
+    - recipe_type: Raw Resource
+    - item_types: resource
+  Seeds:
+    recipes:
+    - recipe_type: Raw Resource
+    - item_types: resource
+  Crappite:
+    recipes:
+    - recipe_type: Raw Resource
+    - item_types: resource
+  Rusty Mold:
+    recipes:
+    - recipe_type: Raw Resource
+    - item_types: resource
+  Pieces of Copper Wire:
+    recipes:
+    - recipe_type: Raw Resource
+    - item_types: resource
+
+  Transformer Bag:
+    recipes:
+    - output: 1
+      recipe_type: Crafting
+      requirements:
+        Green Mold: -6
+        Swamp Stone: -7
+        Roubles: -510
+    - recipe_type: Raw Resource

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Page - Playlist Creator and Player</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Admin Page - Playlist Creator and Player</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Pending Submissions</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>User ID</th>
+                    <th>Name</th>
+                    <th>Days</th>
+                    <th>Submitted Link</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for submission in submissions %}
+                <tr>
+                    <td>{{ submission.UserID }}</td>
+                    <td>{{ submission.Name }}</td>
+                    <td>{{ submission.Days }}</td>
+                    <td><a href="{{ submission.Link }}">{{ submission.Link }}</a></td>
+                    <td>
+                        <form action="accept_submission" method="post">
+                            <input type="hidden" name="submission_id" value="{{ submission.ID }}">
+                            <button type="submit">Accept</button>
+                        </form>
+                        <form action="deny_submission" method="post">
+                            <input type="hidden" name="submission_id" value="{{ submission.ID }}">
+                            <button type="submit">Deny</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Playlist Creator and Player. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

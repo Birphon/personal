@@ -1,0 +1,43 @@
+Name,Mutually exclusive,Points,Description,Effect,
+Adrenaline Junkie, "Agoraphobic, Claustrophobic, Cowardly, Desensitized", -8, "Moves faster when highly panicked.", "Adds a flat bonus of 0.20 or 0.25 for the character's base speed at Strong or Extreme Panic, which increases walking, running, and sprinting speed."
+Athletic, "Fit, Out of Shape, Obese, Overweight, Unfit, Very Underweight", -10, "Can run faster and longer without tiring.", +4 Fitness. +20% running/sprinting speed . -20% running/sprinting endurance loss from the trait itself.
+Brave, "Cowardly, Desensitized", -4, "Less prone to becoming panicked.", 30% panic except for night terrors and phobias.
+Cat's Eyes, -, -2, "Better vision at night.", +20% better vision at night. Affects search mode
+Dextrous, All Thumbs, -2, "Transfers inventory items quickly.", 50% inventory transferring time.
+Eagle Eyed, Short Sighted, -6, "Has a faster visibility fade and a higher visibility arc.", Character has a wider field of view. Affects search mode
+Fast Healer, Slow Healer, -6, "Recovers faster from injury and illness.", "Does not apply to exercise fatigue. Recently inflicted injuries have less severity. Including Scratches, Lacerations, Lodged Bullets, Deep wounds (with/without glass), Bites and Fractures. (Check Health for more details.)"
+Fast Learner, Slow Learner, -6, "Increases XP gains.", 130% XP for all skills except Strength and Fitness.
+Fast Reader, Illiterate, Slow Reader, -2, "Takes less time to read books., 130% reading speed."
+Fit, "Athletic, Out of Shape, Obese, Overweight, Unfit", -6, "In good physical shape.", +2 Fitness.
+Graceful, Clumsy, -4, "Makes less noise when moving.", 60% footsteps sound radius. 90% chance to trip while run/sprint vaulting a low fence or lunging zombies.
+Inconspicuous, Conspicuous, -4, "Less likely to be spotted by zombies.", 50% chance of zombies spotting you.
+Iron Gut, Weak Stomach, -3, "Less chance to have food illness.", 50% chance of food illness. Food illness lasts shorter. Check Health for more details.
+Keen Hearing, "Deaf, Hard of Hearing", -6, "Larger perception radius.", 200% perception radius. Zombies that approach from behind will be visible much earlier.
+Light Eater, Hearty Appetite, -4, "Needs to eat less regularly.", 75% hunger.
+Low Thirst, High Thirst, -6, "Needs to drink water less regularly.", 50% thirst.
+Lucky, Unlucky, -4, "Sometimes things just go your way.", +10% chance of finding loot. -5% chance of failing item repairs. Affects search mode.
+, , , , Not available in multiplayer.
+Organized, Disorganized, -6, "Increased container inventory capacity.", "130% capacity for all containers, including boxes, cupboards and cars"
+Outdoorsman, -, -2, "Not affected by harsh weather conditions.", 10% chance of catching a cold. 1% or 1.25% chance of getting scratched/lacerated while Walking or Running through trees. Start a fire on campfires with Notched Plank faster. Affects search mode
+Resilient, Prone to Illness, -4, "Less prone to disease. Slower rate of zombification.", "75% zombification progression rate, 45% chance of catching a cold, 80% cold strength and 50% cold progression speed."
+Speed Demon, Sunday driver, -1, "The fast driver.", "200% Gear switching speed, 115% top speed for all vehicles"
+Stout, "Feeble, Strong, Weak", -6, "Extra knockback from melee weapons and increased carry weight.", +2 Strength
+Strong, "Feeble, Stout, Weak, Very Underweight", -10, "Extra knockback from melee weapons and increased carry weight.", "+4 Strength, +40% knockback power (damage does not increase)."
+Thick Skinned, Thin Skinned, -8, "Less chance of scratches or bites breaking the skin.", "Multiplies the chance of not being injured by a zombie attack by 1.3 (base 15% chance, modified by character's weapon skill). Additionally, alters the chance of clothes being damaged by walking through trees to 1 in 13."
+Wakeful, Sleepyhead, -2, "Needs less sleep."," -30% Fatigue increase rate, +10% Sleep efficiency"
+Amateur Mechanic, , -5, "Has a detailed knowledge of common and heavy vehicle models and their repairs.", "+1 Mechanics, can repair standard and heavy-duty vehicles."
+Angler, , -4, "Knows the basics of fishing.", +1 Fishing Knows how to make and fix a fishing rod.
+Baseball Player, , -4, "Has practice with a baseball bat and knows how to hit with precision.", +1 Long Blunt
+Brawler, , -6, "Used to getting into trouble.", "+1 Axe, +1 Long Blunt"
+Cook, , -6, "Knows cooking recipes.", +2 Cooking Currently broken in-game. Trait does not give recipes or affect foraging mode. Still gives skill boost though.
+First Aider, , -4, "Has a CPR and First Aid course certificate.", +1 First Aid
+Former Scout, , -6, "Knows how to pick wild berries and how to treat small injuries.", "+1 First Aid, +1 Foraging. Affects search mode."
+Gardener, , -4, "Has basic agriculture knowledge.", +1 Farming Knows mildew and flies cure. Affects search mode.
+Gymnast, , -5, "Agile and discreet.", "+1 Lightfooted, +1 Nimble"
+Handy, , -8, "Faster and stronger constructions.", "+1 Carpentry, +1 Maintenance +100HP to all constructions. Increases building speed (≈11%)."
+Hiker, , -6, "Used to surviving in the jungle.", "+1 Foraging, +1 Trapping. Affects search mode."
+Hunter, , -8, "Know the basics of hunting.", "+1 Aiming, +1 Short Blade, +1 Sneaking, +1 Trapping and affects search mode."
+Runner, , -4, "Runner in the spare times.", +1 Sprinting
+Sewer, , -4, "+1 Tailoring", +1 Tailoring
+Herbalist, , -6, "Can find medicinal plants and craft medicines and poultices from them.", "Able to find herbal medicines, make poultices from them, and identify poisonous wild food. Affects search mode."
+Nutritionist, , -4, "Can see the nutritional values of any food.", "Allows the player to see the nutritional values of any food, even those that aren't packaged. Affects search mode."

@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.output-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.output {
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}

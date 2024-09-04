@@ -1,0 +1,21 @@
+Expansion on the food and drink creation
+    - Takes commonly found fruits and veg
+        - Need to add plants and seeds for these
+        - Tree like's will be turned into a "bush" i.e. Apple Tree -> Apple Bush
+    - Presurving
+        - Pickling
+        - Jamming
+        - Jelly
+        - Booze
+            - Wine
+            - Bear
+            - Mead?
+    - Renewable way to get Sugar
+    - Renewable way to get Yeast
+    - Renewable way to get Jars and Lids
+    - Renewable way to make setting agents
+        - Marmello (lol)
+    - Way to make Citrus Pectin
+    - Way to make Citric Acid
+                
+    

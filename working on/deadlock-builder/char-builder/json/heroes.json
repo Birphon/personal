@@ -1,0 +1,165 @@
+[
+	{
+		"CharacterName": "Abrams",
+		"Ability": {
+			"1": {
+				"Name": "Siphon Life",
+				"Type": "Active",
+				"Range": "10m",
+				"Duration": "4s",
+				"Cooldown": "40s",
+				"Desc": "Drain health from enemies in front of you while they are in the radius",
+				"Details": {
+					"DMG": "35/s",
+					"hearoHeal": "100%",
+					"nonHeroHeal": "50%"
+				},
+				"Levels": {
+					"1": "-20s Cooldown",
+					"2": "+2s Duration",
+					"5": "+40 Damage Per Second"
+				}
+			},
+			"2": {
+				"Name": "Shoulder Charge",
+				"Type": "Active",
+				"Range": null,
+				"Duration": "1.2s",
+				"Cooldown": "35s",
+				"Desc": "**Charge forward**, colliding with enemies and draging them along. Hitting a **wall** will **Stun** enemies caught by Abrams. Speed increased after colliding with enemy Heroes",
+				"Details": {
+					"DMG": "40",
+					"stunDuration": "1s"
+				},
+				"Levels": {
+					"1": "-20s Cooldown",
+					"2": "+0.5s Duration",
+					"5": "+5.5 Weapon Damage for 8s after colliding with an enemy"
+				}
+			},
+			"3": {
+				"Name": "Infernal Resilience",
+				"Type": "Passive",
+				"Range": null,
+				"Duration": null,
+				"Cooldown": null,
+				"Desc": "**Regenerate** a portion of incoming damage over time",
+				"Details": {
+					"dmgRegen": "17%",
+					"regenTime": "16s",
+					"healthRegen": "+1"
+				},
+				"Levels": {
+					"1": "+1.5 Health Regen",
+					"2": "+150 Health",
+					"5": "+9% Damage Regenerated"
+				}
+			},
+			"4": {
+				"Name": "Seismic Impact",
+				"Type": "Active",
+				"Range": null,
+				"Duration": null,
+				"Cooldown": "150s",
+				"Desc": "**Leap high into the air** and choose a ground location to crash into. When you hit the ground, **all enemies in the radius are damage and stunned**. Press [LMB] to crash down early",
+				"Details": {
+					"DMG": "150",
+					"stunDuration": "1s",
+					"impactRadius": "9m"
+				},
+				"Levels": {
+					"1": "-40s Cooldown",
+					"2": "Gain 100 Max HP and 15% Fire Rate per hero hit. Lasts 25s",
+					"5": "On cast, become Immune to Stun, Silence,Sleep, Root, and Disarm. Expires 3s after landing"
+				}
+			}
+		},
+		"Weapon": {
+			"DPS": 63,
+			"BulletDamage": 4.68,
+			"Ammo": 9,
+			"FireRate": 1.67,
+			"LightMelee": 63,
+			"HeavyMelee": 116
+		},
+		"Vitality": {
+			"MaxHP": 600,
+			"HealthRegen": 1,
+			"BulletRes": 0,
+			"SpritRes": 0,
+			"MoveSpeed": 6.5,
+			"SprintSpeed": 0,
+			"Stamina": 3
+		}
+	},
+	{
+		"CharacterName": "Bebop",
+		"Ability": {
+			"1": {
+				"Name": "Exploding Uppercut",
+				"Type": "Active",
+				"Range": null,
+				"Duration": null,
+				"Cooldown": "20s",
+				"Desc": "Deal **Light Melee** damage to nearby units and send them **flying back**, causing **area damage** where they land. Does not damage allies",
+				"Details": {
+					"UppercutDmg": 0,
+					"AreaDmg": 80,
+					"Landing Radius": "14m"
+				},
+				"Levels": {
+					"1": "-11s Cooldown",
+					"2": "On uppercut enemy Hero, gain fast spin up time, 2x range, and +60% weapon damage for 12s",
+					"5": "On uppercut enemy hero, set Hook Cooldown to 0 and instantly +100% bullets to your current clip"
+				}
+			},
+			"2": {
+				"Name": "",
+				"Type": "Active",
+				"Range": "",
+				"Duration": "",
+				"Cooldown": "",
+				"Desc": "",
+				"Details": {},
+				"Levels": { "1": "", "2": "", "5": "" }
+			},
+			"3": {
+				"Name": "",
+				"Type": "Active",
+				"Range": "",
+				"Duration": "",
+				"Cooldown": "",
+				"Desc": "",
+				"Details": {},
+				"Levels": { "1": "", "2": "", "5": "" }
+			},
+			"4": {
+				"Name": "",
+				"Type": "Active",
+				"Range": "",
+				"Duration": "",
+				"Cooldown": "",
+				"Desc": "",
+				"Details": {},
+				"Levels": { "1": "", "2": "", "5": "" }
+			}
+		},
+		"Weapon": {
+			"DPS": "",
+			"BulletDamage": "",
+			"Ammo": "",
+			"FireRate": "",
+			"LightMelee": "",
+			"HeavyMelee": ""
+		},
+		"Vitality": {
+			"MaxHP": "",
+			"HealthRegen": "",
+			"BulletRes": "",
+			"SpritRes": "",
+			"MoveSpeed": "",
+			"SprintSpeed": "",
+			"Stamina": ""
+		}
+	}
+]

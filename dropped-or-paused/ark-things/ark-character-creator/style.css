@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: #36393f;
+    color: #ffffff;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 300px;
+    /* Adjust as needed */
+}
+
+.stat-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #4f545c;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #2f3136;
+    width: 350px;
+}
+
+h2 {
+    margin: 0;
+}
+
+span {
+    font-weight: bold;
+    margin-top: 5px;
+    /* Add some space between value and buttons */
+    padding: 0 5px;
+    /* Add padding around the value */
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #7289da;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+button:disabled {
+    background-color: #99aab5;
+    cursor: not-allowed;
+}
+
+/* Dark theme specific styles */
+body,
+button {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #202225;
+    color: #ffffff;
+}
+
+.stat-container.dark-mode {
+    border: 1px solid #4f545c;
+    background-color: #2f3136;
+}
+
+button.dark-mode {
+    background-color: #5865f2;
+}
+
+button.dark-mode:disabled {
+    background-color: #6b7a8d;
+}

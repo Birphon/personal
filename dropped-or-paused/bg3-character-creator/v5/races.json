@@ -1,0 +1,484 @@
+[
+	{
+		"name": "Human",
+		"subraces": [
+			{
+				"name": "Standard",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [
+						"Weapons: Spears, Pikes, Halberds, Glaives",
+						"Armour: Light armour, Shields"
+					],
+					"fromSubrace": []
+				},
+				"features": [
+					"One Skill of choice (Human Versatility)",
+					"Increased Carrying Capacity by 25%"
+				]
+			}
+		]
+	},
+	{
+		"name": "Elf",
+		"subraces": [
+			{
+				"name": "High Elf",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": [
+						"Weapons: Shortswords, Longswords, Shortbows, Longbows"
+					]
+				},
+				"features": [
+					"Perception (Keen Senses)",
+					"Fey Ancestry (Advantage against being Charmed; Immune to magical Sleeping)",
+					"Darkvision",
+					"High Elf Cantrip (One Cantrip of choice from the Wizard spell list)"
+				]
+			},
+			{
+				"name": "Wood Elf",
+				"baseSpeed": "10.5m / 35ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Stealth (Mask of the Wild)",
+					"Fleet of Foot (Increases base movement speed by 1.5m / 5ft)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Drow",
+		"subraces": [
+			{
+				"name": "Lolth-Sworn Drow",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [
+						"Weapons: Rapiers, Shortswords, Hand Crossbows"
+					],
+					"fromSubrace": []
+				},
+				"features": [
+					"Perception (Keen Senses)",
+					"Fey Ancestry (Advantage against being Charmed; Immune to magical Sleeping)",
+					"Superior Darkvision (Doubled Darkvision range)",
+					"Drow Magic (Dancing Lights, Faerie Fire, and Darkness Spells at levels 1, 3, and 5)"
+				]
+			},
+			{
+				"name": "Seldarine Drow",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [
+						"Weapons: Rapiers, Shortswords, Hand Crossbows"
+					],
+					"fromSubrace": []
+				},
+				"features": [
+					"Perception (Keen Senses)",
+					"Fey Ancestry (Advantage against being Charmed; Immune to magical Sleeping)",
+					"Superior Darkvision (Doubled Darkvision range)",
+					"Drow Magic (Dancing Lights, Faerie Fire, and Darkness Spells at levels 1, 3, and 5)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Half-Elf",
+		"subraces": [
+			{
+				"name": "High Half-Elf",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [
+						"Weapons: Spears, Pikes, Halberds, Glaives",
+						"Armour: Light armour, Shields"
+					],
+					"fromSubrace": []
+				},
+				"features": [
+					"Fey Ancestry (Advantage against being Charmed; Immune to magical Sleeping)",
+					"Darkvision",
+					"High Elf Cantrip (One Cantrip of choice from the Wizard spell list)"
+				]
+			},
+			{
+				"name": "Wood Half-Elf",
+				"baseSpeed": "10.5m / 35ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Stealth (Mask of the Wild)",
+					"Fleet of Foot (Increases base movement speed by 1.5m / 5ft)"
+				]
+			},
+			{
+				"name": "Drow Half-Elf",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Drow Magic (Dancing Lights, Faerie Fire, and Darkness Spells at levels 1, 3, and 5)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Half-Orc",
+		"subraces": [
+			{
+				"name": "Standard Half-Orc",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": ["Skills: Intimidation (Menacing)"]
+				},
+				"features": [
+					"Darkvision",
+					"Savage Attacks (Add one additional dice of damage when scoring a critical hit with a melee weapon)",
+					"Relentless Endurance (Drop to 1 hit point instead of being downed, once per long rest)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Halfling",
+		"subraces": [
+			{
+				"name": "Lightfoot Halfling",
+				"baseSpeed": "7.5m / 25ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Halfling Luck (Single reroll on a 1 for an Attack Roll, Ability Check, or Saving Throw.)",
+					"Brave (Advantage against being Frightened)",
+					"Naturally Stealthy (Advantage on Stealth checks)"
+				]
+			},
+			{
+				"name": "Strongheart Halfling",
+				"baseSpeed": "7.5m / 25ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": [
+						"Advantage against being Poisoned and Resistance to Damage Types: Poison damage"
+					]
+				},
+				"features": ["Strongheart Resilience"]
+			}
+		]
+	},
+	{
+		"name": "Dwarf",
+		"subraces": [
+			{
+				"name": "Gold Dwarf",
+				"baseSpeed": "7.5m / 25ft",
+				"proficiencies": {
+					"fromRace": [
+						"Battleaxes",
+						"Handaxes",
+						"Light Hammers",
+						"Warhammers"
+					],
+					"fromSubrace": []
+				},
+				"features": [
+					"Dwarven Resilience (Advantage against being Poisoned and Resistance to Damage Types: Poison damage)",
+					"Darkvision",
+					"Dwarven Toughness (Maximum Hit Point increased by 1 per level)"
+				]
+			},
+			{
+				"name": "Shield Dwarf",
+				"baseSpeed": "",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": [
+						"Light armour (Dwarven Armour Training)",
+						"Medium armour (Dwarven Armour Training)"
+					]
+				},
+				"features": []
+			},
+			{
+				"name": "Duergar",
+				"baseSpeed": "",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": [
+						"Advantage on Saving throws against Illusions and against being Charmed or Paralysed"
+					]
+				},
+				"features": [
+					"Superior Darkvision (Doubled Darkvision range)",
+					"Duergar Resilience",
+					"Duergar Magic (Enlarge and Invisibility Spells at levels 3 and 5)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Gnome",
+		"subraces": [
+			{
+				"name": "Forest Gnome",
+				"baseSpeed": "7.5m / 25ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Gnome Cunning (Advantage on Intelligence, Wisdom, and Charisma Saving throws)",
+					"Darkvision"
+				],
+				"additionalSpells": ["Speak with Animals (at will)"]
+			},
+			{
+				"name": "Deep Gnome",
+				"baseSpeed": "",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": [
+						"Superior Darkvision (Doubled Darkvision range)",
+						"Stone Camouflage (Advantage on Stealth checks)"
+					]
+				},
+				"features": []
+			},
+			{
+				"name": "Rock Gnome",
+				"baseSpeed": "",
+				"proficiencies": {
+					"fromRace": ["History Expertise (Artificer's Lore)"],
+					"fromSubrace": []
+				},
+				"features": []
+			}
+		]
+	},
+	{
+		"name": "Tiefling",
+		"subraces": [
+			{
+				"name": "Asmodeus Tiefling",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Hellish Resistance (Resistance to Damage Types Fire damage)",
+					"Darkvision"
+				],
+				"tieflingMagic": [
+					"Produce Flame",
+					"Hellish Rebuke",
+					"Darkness (Spells at levels 1, 3, and 5)"
+				]
+			},
+			{
+				"name": "Mephistopheles Tiefling",
+				"baseSpeed": "",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [],
+				"tieflingMagic": [
+					"Mage Hand",
+					"Burning Hands",
+					"Flame Blade (Spells at levels 1, 3, and 5)"
+				]
+			},
+			{
+				"name": "Zariel Tiefling",
+				"baseSpeed": "",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [],
+				"tieflingMagic": [
+					"Thaumaturgy",
+					"Searing Smite",
+					"Branding Smite (Spells at levels 1, 3, and 5)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Githyanki",
+		"subraces": [
+			{
+				"name": "Githyanki",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [
+						"Shortswords",
+						"Longswords",
+						"Greatswords",
+						"Light armour",
+						"Medium armour"
+					],
+					"fromSubrace": []
+				},
+				"features": [
+					"Astral Knowledge (Gain Proficiency in all Skills corresponding to a chosen Ability each Long Rest)"
+				],
+				"githyankiPsionics": [
+					"Mage Hand",
+					"Enhance Leap",
+					"Misty Step (Spells at levels 1, 3, and 5)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Dragonborn",
+		"subraces": [
+			{
+				"name": "Black Dragonborn",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Draconic Ancestry",
+					"Resistance to Damage Types Acid damage",
+					"Acid Breath (AoE: 5m / 17ft Cone of Damage Types Acid damage)"
+				]
+			},
+			{
+				"name": "Blue Dragonborn",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Draconic Ancestry",
+					"Resistance to Damage Types Lightning damage",
+					"Lightning Breath (AoE: 5m / 17ft Line of Damage Types Lightning damage)"
+				]
+			},
+			{
+				"name": "Brass Dragonborn",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Draconic Ancestry",
+					"Resistance to Damage Types Fire damage",
+					"Fire Breath (AoE: 5m / 17ft Line of Damage Types Fire damage)"
+				]
+			},
+			{
+				"name": "Bronze Dragonborn",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Draconic Ancestry",
+					"Resistance to Damage Types Lightning damage",
+					"Lightning Breath (AoE: 5m / 17ft Cone of Damage Types Lightning damage)"
+				]
+			},
+			{
+				"name": "Copper Dragonborn",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Draconic Ancestry",
+					"Resistance to Damage Types Acid damage",
+					"Acid Breath (AoE: 5m / 17ft Cone of Damage Types Acid damage)"
+				]
+			},
+			{
+				"name": "Gold Dragonborn",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Draconic Ancestry",
+					"Resistance to Damage Types Fire damage",
+					"Fire Breath (AoE: 5m / 17ft Cone of Damage Types Fire damage)"
+				]
+			},
+			{
+				"name": "Green Dragonborn",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Draconic Ancestry",
+					"Resistance to Damage Types Poison damage",
+					"Poison Breath (AoE: 5m / 17ft Cone of Damage Types Poison damage)"
+				]
+			},
+			{
+				"name": "Red Dragonborn",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Draconic Ancestry",
+					"Resistance to Damage Types Fire damage",
+					"Fire Breath (AoE: 5m / 17ft Cone of Damage Types Fire damage)"
+				]
+			},
+			{
+				"name": "Silver Dragonborn",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Draconic Ancestry",
+					"Resistance to Damage Types Cold damage",
+					"Frost Breath (AoE: 5m / 17ft Cone of Damage Types Cold damage)"
+				]
+			},
+			{
+				"name": "White Dragonborn",
+				"baseSpeed": "9m / 30ft",
+				"proficiencies": {
+					"fromRace": [],
+					"fromSubrace": []
+				},
+				"features": [
+					"Draconic Ancestry",
+					"Resistance to Damage Types Cold damage",
+					"Frost Breath (AoE: 5m / 17ft Cone of Damage Types Cold damage)"
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,76 @@
+{
+  "Shotguns": [
+    {
+      "name": "Dual Fury",
+      "damage": 56,
+      "fireRate": 180,
+      "mag": 2,
+      "rarity": "Epic",
+      "weaponType": "Shotguns"
+    },
+    {
+      "name": "Old Huntsman",
+      "damage": 49,
+      "fireRate": 180,
+      "mag": 2,
+      "rarity": "Fine",
+      "weaponType": "Shotguns"
+    },
+    {
+      "name": "DBSG",
+      "damage": 49,
+      "fireRate": 180,
+      "mag": 2,
+      "rarity": "Common",
+      "weaponType": "Shotguns"
+    },
+    {
+      "name": "S870 - Sandstorm",
+      "damage": 48,
+      "fireRate": 80,
+      "mag": 8,
+      "rarity": "Fine",
+      "weaponType": "Shotguns"
+    },
+    {
+      "name": "DBSG - Doombringer",
+      "damage": 62,
+      "fireRate": 180,
+      "mag": 2,
+      "rarity": "Legendary",
+      "weaponType": "Shotguns"
+    },
+    {
+      "name": "DB12 - Raining Cash",
+      "damage": 55,
+      "fireRate": 105,
+      "mag": 12,
+      "rarity": "Legendary",
+      "weaponType": "Shotguns"
+    },
+    {
+      "name": "DB12 - Backfire",
+      "damage": 49,
+      "fireRate": 105,
+      "mag": 12,
+      "rarity": "Epic",
+      "weaponType": "Shotguns"
+    },
+    {
+      "name": "ACS12 - Corrosion",
+      "damage": 36,
+      "fireRate": 180,
+      "mag": 18,
+      "rarity": "Legendary",
+      "weaponType": "Shotguns"
+    },
+    {
+      "name": "ACS12 - Netherworld",
+      "damage": 32,
+      "fireRate": 180,
+      "mag": 18,
+      "rarity": "Epic",
+      "weaponType": "Shotguns"
+    }
+  ]
+}

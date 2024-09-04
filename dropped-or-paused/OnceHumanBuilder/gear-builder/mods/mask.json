@@ -1,0 +1,220 @@
+{
+	"Mask": [
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Frost Vortex",
+			"Name": "Lingering Frost",
+			"Desc": "The longer the duration of Frost Vortex, the higher the Frost Vortex DMG, up to +80%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Frost Vortex",
+			"Name": "Obliteration",
+			"Desc": "The more enemies inside Frost Vortex, the higher the Ultimate DMG of Frost Vortex, up to 80%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Burn",
+			"Name": "Retrusion Explosion",
+			"Desc": "Crit DMG +40% for enemies with Burn",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Burn",
+			"Name": "Blaze Amplifier",
+			"Desc": "Every stack of Burn grants +3% Psi intensity DMG",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Unstable Bomber",
+			"Name": "Point Detonation",
+			"Desc": "Wehn Unstable Bomber hits only one enemy, Unstable Bomber Final DMG +25%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Unstable Bomber",
+			"Name": "Delayed Blast",
+			"Desc": "Before the bomb explodes, for every 5 hits taken, the bomb's Ultimate DMG +25%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Shrapnel",
+			"Name": "Explosive Shrapnel",
+			"Desc": "The 20th Shrapnel is explosive and deals +300% DMG with guaranteed critical hit",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Shrapnel",
+			"Name": "Shrapnel Carnage",
+			"Desc": "The chance of Shrapnel hitting Weakspots is increased by 100%, with weakspot DMG +25%",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Power Surge",
+			"Name": "Thunderclap",
+			"Desc": "After triggering Power Surge 20 times, the next hit summons Celestial Thunder (Shock DMG of 200% PSI Intensity)",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Power Surge",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Fast Gunner",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Fast Gunner",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "The Bull's Eye",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "The Bull's Eye",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Fortress Warfare",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Fortress Warfare",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Bounce",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		},
+		{
+			"Location": {
+				"Normal": "Silo EXI",
+				"Hard": "Silo EXI",
+				"Pro": ["Silo EXI", "Forsaken Giant", "LEA Lab"]
+			},
+			"Gear Type": "Mask",
+			"Mod Type": "Bounce",
+			"Name": "",
+			"Desc": "",
+			"Rarity": "Legendary"
+		}
+	]
+}

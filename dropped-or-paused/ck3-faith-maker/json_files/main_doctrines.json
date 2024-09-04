@@ -1,0 +1,9 @@
+{
+	"Main Doctrines": {
+		"Views on Gender": ["Male Dominated", "Equal", "Female Dominated"],
+		"Religious Attitude": ["Fundamentalist", "Righteous", "Pluralist"],
+		"Clerical Tradition": ["Theocratic", "Lay Clergy"],
+		"Head of Faith": ["None", "Spiritual", "Temporal"],
+		"Pilgrimage Attitude": ["Forbidden", "Encouraged", "Mandatory"]
+	}
+}

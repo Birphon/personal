@@ -1,0 +1,16 @@
+{
+	"Crime": {
+		"Same Sex": ["Crime", "Shunned", "Accepted"],
+		"Male Adultery": ["Crime", "Shunned", "Accepted"],
+		"Female Adultery": ["Crime", "Shunned", "Accepted"],
+		"Deviancy": ["Crime", "Shunned", "Accepted"],
+		"Witch": ["Crime", "Shunned", "Accepted", "Virtuous"],
+		"Kinslaying": [
+			"Dynastic is Criminal",
+			"Familial is Criminal",
+			"Close-kin is Criminal",
+			"Shunned",
+			"Accepted"
+		]
+	}
+}

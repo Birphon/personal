@@ -1,0 +1,8 @@
+# .gitignore
+
+# Ignore Python script files
+gitpusher.py
+discord-downloader.py
+
+# Ignore environment variable files
+.env

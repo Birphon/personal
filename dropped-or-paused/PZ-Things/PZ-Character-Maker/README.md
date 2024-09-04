@@ -1,0 +1,1 @@
+This project is to make a replica of the character creator and allow people to download and share and upload their builds around.

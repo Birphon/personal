@@ -1,0 +1,30 @@
+{
+	"Clerical Doctrines": {
+		"Clerical Function": 1,
+		"Clerical Gender": 1,
+		"Clerical Marriage": 1,
+		"Clerical Appointment": 1
+	},
+	"Crime": {
+		"Same Sex": 1,
+		"Male Adultery": 1,
+		"Female Adultery": 1,
+		"Deviancy": 1,
+		"Witch": 1,
+		"Kinslaying": 1
+	},
+	"Main Doctrines": {
+		"Views on Gender": 1,
+		"Religious Attitude": 1,
+		"Clerical Tradition": 1,
+		"Head of Faith": 1,
+		"Pilgrimage Attitude": 1
+	},
+	"Marriage": {
+		"Marriage Type": 1,
+		"Divorce": 1,
+		"Bastardy": 1,
+		"Consanguinity": 1
+	},
+	"Tenets": 3
+}

@@ -1,0 +1,101 @@
+/* Style for the button to toggle mode */
+.toggle-mode-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style for the button in light mode */
+.toggle-mode-button.light-mode {
+    color: #007BFF;
+}
+
+/* Style for the button in dark mode */
+.toggle-mode-button.dark-mode {
+    color: #ffffff;
+}
+
+/* Style for the main container */
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Stack columns on mobile */
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    /* Center content horizontally */
+}
+
+/* Style for the columns */
+.column {
+    flex: 1;
+    /* Equal width columns */
+    padding: 20px;
+    width: 100%;
+    /* Full width on mobile */
+}
+
+/* Style for the button */
+#generateButton {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    /* Button spans the entire column width */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#generateButton:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the output list */
+#output {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#output li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Media query for screens narrower than 600px (typical mobile devices) */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        /* Reduce padding on smaller screens */
+    }
+
+    .column {
+        padding: 10px;
+    }
+
+    #generateButton {
+        font-size: 14px;
+        /* Smaller font size on mobile */
+        padding: 8px 16px;
+        /* Smaller button padding */
+    }
+
+    #output li {
+        font-size: 16px;
+        /* Smaller font size for list items on mobile */
+    }
+}

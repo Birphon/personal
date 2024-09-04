@@ -1,0 +1,287 @@
+{
+    "type": "champion",
+    "format": "standAloneComplex",
+    "version": "14.11.1",
+    "data": {
+        "Warwick": {
+            "id": "Warwick",
+            "key": "19",
+            "name": "Warwick",
+            "title": "the Uncaged Wrath of Zaun",
+            "tags": [
+                "Fighter",
+                "Tank"
+            ],
+            "partype": "Mana",
+            "info": {
+                "attack": 9,
+                "defense": 5,
+                "magic": 3,
+                "difficulty": 3
+            },
+            "stats": {
+                "hp": 620,
+                "hpperlevel": 99,
+                "mp": 280,
+                "mpperlevel": 35,
+                "movespeed": 335,
+                "armor": 33,
+                "armorperlevel": 4.4,
+                "spellblock": 32,
+                "spellblockperlevel": 2.05,
+                "attackrange": 125,
+                "hpregen": 4,
+                "hpregenperlevel": 0.75,
+                "mpregen": 7.45,
+                "mpregenperlevel": 0.6,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 65,
+                "attackdamageperlevel": 3,
+                "attackspeedperlevel": 2.3,
+                "attackspeed": 0.638
+            },
+            "spells": [
+                {
+                    "id": "WarwickQ",
+                    "name": "Jaws of the Beast",
+                    "description": "Warwick lunges forward and bites his target, dealing damage based on their maximum health and healing for damage dealt.",
+                    "tooltip": "<tap>Tap:</tap> Warwick lunges forward and bites, dealing <magicDamage>{{ basebitedamage }} plus {{ targetpercenthpdamage }}% max Health magic damage</magicDamage> and <healing>healing for {{ e3 }}% of the damage dealt</healing>.<br /><br /><hold>Hold:</hold> Warwick lunges and clamps his jaws on the target, leaping behind them. While clamped, Warwick follows all movement of the target. After releasing his hold, he does the same damage and healing.{{ spellmodifierdescriptionappend }}",
+                    "leveltip": {
+                        "label": [
+                            "Healing",
+                            "% Health damage",
+                            "@AbilityResourceName@ Cost"
+                        ],
+                        "effect": [
+                            "{{ e3 }}% -> {{ e3NL }}%",
+                            "{{ targetpercenthpdamage }}% -> {{ targetpercenthpdamageNL }}%",
+                            "{{ cost }} -> {{ costNL }}"
+                        ]
+                    },
+                    "maxrank": 5,
+                    "cooldown": [
+                        6,
+                        6,
+                        6,
+                        6,
+                        6
+                    ],
+                    "cooldownBurn": "6",
+                    "cost": [
+                        50,
+                        60,
+                        70,
+                        80,
+                        90
+                    ],
+                    "costBurn": "50/60/70/80/90",
+                    "datavalues": {},
+                    "effectBurn": [
+                        null,
+                        "0",
+                        "100/150/200/250/300",
+                        "25/37.5/50/62.5/75",
+                        "150/165/180/195/210",
+                        "450",
+                        "200",
+                        "300",
+                        "425",
+                        "0",
+                        "0"
+                    ],
+                    "vars": [],
+                    "costType": " {{ abilityresourcename }}",
+                    "maxammo": "-1",
+                    "range": [
+                        350,
+                        350,
+                        350,
+                        350,
+                        350
+                    ],
+                    "rangeBurn": "350",
+                    "resource": "{{ cost }} {{ abilityresourcename }}"
+                },
+                {
+                    "id": "WarwickW",
+                    "name": "Blood Hunt",
+                    "description": "Warwick senses enemies below 50% health, gaining Move Speed toward and attack speed against them. When they fall below 20% health, he frenzies and these bonuses triple.",
+                    "tooltip": "<spellPassive>Passive:</spellPassive> Warwick can sense champions below 50% Health, gaining <speed>{{ e1 }}% Move Speed</speed> towards them and gaining <attackSpeed>{{ e2 }}% Attack Speed</attackSpeed> against them. These bonuses are increased by 250% against enemies below 20% Health.<br /><br /><spellActive>Active:</spellActive> Warwick can briefly sense all enemies, and gains this Ability's passive effect against the closest champion for 8 seconds, regardless of Health. Warwick cannot use this Ability while in combat with champions.{{ spellmodifierdescriptionappend }}",
+                    "leveltip": {
+                        "label": [
+                            "Move Speed",
+                            "Attack Speed",
+                            "Cooldown"
+                        ],
+                        "effect": [
+                            "{{ e1 }}% -> {{ e1NL }}%",
+                            "{{ e2 }}% -> {{ e2NL }}%",
+                            "{{ cooldown }} -> {{ cooldownNL }}"
+                        ]
+                    },
+                    "maxrank": 5,
+                    "cooldown": [
+                        100,
+                        85,
+                        70,
+                        55,
+                        40
+                    ],
+                    "cooldownBurn": "100/85/70/55/40",
+                    "cost": [
+                        70,
+                        70,
+                        70,
+                        70,
+                        70
+                    ],
+                    "costBurn": "70",
+                    "datavalues": {},
+                    "effectBurn": [
+                        null,
+                        "35/42.5/50/57.5/65",
+                        "70/80/90/100/110",
+                        "10/15/20/25/30",
+                        "80/90/100/110/120",
+                        "30",
+                        "8",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "vars": [],
+                    "costType": " {{ abilityresourcename }}",
+                    "maxammo": "2",
+                    "range": [
+                        4000,
+                        4000,
+                        4000,
+                        4000,
+                        4000
+                    ],
+                    "rangeBurn": "4000",
+                    "resource": "{{ cost }} {{ abilityresourcename }}"
+                },
+                {
+                    "id": "WarwickE",
+                    "name": "Primal Howl",
+                    "description": "Warwick gains damage reduction for 2.5 seconds. At the end, or if re-activated, he howls, causing nearby enemies to flee for 1 second.",
+                    "tooltip": "Warwick gains {{ e1 }}% damage reduction for 2.5 seconds. After it ends, Warwick howls, <status>Fearing</status> nearby enemies for {{ e3 }} second. Warwick can <recast>Recast</recast> to end the Ability early.{{ spellmodifierdescriptionappend }}",
+                    "leveltip": {
+                        "label": [
+                            "Damage Reduction",
+                            "Cooldown"
+                        ],
+                        "effect": [
+                            "{{ e1 }}% -> {{ e1NL }}%",
+                            "{{ cooldown }} -> {{ cooldownNL }}"
+                        ]
+                    },
+                    "maxrank": 5,
+                    "cooldown": [
+                        15,
+                        14,
+                        13,
+                        12,
+                        11
+                    ],
+                    "cooldownBurn": "15/14/13/12/11",
+                    "cost": [
+                        40,
+                        40,
+                        40,
+                        40,
+                        40
+                    ],
+                    "costBurn": "40",
+                    "datavalues": {},
+                    "effectBurn": [
+                        null,
+                        "35/40/45/50/55",
+                        "2.75",
+                        "1",
+                        "1",
+                        "800",
+                        "400",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "vars": [],
+                    "costType": " {{ abilityresourcename }}",
+                    "maxammo": "-1",
+                    "range": [
+                        375,
+                        375,
+                        375,
+                        375,
+                        375
+                    ],
+                    "rangeBurn": "375",
+                    "resource": "{{ cost }} {{ abilityresourcename }}"
+                },
+                {
+                    "id": "WarwickR",
+                    "name": "Infinite Duress",
+                    "description": "Warwick leaps in a direction (scaling with his bonus Move Speed), suppressing the first champion he collides with for 1.5 seconds.",
+                    "tooltip": "Warwick leaps a huge distance that scales with his <speed>Move Speed</speed>, <status>Suppressing</status> the first champion he collides with while he channels for {{ rduration }} seconds. He attacks that champion 3 times over the duration, dealing <magicDamage>{{ damagecumulative }} magic damage</magicDamage>. Warwick <healing>heals for 100% of all damage dealt</healing> during the channel.{{ spellmodifierdescriptionappend }}",
+                    "leveltip": {
+                        "label": [
+                            "Damage",
+                            "Cooldown"
+                        ],
+                        "effect": [
+                            "{{ rbasedamage }} -> {{ rbasedamageNL }}",
+                            "{{ cooldown }} -> {{ cooldownNL }}"
+                        ]
+                    },
+                    "maxrank": 3,
+                    "cooldown": [
+                        110,
+                        90,
+                        70
+                    ],
+                    "cooldownBurn": "110/90/70",
+                    "cost": [
+                        100,
+                        100,
+                        100
+                    ],
+                    "costBurn": "100",
+                    "datavalues": {},
+                    "effectBurn": [
+                        null,
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "vars": [],
+                    "costType": " {{ abilityresourcename }}",
+                    "maxammo": "-1",
+                    "range": [
+                        25000,
+                        25000,
+                        25000
+                    ],
+                    "rangeBurn": "25000",
+                    "resource": "{{ cost }} {{ abilityresourcename }}"
+                }
+            ],
+            "passive": {
+                "name": "Eternal Hunger",
+                "description": "Warwick's basic attacks deal bonus magic damage. If Warwick is below 50% health, he heals the same amount. If Warwick is below 25% health, this healing triples."
+            },
+            "recommended": []
+        }
+    }
+}

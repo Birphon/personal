@@ -1,0 +1,1341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutToolStripMenuItem" xml:space="preserve">
+    <value>À propos...</value>
+  </data>
+  <data name="added" xml:space="preserve">
+    <value>Ajouté</value>
+  </data>
+  <data name="AlreadyCreatureWithTopStats" xml:space="preserve">
+    <value>Une créature ayant les meilleures statistiques est déjà présente dans la librairie avec les filtres choisis ({0} {1}).
+Le mode de reproduction conservateur actuellement sélectionné peut indiquer certaines suggestions pouvant sembler non optimales.
+Changez le mode de reproduction en "Meilleure prochaine génération" pour de meilleures suggestions.</value>
+  </data>
+  <data name="ApproxOneNarcoberryEvery" xml:space="preserve">
+    <value>C'est approximativement 1 Narcoberry chaque</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Disponible</value>
+  </data>
+  <data name="Baby" xml:space="preserve">
+    <value>Bébé</value>
+  </data>
+  <data name="BestPossible" xml:space="preserve">
+    <value>Meilleur possible</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Corps</value>
+  </data>
+  <data name="BonusLevel" xml:space="preserve">
+    <value>Niveau bonus</value>
+  </data>
+  <data name="Bow" xml:space="preserve">
+    <value>Arc</value>
+  </data>
+  <data name="BPorMutations" xml:space="preserve">
+    <value>ou des mutations</value>
+  </data>
+  <data name="BPsomePairingsAreFilteredOutMutations" xml:space="preserve">
+    <value>Certaines paires pourraient être filtrées en raison de leurs mutations.</value>
+  </data>
+  <data name="BPsomeCreaturesAreFilteredOutTags" xml:space="preserve">
+    <value>Certaines créatures sont filtrées en raison de leurs tags.</value>
+  </data>
+  <data name="BPTopStatsShownMightNotTotalTopStats" xml:space="preserve">
+    <value>Les meilleures statistiques présentées ici ne sont peut être pas les meilleures de toute votre bibliothèque.</value>
+  </data>
+  <data name="bred" xml:space="preserve">
+    <value>Élevé</value>
+  </data>
+  <data name="BreedingNotPossible" xml:space="preserve">
+    <value>Reproduction impossible</value>
+  </data>
+  <data name="BreedingPlan" xml:space="preserve">
+    <value>Plan de reproduction</value>
+  </data>
+  <data name="BreedingPlanHelpToolStripMenuItem" xml:space="preserve">
+    <value>Plan de reproduction…</value>
+  </data>
+  <data name="breedingValue" xml:space="preserve">
+    <value>Valeur de reproduction</value>
+  </data>
+  <data name="btAdd2Library" xml:space="preserve">
+    <value>Ajouter à la bibliothèque</value>
+  </data>
+  <data name="btAddWakeUpTimer" xml:space="preserve">
+    <value>Ajouter une minuterie de réveil</value>
+  </data>
+  <data name="btBPApplyNewWeights" xml:space="preserve">
+    <value>Appliquer les nouvelles pondérations</value>
+  </data>
+  <data name="btBPJustMated" xml:space="preserve">
+    <value>Ces parents viennent de s'accoupler</value>
+  </data>
+  <data name="btBPJustMatedTT" xml:space="preserve">
+    <value>Cliquez pour créer une entrée d'incubation dans l'onglet Élevage</value>
+  </data>
+  <data name="btClearColorsTT" xml:space="preserve">
+    <value>Cliquez pour effacer toutes les zones de couleur.</value>
+  </data>
+  <data name="btExtractLevels" xml:space="preserve">
+    <value>Extraire la distribution des niveaux</value>
+  </data>
+  <data name="btImportLastExported" xml:space="preserve">
+    <value>Dernier export</value>
+  </data>
+  <data name="btImportLastExportedTT" xml:space="preserve">
+    <value>Importer le fichier-créature qui a été exporté en dernier (en jeu avec la fonction "Exporter les données")</value>
+  </data>
+  <data name="btnAddStarvingTimer" xml:space="preserve">
+    <value>Ajouter un minuteur pour l'affamement</value>
+  </data>
+  <data name="btnGenerateUniqueNameTT" xml:space="preserve">
+    <value>Générer un nom automatiquement
+Cliquez avec le bouton droit pour modifier le modèle.</value>
+  </data>
+  <data name="btReadValuesFromArk" xml:space="preserve">
+    <value>Lire les valeurs à partir de la fenêtre ARK</value>
+  </data>
+  <data name="btReadValuesFromArkTT" xml:space="preserve">
+    <value>Effectuer un OCR sur l'inventaire ouvert d'une créature en jeu.
+Pour utiliser cette fonctionnalité, vous devez activer l'OCR dans les paramètres et charger un fichier de configuration OCR qui est fait pour votre résolution d'écran dans l'onglet OCR.</value>
+  </data>
+  <data name="btSaveChanges" xml:space="preserve">
+    <value>Enregistrer les changements</value>
+  </data>
+  <data name="C0" xml:space="preserve">
+    <value>C0</value>
+  </data>
+  <data name="C1" xml:space="preserve">
+    <value>C1</value>
+  </data>
+  <data name="C2" xml:space="preserve">
+    <value>C2</value>
+  </data>
+  <data name="C3" xml:space="preserve">
+    <value>C3</value>
+  </data>
+  <data name="C4" xml:space="preserve">
+    <value>C4</value>
+  </data>
+  <data name="C5" xml:space="preserve">
+    <value>C5</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="cbBPTagExcludeDefaultTT" xml:space="preserve">
+    <value>Vérifiez si toutes les créatures doivent être exclues et ne sont incluses que lorsqu'elles ont la marque d'inclusion dans leur tag.
+Si cette case n'est pas cochée, toutes les créatures seront incluses par défaut et exclues uniquement si l'un de leurs tags porte la marque d'exclusion et qu'aucun n'a la marque d'inclusion.</value>
+  </data>
+  <data name="cbExactlyImprinting" xml:space="preserve">
+    <value>Exactement, ne pas ajuster</value>
+  </data>
+  <data name="cbExactlyImprintingTT" xml:space="preserve">
+    <value>Cochez cette case si vous avez un bonus d'élevage d'exactement 100%.</value>
+  </data>
+  <data name="cbGuessSpecies" xml:space="preserve">
+    <value>Deviner espèce</value>
+  </data>
+  <data name="cbGuessSpeciesTT" xml:space="preserve">
+    <value>Si coché, l'outil essaiera de deviner l'espèce après avoir lu les valeurs d'ARK avec l'OCR.
+Si l'outil reconnaît le nom de l'espèce, il le prendra, sinon il vérifiera si les valeurs des statistiques correspondent à une certaine espèce.
+Décochez cette case si l'outil sélectionne à plusieurs reprises les mauvaises espèces après l'OCR (vous devez la sélectionner manuellement).</value>
+  </data>
+  <data name="cbQuickWildCheck" xml:space="preserve">
+    <value>Vérification rapide de créature sauvage</value>
+  </data>
+  <data name="cbQuickWildCheckTT" xml:space="preserve">
+    <value>Cochez cette case si vous voulez juste une vérification rapide des niveaux d'une créature sauvage (non apprivoisée).
+Les niveaux sont ensuite affichés sans le processus d'extraction (et sans validation).</value>
+  </data>
+  <data name="cbToggleOverlay" xml:space="preserve">
+    <value>Overlay</value>
+  </data>
+  <data name="Charge Capacity" xml:space="preserve">
+    <value>Ch Capacité</value>
+  </data>
+  <data name="Charge Capacity_Abb" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="Charge Emission Range" xml:space="preserve">
+    <value>Ch distance d'émission</value>
+  </data>
+  <data name="Charge Emission Range_Abb" xml:space="preserve">
+    <value>CRa</value>
+  </data>
+  <data name="Charge Regen" xml:space="preserve">
+    <value>Ch Régénération</value>
+  </data>
+  <data name="Charge Regen_Abb" xml:space="preserve">
+    <value>CRe</value>
+  </data>
+  <data name="Chart" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="checkForUpdatedStatsToolStripMenuItem" xml:space="preserve">
+    <value>Vérifier les MàJ</value>
+  </data>
+  <data name="Club" xml:space="preserve">
+    <value>Massue</value>
+  </data>
+  <data name="cbBPIncludeCooldowneds" xml:space="preserve">
+    <value>Inclure les créatures avec un CD</value>
+  </data>
+  <data name="Colors" xml:space="preserve">
+    <value>Couleurs</value>
+  </data>
+  <data name="cooldown" xml:space="preserve">
+    <value>Cooldown</value>
+  </data>
+  <data name="cooldownGrowing" xml:space="preserve">
+    <value>CD/Croissance</value>
+  </data>
+  <data name="copyCreatureToolStripMenuItem" xml:space="preserve">
+    <value>Copier la créature</value>
+  </data>
+  <data name="copyToMultiplierTesterToolStripButton" xml:space="preserve">
+    <value>Copier vers le testeur de multiplicateurs</value>
+  </data>
+  <data name="copyToMultiplierTesterToolStripButtonTT" xml:space="preserve">
+    <value>Tous les niveaux, TE et IB du testeur et les valeurs des statistiques de l'extracteur seront copiés dans le testeur multiplicateur de statistique</value>
+  </data>
+  <data name="Creature" xml:space="preserve">
+    <value>Créature</value>
+  </data>
+  <data name="Crossbow" xml:space="preserve">
+    <value>Arbalète</value>
+  </data>
+  <data name="currentStatValue" xml:space="preserve">
+    <value>Valeur statistique actuelle</value>
+  </data>
+  <data name="currentValue" xml:space="preserve">
+    <value>Valeur actuelle</value>
+  </data>
+  <data name="Damage" xml:space="preserve">
+    <value>Dommage</value>
+  </data>
+  <data name="Damage_Abb" xml:space="preserve">
+    <value>Dm</value>
+  </data>
+  <data name="deadCreaturesToolStripMenuItem" xml:space="preserve">
+    <value>Créatures mortes</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Défaut</value>
+  </data>
+  <data name="deleteSelectedToolStripMenuItem" xml:space="preserve">
+    <value>Retirer…</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="domesticatedAt" xml:space="preserve">
+    <value>Domestiqué à</value>
+  </data>
+  <data name="domLevelExplanation" xml:space="preserve">
+    <value>Niveaux assignés manuellement à cette statistique après que la créature ait été domestiquée</value>
+  </data>
+  <data name="domLvl" xml:space="preserve">
+    <value>Dom-Niv</value>
+  </data>
+  <data name="editToolStripMenuItem" xml:space="preserve">
+    <value>Editer</value>
+  </data>
+  <data name="Egg" xml:space="preserve">
+    <value>Oeuf</value>
+  </data>
+  <data name="ElectricProd" xml:space="preserve">
+    <value>Matraque électrique</value>
+  </data>
+  <data name="ElectricProdHits" xml:space="preserve">
+    <value>Coups de matraque électrique</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Evénement</value>
+  </data>
+  <data name="exportValuesToClipboardToolStripMenuItem" xml:space="preserve">
+    <value>Exporter vers le presse-papier</value>
+  </data>
+  <data name="extractionIssuesToolStripMenuItem" xml:space="preserve">
+    <value>Problèmes d'extraction…</value>
+  </data>
+  <data name="extractor" xml:space="preserve">
+    <value>Extracteur</value>
+  </data>
+  <data name="Father" xml:space="preserve">
+    <value>Père</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Femelle</value>
+  </data>
+  <data name="femalesToolStripMenuItem" xml:space="preserve">
+    <value>Femelles</value>
+  </data>
+  <data name="fileToolStripMenuItem" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
+  <data name="findDuplicatesToolStripMenuItem" xml:space="preserve">
+    <value>Trouver les doublons…</value>
+  </data>
+  <data name="FinishedAt" xml:space="preserve">
+    <value>Terminé à</value>
+  </data>
+  <data name="Food" xml:space="preserve">
+    <value>Nourriture</value>
+  </data>
+  <data name="FoodHasToDropUnits" xml:space="preserve">
+    <value>La nourriture doit chuter de {0} unités.</value>
+  </data>
+  <data name="Food_Abb" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="gbBPBreedingMode" xml:space="preserve">
+    <value>Mode d'élevage</value>
+  </data>
+  <data name="gbBPOffspring" xml:space="preserve">
+    <value>Progéniture</value>
+  </data>
+  <data name="gbCreatureInfo" xml:space="preserve">
+    <value>Créature-info</value>
+  </data>
+  <data name="gbKOInfo" xml:space="preserve">
+    <value>Infos assommage</value>
+  </data>
+  <data name="gbWeaponDamage" xml:space="preserve">
+    <value>Dommages de l'arme [%]</value>
+  </data>
+  <data name="Generation_Abb" xml:space="preserve">
+    <value>Gén</value>
+  </data>
+  <data name="gpPreviewEdit" xml:space="preserve">
+    <value>Aperçu / Modifier</value>
+  </data>
+  <data name="gpStarvingTime" xml:space="preserve">
+    <value>Heure d'affamement</value>
+  </data>
+  <data name="gpTorporTime" xml:space="preserve">
+    <value>Heure de torpeur</value>
+  </data>
+  <data name="grownIn" xml:space="preserve">
+    <value>Adulte dans</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>Tête</value>
+  </data>
+  <data name="Health" xml:space="preserve">
+    <value>Santé</value>
+  </data>
+  <data name="Health_Abb" xml:space="preserve">
+    <value>PV</value>
+  </data>
+  <data name="helpToolStripMenuItem" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="ImmobilizedBy" xml:space="preserve">
+    <value>Immobilisé par</value>
+  </data>
+  <data name="importCreatedJsonfileToolStripMenuItem" xml:space="preserve">
+    <value>Importer un fichier JSON crée…</value>
+  </data>
+  <data name="importExportedCreaturesToolStripMenuItem" xml:space="preserve">
+    <value>Importer les créatures exportées</value>
+  </data>
+  <data name="importingFromARKToolsToolStripMenuItem" xml:space="preserve">
+    <value>Importer à partir d'ARK-Tools</value>
+  </data>
+  <data name="imprintingBonus" xml:space="preserve">
+    <value>Bonus d'élevage</value>
+  </data>
+  <data name="issueMaxWildLevelTooLow" xml:space="preserve">
+    <value>L'extraction est potentiellement possible, mais il semble que le niveau sauvage maximum soit trop bas pour une extraction valide. Vérifiez si vous avez défini la valeur correcte dans les paramètres.
+La valeur actuelle est {0} et cette créature semble avoir un niveau sauvage supérieur à celui-ci.
+Pour d'autres raisons de l'échec de l'extraction, voir la liste sur la droite après avoir fermé cette boîte de message.</value>
+  </data>
+  <data name="lbBPBreedingScore" xml:space="preserve">
+    <value>Score de reproduction</value>
+  </data>
+  <data name="lbBPBreedingScoreTT" xml:space="preserve">
+    <value>Le score d'élevage d'un couple n'est pas comparable au score d'élevage d'un autre mode d'élevage.
+Les nombres dans les différents modes sont générés de manière incompatible.</value>
+  </data>
+  <data name="lbBPBreedingTimes" xml:space="preserve">
+    <value>Temps d'élevage</value>
+  </data>
+  <data name="lbCurrentTorpor" xml:space="preserve">
+    <value>Torpeur actuelle</value>
+  </data>
+  <data name="lbImprintedCountTT" xml:space="preserve">
+    <value>Nombre d'interactions à effectuer pour obtenir ce bonus d'élevage.
+Cliquez avec le bouton gauche pour définir l'entier valide le plus proche.
+Cliquez avec le bouton droit pour régler le bonus d'élevage sur la valeur telle que les niveaux de torpeur dans le testeur et la valeur dans l'extracteur correspondent.</value>
+  </data>
+  <data name="lbImprintingCuddleCountExtractorTT" xml:space="preserve">
+    <value>Nombre de d'interactions à effectuer pour obtenir ce bonus d'élevage.</value>
+  </data>
+  <data name="lbListeningTT" xml:space="preserve">
+    <value>rouge : écoute, gris : désactivé, vert : reconnu, orange : non reconnu
+Dire "[espèce] [niveau]", par ex. "Rex niveau 30" ou "Brontosaure 50"
+pour afficher les infos d'apprivoisement dans l'overlay</value>
+  </data>
+  <data name="lbMax" xml:space="preserve">
+    <value>max</value>
+  </data>
+  <data name="lbNameTT" xml:space="preserve">
+    <value>Cliquez pour copier le nom dans le presse-papiers, par ex. pour le coller dans le jeu.</value>
+  </data>
+  <data name="lbNotYetTamed" xml:space="preserve">
+    <value>*La créature n'est pas encore apprivoisée et peut obtenir de meilleures valeurs.</value>
+  </data>
+  <data name="lbOwnerTT" xml:space="preserve">
+    <value>Cliquer pour basculer si l'OCR peut changer le champ du propriétaire.
+Activez-le si l'OCR ne reconnaît pas correctement le nom du propriétaire et que vous souhaitez ajouter plusieurs créatures avec le même propriétaire.</value>
+  </data>
+  <data name="lbPedigreeEmpty" xml:space="preserve">
+    <value>Sélectionnez une créature dans la bibliothèque pour voir son pédigrée ici.</value>
+  </data>
+  <data name="lbShouldBe" xml:space="preserve">
+    <value>Devrait être</value>
+  </data>
+  <data name="lbSum" xml:space="preserve">
+    <value>Somme</value>
+  </data>
+  <data name="lbSumDomSBTT" xml:space="preserve">
+    <value>C'est le nombre auquel la somme de tous les niveaux manuels doit être égal.</value>
+  </data>
+  <data name="lbSumDomTT" xml:space="preserve">
+    <value>Ceci est la somme de tous les niveaux manuels de cette créature, il devrait correspondre exactement au nombre ci-dessous.
+Si cela ne correspond pas, cliquez sur une statistique apparaissant en jaune et choisissez une autre distribution de niveau possible.</value>
+  </data>
+  <data name="lbSumWildTT" xml:space="preserve">
+    <value>Ceci est un indicateur si la somme des niveaux sauvages est valide.
+Si un nombre avec un signe plus est affiché, la somme est trop élevée et vous devez choisir une autre possibilité parmi les listes de statistiques apparaissant en jaune.</value>
+  </data>
+  <data name="lbTamingTime" xml:space="preserve">
+    <value>temps d'apprivoisement</value>
+  </data>
+  <data name="lbTestingInfo" xml:space="preserve">
+    <value>Prévisualiser ou modifier les niveaux d'une créature.</value>
+  </data>
+  <data name="lbTimeUntilWakingUp" xml:space="preserve">
+    <value>Temps avant réveil : {0}</value>
+  </data>
+  <data name="lbTribeTT" xml:space="preserve">
+    <value>Cliquez pour basculer si l'OCR peut changer le champ de tribu.
+Activez-le si l'OCR ne reconnaît pas correctement le nom de tribu et si vous souhaitez ajouter plusieurs créatures avec la même tribu.</value>
+  </data>
+  <data name="lbUsed" xml:space="preserve">
+    <value>utlilisé</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Niveau</value>
+  </data>
+  <data name="LevelWild_Abb" xml:space="preserve">
+    <value>NS</value>
+  </data>
+  <data name="Level_Abb" xml:space="preserve">
+    <value>Niv</value>
+  </data>
+  <data name="library" xml:space="preserve">
+    <value>Bibliothèque</value>
+  </data>
+  <data name="modValueManagerToolStripMenuItem" xml:space="preserve">
+    <value>Gestionnaire des valeurs des mods…</value>
+  </data>
+  <data name="loadAndAddToolStripMenuItem" xml:space="preserve">
+    <value>Charger et A&amp;jouter...</value>
+  </data>
+  <data name="loadToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Charger...</value>
+  </data>
+  <data name="Longneck" xml:space="preserve">
+    <value>Fusil à canon long</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Mâle</value>
+  </data>
+  <data name="malesToolStripMenuItem" xml:space="preserve">
+    <value>Mâles</value>
+  </data>
+  <data name="Maturation" xml:space="preserve">
+    <value>Maturation</value>
+  </data>
+  <data name="Mother" xml:space="preserve">
+    <value>Mère</value>
+  </data>
+  <data name="multiSetterToolStripMenuItem" xml:space="preserve">
+    <value>MultiSetter…</value>
+  </data>
+  <data name="mutatedCreaturesToolStripMenuItem" xml:space="preserve">
+    <value>Créatures mutées</value>
+  </data>
+  <data name="mutationCounter" xml:space="preserve">
+    <value>Compteur de mutations</value>
+  </data>
+  <data name="Mutations" xml:space="preserve">
+    <value>Mutations</value>
+  </data>
+  <data name="Mutations_Abb" xml:space="preserve">
+    <value>Mu</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Narcotics" xml:space="preserve">
+    <value>Narcotiques</value>
+  </data>
+  <data name="naYet" xml:space="preserve">
+    <value>n/a pour l'instant</value>
+  </data>
+  <data name="Neck" xml:space="preserve">
+    <value>Cou</value>
+  </data>
+  <data name="Neutered" xml:space="preserve">
+    <value>Castrer</value>
+  </data>
+  <data name="neuteredCreaturesToolStripMenuItem" xml:space="preserve">
+    <value>Créatures castrées</value>
+  </data>
+  <data name="newToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Nouvelle bibliothèque</value>
+  </data>
+  <data name="NoPossiblePairingForSpeciesFound" xml:space="preserve">
+    <value>Aucun jumelage possible trouvé pour {0}. Assurez-vous qu'au moins une femelle et un mâle sont disponibles dans votre bibliothèque et que vous n'avez pas exclu toutes les créatures possibles via le sélecteur de tags.</value>
+  </data>
+  <data name="noTamingData" xml:space="preserve">
+    <value>aucune donnée d'apprivoisement disponible</value>
+  </data>
+  <data name="notAvailable" xml:space="preserve">
+    <value>indisponible</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Remarque</value>
+  </data>
+  <data name="notEnoughFoodToTame" xml:space="preserve">
+    <value>Pas assez de nourriture pour apprivoiser la créature !</value>
+  </data>
+  <data name="notYetTamed" xml:space="preserve">
+    <value>pas encore apprivoisé</value>
+  </data>
+  <data name="nudBPMutationLimitTT" xml:space="preserve">
+    <value>Considérer seulement les créatures ayant au maximum autant de mutations.
+Régler sur -1 pour n'importe quel nombre de mutation.</value>
+  </data>
+  <data name="obeliskCreaturesToolStripMenuItem" xml:space="preserve">
+    <value>Créatures dans l'obélisque</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="onlinehelpToolStripMenuItem" xml:space="preserve">
+    <value>Manuel en ligne…</value>
+  </data>
+  <data name="onlyPairingsWith" xml:space="preserve">
+    <value>seulement des accouplement avec "{0}"</value>
+  </data>
+  <data name="OrOneBioToxinEvery" xml:space="preserve">
+    <value>ou une toxine biologique tous les</value>
+  </data>
+  <data name="OrOneNarcoticEvery" xml:space="preserve">
+    <value>ou un narcotique tous les</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Propriétaire</value>
+  </data>
+  <data name="Oxygen" xml:space="preserve">
+    <value>Oxygène</value>
+  </data>
+  <data name="Oxygen_Abb" xml:space="preserve">
+    <value>Ox</value>
+  </data>
+  <data name="pasteCreatureToolStripMenuItem" xml:space="preserve">
+    <value>Coller la créature</value>
+  </data>
+  <data name="pedigree" xml:space="preserve">
+    <value>Pédigrée</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Joueur</value>
+  </data>
+  <data name="ProbabilityForBest" xml:space="preserve">
+    <value>Probabilité pour ce meilleur résultat possible</value>
+  </data>
+  <data name="quitToolStripMenuItem" xml:space="preserve">
+    <value>&amp;Quitter</value>
+  </data>
+  <data name="Raising" xml:space="preserve">
+    <value>Élevage</value>
+  </data>
+  <data name="rbBPHighStats" xml:space="preserve">
+    <value>Meilleure prochaine génération</value>
+  </data>
+  <data name="rbBPHighStatsTT" xml:space="preserve">
+    <value>Testez les meilleurs résultats de la prochaine génération.
+La chance pour une bonne créature est meilleure.
+Vérifiez s'il n'est pas important d'avoir une Progéniture avec les meilleures statistiques.</value>
+  </data>
+  <data name="rbBPTopStats" xml:space="preserve">
+    <value>Combiner les tops stats, Chanceux</value>
+  </data>
+  <data name="rbBPTopStatsCn" xml:space="preserve">
+    <value>Combiner les tops stats, Stable</value>
+  </data>
+  <data name="rbBPTopStatsCnTT" xml:space="preserve">
+    <value>Combiner les tops stats, Stable.
+Testez les meilleurs résultats à long terme et si vous voulez aller en toute sécurité.
+Ce mode atteindra la meilleure progéniture possible stable et sûre.
+Certaines progénitures peuvent être pire qu'en mode Statistiques Elevées, mais c'est le mode que vous utilisez si vous voulez avoir cette créature parfaite en quelques générations.</value>
+  </data>
+  <data name="rbBPTopStatsTT" xml:space="preserve">
+    <value>Combiner les tops stats, Chanceux
+Testez les meilleurs résultats à long terme et si vous vous sentez chanceux. Il peut être plus rapide d'obtenir la créature parfaite qu'en mode Meilleures statistiques, Conservateur si vous avez de la chance.
+Certaines progénitures peuvent être moins bonnes qu'en mode Statistiques Elevées, mais vous avez aussi la chance d'avoir la meilleure progéniture possible.</value>
+  </data>
+  <data name="runDefaultExtractionAndImportFileToolStripMenuItem" xml:space="preserve">
+    <value>Exécuter l'extraction par défaut et importer le fichier</value>
+  </data>
+  <data name="runDefaultExtractionToolStripMenuItem" xml:space="preserve">
+    <value>Exécuter l'extraction par défaut</value>
+  </data>
+  <data name="saveAsToolStripMenuItem" xml:space="preserve">
+    <value>Enregistrer sous...</value>
+  </data>
+  <data name="saveToolStripMenuItem" xml:space="preserve">
+    <value>Enregi&amp;strer</value>
+  </data>
+  <data name="SelectSpeciesBreedingPlanner" xml:space="preserve">
+    <value>Sélectionnez une espèce pour voir les suggestions pour le mode d'élevage choisi</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Serveur</value>
+  </data>
+  <data name="setStatusToolStripMenuItem" xml:space="preserve">
+    <value>Définir le statut</value>
+  </data>
+  <data name="openSettingsToolStripMenuItem" xml:space="preserve">
+    <value>Paramè&amp;tres…</value>
+  </data>
+  <data name="Sex" xml:space="preserve">
+    <value>Sexe</value>
+  </data>
+  <data name="ShockingTranqDarts" xml:space="preserve">
+    <value>Fléchettes tranquillisantes améliorées</value>
+  </data>
+  <data name="Slingshot" xml:space="preserve">
+    <value>Lance-pierres</value>
+  </data>
+  <data name="SlingshotHits" xml:space="preserve">
+    <value>Coups de Lance-Pierres</value>
+  </data>
+  <data name="Spayed" xml:space="preserve">
+    <value>Stérilisé</value>
+  </data>
+  <data name="Species" xml:space="preserve">
+    <value>Espèce</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>Vitesse</value>
+  </data>
+  <data name="Speed_Abb" xml:space="preserve">
+    <value>Vt</value>
+  </data>
+  <data name="Stamina" xml:space="preserve">
+    <value>Endurance</value>
+  </data>
+  <data name="Stamina_Abb" xml:space="preserve">
+    <value>En</value>
+  </data>
+  <data name="statChart" xml:space="preserve">
+    <value>Graphique de Statistiques</value>
+  </data>
+  <data name="Stats" xml:space="preserve">
+    <value>Statistiques</value>
+  </data>
+  <data name="statTesting" xml:space="preserve">
+    <value>Test des statistiques</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="Tail" xml:space="preserve">
+    <value>Queue</value>
+  </data>
+  <data name="tamed" xml:space="preserve">
+    <value>Apprivoisé</value>
+  </data>
+  <data name="Taming" xml:space="preserve">
+    <value>Apprivoisement</value>
+  </data>
+  <data name="tamingCalculator" xml:space="preserve">
+    <value>Calculateur d'apprivoisement</value>
+  </data>
+  <data name="tamingEffectiveness" xml:space="preserve">
+    <value>Efficacité d'apprivoisement</value>
+  </data>
+  <data name="TamingEffectiveness_Abb" xml:space="preserve">
+    <value>EA</value>
+  </data>
+  <data name="tamingInfo" xml:space="preserve">
+    <value>Information d'apprivoisement</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Temps</value>
+  </data>
+  <data name="TimeBetweenMating" xml:space="preserve">
+    <value>Temps entre les accouplements</value>
+  </data>
+  <data name="timerFeedAll" xml:space="preserve">
+    <value>Tout nourrir de</value>
+  </data>
+  <data name="timerWakeupOf" xml:space="preserve">
+    <value>Réveil</value>
+  </data>
+  <data name="TimeUntilFeedingAllFood" xml:space="preserve">
+    <value>Temps avant que vous ne puissiez nourrir avec toute la nourriture nécessaire en une fois</value>
+  </data>
+  <data name="timeUntilStarving" xml:space="preserve">
+    <value>Temps jusqu'à affamement :</value>
+  </data>
+  <data name="TimeUntilTorporDepleted" xml:space="preserve">
+    <value>Temps jusqu'à épuisement de la torpeur maximale</value>
+  </data>
+  <data name="toolStripButtonClear" xml:space="preserve">
+    <value>Nettoyer</value>
+  </data>
+  <data name="toolStripButtonCopy2Extractor" xml:space="preserve">
+    <value>Copier vers l'extracteur</value>
+  </data>
+  <data name="toolStripButtonCopy2Tester" xml:space="preserve">
+    <value>Copier vers le testeur</value>
+  </data>
+  <data name="toolStripButtonDeleteExpiredIncubationTimers" xml:space="preserve">
+    <value>Supprimer tous les expirés</value>
+  </data>
+  <data name="toolStripButtonDeleteTempCreature" xml:space="preserve">
+    <value>Supprimer la créature temporaire</value>
+  </data>
+  <data name="toolStripButtonDeleteTempCreatureTT" xml:space="preserve">
+    <value>Supprimer les données actuellement sélectionnées de la créature temporaire</value>
+  </data>
+  <data name="Remove Note" xml:space="preserve">
+    <value>Enlever la remarque</value>
+  </data>
+  <data name="toolStripButtonSaveCreatureValuesTemp" xml:space="preserve">
+    <value>Enregistrer les valeurs</value>
+  </data>
+  <data name="toolStripButtonSaveCreatureValuesTempTT" xml:space="preserve">
+    <value>Enregistrez les valeurs entrées jusqu'à ce que le problème d'extraction soit résolu. Cette créature ne peut pas être utilisée dans d'autres parties de cette application tant qu'elle n'a pas été correctement extraite.</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="topPercentage" xml:space="preserve">
+    <value>Top%</value>
+  </data>
+  <data name="topPercentileLevel" xml:space="preserve">
+    <value>Ce niveau est dans le top {0}% de ce que vous pouvez trouver.</value>
+  </data>
+  <data name="Torpidity" xml:space="preserve">
+    <value>Torpeur</value>
+  </data>
+  <data name="Torpidity_Abb" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="TorporDepletion" xml:space="preserve">
+    <value>Déplétion de la torpeur</value>
+  </data>
+  <data name="TotalTime" xml:space="preserve">
+    <value>Temps total</value>
+  </data>
+  <data name="TranqArrowsBow" xml:space="preserve">
+    <value>Flèches tranquillisantes (Arc)</value>
+  </data>
+  <data name="TranqArrowsCrossBow" xml:space="preserve">
+    <value>Flèches tranquillisantes (Arbalète)</value>
+  </data>
+  <data name="TranqDarts" xml:space="preserve">
+    <value>Fléchettes tranquillisantes</value>
+  </data>
+  <data name="Tribe" xml:space="preserve">
+    <value>Tribu</value>
+  </data>
+  <data name="tsBtAddAsExtractionTest" xml:space="preserve">
+    <value>Ajouter en tant que test</value>
+  </data>
+  <data name="unavailableCreaturesToolStripMenuItem" xml:space="preserve">
+    <value>Créatures indisponibles</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Inconnu</value>
+  </data>
+  <data name="viewToolStripMenuItem" xml:space="preserve">
+    <value>Vue</value>
+  </data>
+  <data name="waitingAfterFirstFeeding" xml:space="preserve">
+    <value>Temps d'attente après la première alimentation : ~ {0}</value>
+  </data>
+  <data name="WarningMoreStarvingThanFood" xml:space="preserve">
+    <value>Attention : cette créature pourrait ne pas avoir assez de nourriture, donc vous devrez peut-être la nourrir avant cette période pour l'empêcher de mourir de faim (vérifiez son inventaire) !</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Poids</value>
+  </data>
+  <data name="Weight_Abb" xml:space="preserve">
+    <value>Pds</value>
+  </data>
+  <data name="wild" xml:space="preserve">
+    <value>Sauvage</value>
+  </data>
+  <data name="wildLevelExplanation" xml:space="preserve">
+    <value>Niveaux sauvage, qui sont considérés pour l'élevage</value>
+  </data>
+  <data name="wildLvl" xml:space="preserve">
+    <value>Sauvage-Niv</value>
+  </data>
+  <data name="WithXFoodTamingTakesTime" xml:space="preserve">
+    <value>Avec {0} × {1} approvoiser prend {2}</value>
+  </data>
+  <data name="WoodenClubHits" xml:space="preserve">
+    <value>Coups de massue</value>
+  </data>
+  <data name="WorstPossible" xml:space="preserve">
+    <value>Pire possible</value>
+  </data>
+  <data name="HarpoonLauncher" xml:space="preserve">
+    <value>Harpon</value>
+  </data>
+  <data name="TranqSpearBolts" xml:space="preserve">
+    <value>Flèches tranquillisantes en fonte</value>
+  </data>
+  <data name="importingFromSavegameToolStripMenuItem" xml:space="preserve">
+    <value>Importer d'une sauvegarde</value>
+  </data>
+  <data name="importingFromSavegameEmptyToolStripMenuItem" xml:space="preserve">
+    <value>Configurez d'abord "Import Savegame"</value>
+  </data>
+  <data name="until" xml:space="preserve">
+    <value>jusqu'à</value>
+  </data>
+  <data name="lbImprintingFailInfo" xml:space="preserve">
+    <value>Si la créature est élevée, l'extraction peut échouer car le jeu "oublie" parfois d'augmenter certaines valeurs des statistiques pendant le processus d'élevage. Généralement, cela fonctionne après que vous ayez mis puis sorti la créature dans un cryopod, que vous l'ayez téléchargé dans un obélisque/terminal puis que vous vous éloigniez de la distance de rendu ou que vous attendiez un redémarrage du serveur.</value>
+  </data>
+  <data name="Crafting Speed" xml:space="preserve">
+    <value>Vitesse de fabrication</value>
+  </data>
+  <data name="Crafting Speed_Abb" xml:space="preserve">
+    <value>Fab</value>
+  </data>
+  <data name="Fortitude" xml:space="preserve">
+    <value>Résistance</value>
+  </data>
+  <data name="Fortitude_Abb" xml:space="preserve">
+    <value>Rés</value>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>Température</value>
+  </data>
+  <data name="Temperature_Abb" xml:space="preserve">
+    <value>Te</value>
+  </data>
+  <data name="Water" xml:space="preserve">
+    <value>Eau</value>
+  </data>
+  <data name="Water_Abb" xml:space="preserve">
+    <value>Eau</value>
+  </data>
+  <data name="btUpdateLibraryCreature" xml:space="preserve">
+    <value>Mettre à jour la créature dans la bibliothèque</value>
+  </data>
+  <data name="CurrentCreature" xml:space="preserve">
+    <value>Créature actuelle</value>
+  </data>
+  <data name="settingsToolStripMenuItem" xml:space="preserve">
+    <value>Paramè&amp;tres</value>
+  </data>
+  <data name="OrOneAscerbicMushroom" xml:space="preserve">
+    <value>ou un champignon ascorbique tous les</value>
+  </data>
+  <data name="speciesNotTameable" xml:space="preserve">
+    <value>L'espèce sélectionnée n'est pas apprivoisable. Peut-être avez-vous sélectionné une variante non apprivoisable d'une espèce apprivoisable ?</value>
+  </data>
+  <data name="cbBPMutationLimitOnlyOnePartner" xml:space="preserve">
+    <value>Un partenaire peut avoir plus de mutations</value>
+  </data>
+  <data name="cbBPOnlyOneSuggestionForFemales" xml:space="preserve">
+    <value>Seulement la meilleure suggestion pour les femelles</value>
+  </data>
+  <data name="Descendants" xml:space="preserve">
+    <value>Progéniture</value>
+  </data>
+  <data name="ProbabilityForOneMutation" xml:space="preserve">
+    <value>Probabilité d'une mutation</value>
+  </data>
+  <data name="matingTime" xml:space="preserve">
+    <value>Temps d'accouplement</value>
+  </data>
+  <data name="addedAt" xml:space="preserve">
+    <value>Ajouté à</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Tout</value>
+  </data>
+  <data name="na" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="showOnlyNaturalOccurring" xml:space="preserve">
+    <value>N'afficher que les couleurs naturelles</value>
+  </data>
+  <data name="apply" xml:space="preserve">
+    <value>appliquer</value>
+  </data>
+  <data name="libraryFilter" xml:space="preserve">
+    <value>Filtres de la bibliothèque</value>
+  </data>
+  <data name="owners" xml:space="preserve">
+    <value>propriétaires</value>
+  </data>
+  <data name="servers" xml:space="preserve">
+    <value>serveurs</value>
+  </data>
+  <data name="tags" xml:space="preserve">
+    <value>tags</value>
+  </data>
+  <data name="tribes" xml:space="preserve">
+    <value>tribus</value>
+  </data>
+  <data name="useFilterInTopStatCalculation" xml:space="preserve">
+    <value>Utiliser les filtres dans le calcul de stat élevés</value>
+  </data>
+  <data name="clearColorsFilters" xml:space="preserve">
+    <value>Effacer les filtres de couleur</value>
+  </data>
+  <data name="libraryFilterToolStripMenuItem" xml:space="preserve">
+    <value>Filtres de la bibliothèque…</value>
+  </data>
+  <data name="onlyCreaturesWithThisColor" xml:space="preserve">
+    <value>Uniquement les créatures qui ont cette couleur</value>
+  </data>
+  <data name="ownerFilterFromLibrary" xml:space="preserve">
+    <value>Filtre de propriétaire de la bibliothèque</value>
+  </data>
+  <data name="possibleLevelRange" xml:space="preserve">
+    <value>Plage de niveaux possible : {0}–{1}</value>
+  </data>
+  <data name="serverFilterFromLibrary" xml:space="preserve">
+    <value>Filtre de serveur de la bibliothèque</value>
+  </data>
+  <data name="tribeFilterFromLibrary" xml:space="preserve">
+    <value>Filtre de tribu de la bibliothèque</value>
+  </data>
+  <data name="clear" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="filterAllNeededInfo" xml:space="preserve">
+    <value>Seules les créatures avec tous ces tags seront affichées</value>
+  </data>
+  <data name="filterByName" xml:space="preserve">
+    <value>Filtrer par nom</value>
+  </data>
+  <data name="filterExcludeInfo" xml:space="preserve">
+    <value>Les créatures avec ce tag ne seront pas affichées</value>
+  </data>
+  <data name="filterOneNeededInfo" xml:space="preserve">
+    <value>Seules les créatures avec un de ces tags seront affichées</value>
+  </data>
+  <data name="issueCauseTypo" xml:space="preserve">
+    <value>Vérifiez si toutes les valeurs des statistiques ont été saisies correctement.</value>
+  </data>
+  <data name="issueCauseWildTamedBred" xml:space="preserve">
+    <value>Assurez-vous que l'état correct (sauvage, apprivoisé, élevé) pour la créature est choisi.</value>
+  </data>
+  <data name="issueCauseTamingEffectivenessRange" xml:space="preserve">
+    <value>Plage de l'efficacité d'apprivoisement trop étroite, augmentez la limite supérieure et/ou diminuez la limite inférieure.</value>
+  </data>
+  <data name="issueCauseLockedDomLevel" xml:space="preserve">
+    <value>Décochez tous les boutons de verrouillage à zéro dans les stats (tous les symboles de verrouillage doivent être verts et ouverts).</value>
+  </data>
+  <data name="issueCauseImprintingLocked" xml:space="preserve">
+    <value>Vous avez verrouillé la valeur du bonus d'élevage en cochant "Exactement, ne pas ajuster" et l'outil ne l'ajustera pas, cela peut entraîner l'échec de l'extraction.</value>
+  </data>
+  <data name="issueCauseImprintingNotUpdated" xml:space="preserve">
+    <value>Parfois, le jeu ne met pas à jour la valeur des statistiques après un bonus d'élevage. Essayez l'extraction après avoir remis la créature cryopod.</value>
+  </data>
+  <data name="issueCauseImprintingNotPossible" xml:space="preserve">
+    <value>Le pourcentage du bonus d'élevage donné n'est pas possible avec les multiplicateurs actuels et peut provoquer des valeurs erronées pendant le processus d'extraction.
+Assurez-vous que BabyCuddleIntervallMultiplier et BabyMatureSpeedMultiplier sont correctement définis.
+Ils peuvent devoir être modifés quand la créature a éclos/est née, même s'ils ont été modifiés.</value>
+  </data>
+  <data name="issueCauseSingleplayer" xml:space="preserve">
+    <value>Si vous avez activé les paramètres solo dans le jeu, assurez-vous que la case correspondante soit également cochée dans les paramètres de cette application.</value>
+  </data>
+  <data name="issueCauseWildLevelSteps" xml:space="preserve">
+    <value>Ajustez ou désactivez "Consider Wild-level - steps" dans les paramètres.</value>
+  </data>
+  <data name="issueCauseMaxWildLevel" xml:space="preserve">
+    <value>Le niveau sauvage maximum est réglé trop bas, allez dans les paramètres et ajustez-le.</value>
+  </data>
+  <data name="issueCauseStatMultipliers" xml:space="preserve">
+    <value>Les multiplicateurs de statistiques dans les paramètres ne correspondent pas aux multiplicateurs du serveur. Demandez à votre administrateur les multiplicateurs corrects et ajustez-les dans les paramètres.</value>
+  </data>
+  <data name="issueCauseOutdatedIngameValues" xml:space="preserve">
+    <value>Les statistiques de la créature ont été modifiées récemment et le jeu affiche les anciennes valeurs. Augmentez une stat, ce qui devrait déclencher un recalcul des valeurs.</value>
+  </data>
+  <data name="issueCauseCreatureLevel" xml:space="preserve">
+    <value>Vérifiez que le niveau total de la créature soit entré correctement.
+Si la créature est élevée, vérifiez également que BabyImprintingStatScaleMultiplier soit correctement défini.</value>
+  </data>
+  <data name="issueCauseArkStatIssue" xml:space="preserve">
+    <value>Cette espèce est connue pour afficher des valeurs de stats incorrectes dans le jeu, cela peut empêcher une extraction réussie.</value>
+  </data>
+  <data name="BtApplyOTSPreset" xml:space="preserve">
+    <value>Appliquer le préréglage PTS</value>
+  </data>
+  <data name="BtSaveOTSPreset" xml:space="preserve">
+    <value>Enregistrer PTS</value>
+  </data>
+  <data name="BtSaveOTSPresetTT" xml:space="preserve">
+    <value>Enregistrer le Propriétaire, la Tribu et le Serveur en tant que préréglage.
+Le préréglage peut être appliqué par le bouton Appliquer le préréglage</value>
+  </data>
+  <data name="BtApplyOTSPresetTT" xml:space="preserve">
+    <value>Définir les valeurs pour le Propriétaire, la Tribu et le Serveur à partir du préréglage enregistré</value>
+  </data>
+  <data name="noColor" xml:space="preserve">
+    <value>aucune couleur</value>
+  </data>
+  <data name="topLevel" xml:space="preserve">
+    <value>meilleur niveau</value>
+  </data>
+  <data name="newTopLevel" xml:space="preserve">
+    <value>nouveau meilleur niveau</value>
+  </data>
+  <data name="clearColors" xml:space="preserve">
+    <value>effacer les couleurs</value>
+  </data>
+  <data name="holdCtrlForRandomColors" xml:space="preserve">
+    <value>Maintenez Ctrl pour des couleurs naturelles aléatoires
+Maintenez Ctrl + Shift pour des couleurs aléatoires</value>
+  </data>
+  <data name="BtBeepFailure" xml:space="preserve">
+    <value>échec de l'importation</value>
+  </data>
+  <data name="BtBeepSuccess" xml:space="preserve">
+    <value>succès de l'importation</value>
+  </data>
+  <data name="BtBeepTop" xml:space="preserve">
+    <value>top stat</value>
+  </data>
+  <data name="BtBeepNewTop" xml:space="preserve">
+    <value>nouvelle top stat</value>
+  </data>
+  <data name="BtBeepFailureTT" xml:space="preserve">
+    <value>Ce son est joué en cas d'échec d'une importation automatique, une sélection manuelle des niveaux peut être nécessaire.</value>
+  </data>
+  <data name="BtBeepSuccessTT" xml:space="preserve">
+    <value>Ce son est joué lorsqu'une importation automatique a réussi</value>
+  </data>
+  <data name="BtBeepTopTT" xml:space="preserve">
+    <value>Ce son est joué lorsqu'un niveau de la créature importée est une top stat, c'est-à-dire égale au plus haut niveau actuel de la bibliothèque</value>
+  </data>
+  <data name="BtBeepNewTopTT" xml:space="preserve">
+    <value>Ce son est joué lorsqu'une créature importée automatiquement a un niveau supérieur dans une statistique que toutes les autres créatures de cette espèce dans la bibliothèque</value>
+  </data>
+  <data name="creatureOfFile" xml:space="preserve">
+    <value>Créature du fichier d'exportation</value>
+  </data>
+  <data name="downloadingValuesSuccess" xml:space="preserve">
+    <value>Le téléchargement et la mise à jour des nouvelles stats des espèces ont réussi.</value>
+  </data>
+  <data name="updateSuccessTitle" xml:space="preserve">
+    <value>Mise à jour réussie</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="valuesFileLoadingError" xml:space="preserve">
+    <value>Le fichier de valeurs d'espèces n'a pas pu être chargé, cette application ne fonctionne pas sans. Essayez de retélécharger l'outil.</value>
+  </data>
+  <data name="preTameLevel" xml:space="preserve">
+    <value>Niveau pré-apprivoisé</value>
+  </data>
+  <data name="noValidData" xml:space="preserve">
+    <value>Aucune donnée valide</value>
+  </data>
+  <data name="noValidExtractedCreatureToExport" xml:space="preserve">
+    <value>Il n'y aucune créature extraite valide à exporter.</value>
+  </data>
+  <data name="noCreatureSelectedInLibrary" xml:space="preserve">
+    <value>Il n'y a aucune créature dans la bibliothèque sélectionnée à copier dans le presse-papiers.</value>
+  </data>
+  <data name="unknownSpecies" xml:space="preserve">
+    <value>espèce inconnue</value>
+  </data>
+  <data name="BestPossibleSpeciesLibrary" xml:space="preserve">
+    <value>Meilleur {0} possible pour cette bibliothèque</value>
+  </data>
+  <data name="VariantSelector" xml:space="preserve">
+    <value>Sélecteur de variante</value>
+  </data>
+  <data name="VariantSelectorInfo" xml:space="preserve">
+    <value>Les espèces qui contiennent une variante non cochée seront masquées.</value>
+  </data>
+  <data name="BPCancelRestrictionOn" xml:space="preserve">
+    <value>Annuler la restriction sur {0}</value>
+  </data>
+  <data name="BtGetExportFolderAutomatically" xml:space="preserve">
+    <value>Définir automatiquement le dossier d'exportation</value>
+  </data>
+  <data name="ExportFolderDetectionFailed" xml:space="preserve">
+    <value>Le dossier d'exportation n'a pas pu être détecté automatiquement.</value>
+  </data>
+  <data name="incubation" xml:space="preserve">
+    <value>incubation</value>
+  </data>
+  <data name="noTimerSelected" xml:space="preserve">
+    <value>aucune minuterie sélectionnée</value>
+  </data>
+  <data name="paused" xml:space="preserve">
+    <value>mis en pause</value>
+  </data>
+  <data name="expired" xml:space="preserve">
+    <value>expiré</value>
+  </data>
+  <data name="mature" xml:space="preserve">
+    <value>mature</value>
+  </data>
+  <data name="issueCauseModValues" xml:space="preserve">
+    <value>Si la créature provient d'un mod, vous devrez peut-être activer les valeurs du mod correspondant dans Paramètres - Gestionnaire des valeurs des mods.</value>
+  </data>
+  <data name="notABabyAnymore" xml:space="preserve">
+    <value>plus un bébé</value>
+  </data>
+  <data name="extractionFailedHeader" xml:space="preserve">
+    <value>L'extraction a échoué. Voir la liste suivante des causes possibles</value>
+  </data>
+  <data name="Parents" xml:space="preserve">
+    <value>Parents</value>
+  </data>
+  <data name="SystemLanguage" xml:space="preserve">
+    <value>Langue du système</value>
+  </data>
+  <data name="max wild level" xml:space="preserve">
+    <value>niveau sauvage maximum</value>
+  </data>
+  <data name="Levels" xml:space="preserve">
+    <value>Niveaux</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>Valeurs</value>
+  </data>
+  <data name="generation" xml:space="preserve">
+    <value>génération</value>
+  </data>
+  <data name="BestPossibleSpeciesLibraryFiltered" xml:space="preserve">
+    <value>Meilleur {0} possible pour ce filtre</value>
+  </data>
+  <data name="Discard changes?" xml:space="preserve">
+    <value>Annuler les modifications ?</value>
+  </data>
+  <data name="Collection changed discard and load?" xml:space="preserve">
+    <value>Votre collection de créatures a été modifiée depuis sa dernière sauvegarde. Êtes-vous sûr de vouloir annuler vos modifications et charger le fichier sans sauvegarder au préalable ?</value>
+  </data>
+  <data name="Discard changes and load file" xml:space="preserve">
+    <value>Annuler les modifications et charger une nouvelle bibliothèque</value>
+  </data>
+  <data name="Discard changes and quit" xml:space="preserve">
+    <value>Annuler les modifications et quitter</value>
+  </data>
+  <data name="Cancel quitting" xml:space="preserve">
+    <value>Annuler l'abandon</value>
+  </data>
+  <data name="Collection changed discard and quit?" xml:space="preserve">
+    <value>Votre collection de créatures a été modifiée depuis sa dernière sauvegarde. Êtes-vous sûr de vouloir annuler vos modifications et quitter sans sauvegarder ?</value>
+  </data>
+  <data name="Collection changed discard and new?" xml:space="preserve">
+    <value>Votre collection de créatures a été modifiée depuis sa dernière sauvegarde. Êtes-vous sûr de vouloir annuler vos modifications et créer une nouvelle bibliothèque sans sauvegarder ?</value>
+  </data>
+  <data name="Discard changes and new" xml:space="preserve">
+    <value>Annuler les modifications et créer une nouvelle bibliothèque</value>
+  </data>
+  <data name="ToolStripLabelFilter" xml:space="preserve">
+    <value>Filtrer</value>
+  </data>
+  <data name="ToolStripLabelFilterTT" xml:space="preserve">
+    <value>Filtrer la bibliothèque. Les mots de recherche multiples sont séparés par des virgules. Les éléments considérés des créatures sont
+Nom
+Propriétaire
+Tribu
+Remarque
+Ark id dans le jeu
+Serveur
+Tags
+Filtre pour les stats avec {statAbb} [==|&amp;lt;|&amp;gt;] {value}, par exemple pv &amp;gt; 20, en == 35
+Filtre pour les couleurs avec c{region}: {colorValue} {colorValue2}, par exemple c0: 20, c5: 3 4 5 6, c1: 13 14
+Il est également possible de filtrer les créatures par couleur dans l'une des multiples régions possibles. Par exemple, pour afficher toutes les créatures de couleur 10 ou 20 dans n'importe quelle région, utiliser : c0 1 2 3 4 5: 10 20</value>
+  </data>
+  <data name="ClickDisplayFile" xml:space="preserve">
+    <value>Cliquer pour afficher le fichier dans l'explorateur</value>
+  </data>
+  <data name="ImportingSavegame" xml:space="preserve">
+    <value>Importation d'une sauvegarde</value>
+  </data>
+  <data name="Add Note" xml:space="preserve">
+    <value>Ajouter une remarque</value>
+  </data>
+  <data name="maxLevelForLevelUp" xml:space="preserve">
+    <value>niveau maximum qui permet des augmentations de niveau d'apprivoisement</value>
+  </data>
+  <data name="maxLevelSaved" xml:space="preserve">
+    <value>niveau sauvage maximum qui sera sauvegardé</value>
+  </data>
+  <data name="ultraMaxLevel" xml:space="preserve">
+    <value>Attention : Le niveau est supérieur à la valeur maximale possible et ne sera pas sauvegardé.</value>
+  </data>
+  <data name="issueCauseImpossibleTe" xml:space="preserve">
+    <value>Le niveau se traduit par une efficacité d'apprivoisement impossible. Avez-vous saisi les niveaux arbitrairement ? Cela pourrait fonctionner si vous configurez la créature pour se reproduire.</value>
+  </data>
+  <data name="generations" xml:space="preserve">
+    <value>générations</value>
+  </data>
+  <data name="copyInfoGraphicToClipboard" xml:space="preserve">
+    <value>Copier le graphique d'informations dans le presse-papiers</value>
+  </data>
+  <data name="Nursing Effectiveness" xml:space="preserve">
+    <value>Efficacité de l'allaitement</value>
+  </data>
+  <data name="Nursing Effectiveness_Abb" xml:space="preserve">
+    <value>EA</value>
+  </data>
+  <data name="lbServerTT" xml:space="preserve">
+    <value>Cliquer pour basculer le gel de ce champ. Si le champ est gelé, son arrière-plan est gris et l'importation d'une créature ne mettra pas ce champ à jour.</value>
+  </data>
+  <data name="LbAlternativeColor" xml:space="preserve">
+    <value>Maintenir la touche Ctrl enfoncée pour sélectionner un autre identifiant de couleur (bordure rouge). Maintenir Ctrl et cliquer sur aucune couleur pour le désactiver.</value>
+  </data>
+  <data name="groupLibraryBySpecies" xml:space="preserve">
+    <value>Grouper la bibliothèque par espèces</value>
+  </data>
+  <data name="nameAlreadyExistsInLibrary" xml:space="preserve">
+    <value>Ce nom existe déjà dans la bibliothèque</value>
+  </data>
+  <data name="timerStarvingOf" xml:space="preserve">
+    <value>Affamement de</value>
+  </data>
+</root>

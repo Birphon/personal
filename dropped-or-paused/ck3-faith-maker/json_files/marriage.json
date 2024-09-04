@@ -1,0 +1,13 @@
+{
+	"Marriage": {
+		"Marriage Type": ["Mono", "Poly", "Consorts/Concubines"],
+		"Divorce": ["Disallowed", "Must be Approved", "Always Allowed"],
+		"Bastardy": ["None", "Legitimization", "No Legitimization"],
+		"Consanguinity": [
+			"Close-kin Taboo",
+			"Cousin",
+			"Avunculate",
+			"Unrestricted"
+		]
+	}
+}

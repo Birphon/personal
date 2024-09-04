@@ -1,0 +1,60 @@
+{
+  "SMGs": [
+    {
+      "name": "MPS7 - Outer Space",
+      "damage": 33,
+      "fireRate": 850,
+      "mag": 35,
+      "rarity": "Legendary",
+      "weaponType": "SMGs"
+    },
+    {
+      "name": "MPS7",
+      "damage": 26,
+      "fireRate": 850,
+      "mag": 35,
+      "rarity": "Common",
+      "weaponType": "SMGs"
+    },
+    {
+      "name": "MPS5 - Blue Tiger",
+      "damage": 30,
+      "fireRate": 750,
+      "mag": 30,
+      "rarity": "Fine",
+      "weaponType": "SMGs"
+    },
+    {
+      "name": "MPS7 - Div-Evo",
+      "damage": 29,
+      "fireRate": 850,
+      "mag": 35,
+      "rarity": "Epic",
+      "weaponType": "SMGs"
+    },
+    {
+      "name": "MPS5 - Kumawink",
+      "damage": 37,
+      "fireRate": 750,
+      "mag": 30,
+      "rarity": "Legendary",
+      "weaponType": "SMGs"
+    },
+    {
+      "name": "KV-SBR - Little Jaws",
+      "damage": 29,
+      "fireRate": 1000,
+      "mag": 39,
+      "rarity": "Legendary",
+      "weaponType": "SMGs"
+    },
+    {
+      "name": "KV-SBR - Icy Rain",
+      "damage": 25,
+      "fireRate": 1000,
+      "mag": 39,
+      "rarity": "Epic",
+      "weaponType": "SMGs"
+    }
+  ]
+}

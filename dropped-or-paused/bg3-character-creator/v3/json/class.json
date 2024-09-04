@@ -1,0 +1,132 @@
+{
+	"Barbarian": {
+		"Description": "A fierce warrior of primitive background who can enter a battle rage",
+		"Hit Die": "d12",
+		"Primary Ability": "Strength",
+		"Saving Throw Proficiencies": ["Strength", "Constitution"],
+		"Armor and Weapon Proficiencies": "Light and medium armor, shields, simple and martial weapons",
+		"Subclasses": ["Berserker", "Wildheart", "Wild Magic"]
+	},
+	"Bard": {
+		"Description": "An inspiring magician whose power echoes the music of creation",
+		"Hit Die": "d8",
+		"Primary Ability": "Charisma",
+		"Saving Throw Proficiencies": ["Dexterity", "Charisma"],
+		"Armor and Weapon Proficiencies": "Light armor, simple weapons, hand crossbows, longswords, rapiers, shortswords",
+		"Subclasses": [
+			"College of Lore",
+			"College of Valor",
+			"College of Swords"
+		]
+	},
+	"Cleric": {
+		"Description": "A priestly champion who wields divine magic in service of a higher power",
+		"Hit Die": "d8",
+		"Primary Ability": "Wisdom",
+		"Saving Throw Proficiencies": ["Wisdom", "Charisma"],
+		"Armor and Weapon Proficiencies": "Light and medium armor, shields, simple weapons",
+		"Subclasses": [
+			"Life Domain",
+			"Light Domain",
+			"Trickery Domain",
+			"Knowledge Domain",
+			"Nature Domain",
+			"Tempest Domain",
+			"War Domain"
+		]
+	},
+	"Druid": {
+		"Description": "A priest of the Old Faith, wielding the powers of nature— moonlight and plant growth, fire and lightning— and adopting animal forms",
+		"Hit Die": "d8",
+		"Primary Ability": "Wisdom",
+		"Saving Throw Proficiencies": ["Intelligence", "Wisdom"],
+		"Armor and Weapon Proficiencies": "Light and medium armor, shields, clubs, daggers, darts, javelins, maces, Quarterstaves, scimitars, sickles, slings, spears",
+		"Subclasses": [
+			"Circle of the Moon",
+			"Circle of the Land",
+			"Circle of the Spores"
+		]
+	},
+	"Fighter": {
+		"Description": "A master of martial combat, skilled with a variety of weapons and armor",
+		"Hit Die": "d10",
+		"Primary Ability": "Strength or Dexterity",
+		"Saving Throw Proficiencies": ["Strength", "Constitution"],
+		"Armor and Weapon Proficiencies": "All armor, shields, simple and martial weapons",
+		"Subclasses": ["Battle Master", "Eldritch Knight", "Champion"]
+	},
+	"Monk": {
+		"Description": "Channel your cosmic enlightenment by deftly dodging and efficiently disassembling your foes through stunning strikes and a whirlwind of martial art attacks.",
+		"Hit Die": "d8",
+		"Primary Ability": "Dexterity & Wisdom",
+		"Saving Throw Proficiencies": ["Strength", "Dexterity"],
+		"Armor and Weapon Proficiencies": "Simple weapons, shortswords",
+		"Subclasses": [
+			"Way of the Open Hand",
+			"Way of Shadow",
+			"Way of the Four Elements"
+		]
+	},
+	"Paladin": {
+		"Description": "A holy warrior bound to a sacred oath",
+		"Hit Die": "d10",
+		"Primary Ability": "Strength & Charisma",
+		"Saving Throw Proficiencies": ["Wisdom", "Charisma"],
+		"Armor and Weapon Proficiencies": "All armor, shields, simple and martial weapons",
+		"Subclasses": [
+			"Oath of Devotion",
+			"Oath of the Ancients",
+			"Oath of Vengeance",
+			"Oathbreaker"
+		]
+	},
+	"Ranger": {
+		"Description": "A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization",
+		"Hit Die": "d10",
+		"Primary Ability": "Dexterity & Wisdom",
+		"Saving Throw Proficiencies": ["Strength", "Dexterity"],
+		"Armor and Weapon Proficiencies": "Light and medium armor, shields, simple and martial weapons",
+		"Subclasses": ["Beast Master", "Hunter", "Gloom Stalker"]
+	},
+	"Rogue": {
+		"Description": "With stealth, skill and uncanny reflexes, a rogue's versatility lets them get the upper hand in almost any situation.",
+		"Hit Die": "d8",
+		"Primary Ability": "Dexterity",
+		"Saving Throw Proficiencies": ["Dexterity", "Intelligence"],
+		"Armor and Weapon Proficiencies": "Light armor, simple weapons, hand crossbows, longswords, rapiers, shortswords",
+		"Subclasses": ["Thief", "Arcane Trickster", "Assassin"]
+	},
+	"Sorcerer": {
+		"Description": "A spellcaster who draws on inherent magic from a gift or bloodline",
+		"Hit Die": "d6",
+		"Primary Ability": "Charisma",
+		"Saving Throw Proficiencies": ["Constitution", "Charisma"],
+		"Armor and Weapon Proficiencies": "Daggers, Quarterstaves, Light Crossbows",
+		"Subclasses": ["Draconic Bloodline", "Wild Magic", "Storm Sorcery"]
+	},
+	"Warlock": {
+		"Description": "Bound by a pact to an all-powerful patron, warlocks trade their loyalty for supernatural abilities and unique magic.",
+		"Hit Die": "d8",
+		"Primary Ability": "Charisma",
+		"Saving Throw Proficiencies": ["Wisdom", "Charisma"],
+		"Armor and Weapon Proficiencies": "Light armor, simple weapons",
+		"Subclasses": ["The Fiend", "The Great Old One", "Archfey"]
+	},
+	"Wizard": {
+		"Description": "A scholarly magic-user capable of manipulating the structures of reality",
+		"Hit Die": "d6",
+		"Primary Ability": "Intelligence",
+		"Saving Throw Proficiencies": ["Intelligence", "Wisdom"],
+		"Armor and Weapon Proficiencies": "Daggers, darts, slings, Quarterstaves, light crossbow",
+		"Subclasses": [
+			"Abjuration School",
+			"Conjuration School",
+			"Divination School",
+			"Enchantment School",
+			"Evocation School",
+			"Necromancy School",
+			"Illusion School",
+			"Transmutation School"
+		]
+	}
+}

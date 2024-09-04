@@ -1,0 +1,52 @@
+{
+  "AssaultRifles": [
+    {
+      "name": "KAM - Pioneer",
+      "damage": 31,
+      "fireRate": 600,
+      "mag": 40,
+      "rarity": "Fine",
+      "weaponType": "Assault Rifles"
+    },
+    {
+      "name": "SOCR - Outsider",
+      "damage": 41,
+      "fireRate": 515,
+      "mag": 30,
+      "rarity": "Epic",
+      "weaponType": "Assault Rifles"
+    },
+    {
+      "name": "KAM",
+      "damage": 31,
+      "fireRate": 600,
+      "mag": 40,
+      "rarity": "Common",
+      "weaponType": "Assault Rifles"
+    },
+    {
+      "name": "KAM - Abyss Glance",
+      "damage": 39,
+      "fireRate": 600,
+      "mag": 50,
+      "rarity": "Legendary",
+      "weaponType": "Assault Rifles"
+    },
+    {
+      "name": "KAM - Crank",
+      "damage": 35,
+      "fireRate": 600,
+      "mag": 40,
+      "rarity": "Epic",
+      "weaponType": "Assault Rifles"
+    },
+    {
+      "name": "SOCR - The Last Valor",
+      "damage": 45,
+      "fireRate": 515,
+      "mag": 30,
+      "rarity": "Legendary",
+      "weaponType": "Assault Rifles"
+    }
+  ]
+}

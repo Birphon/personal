@@ -1,0 +1,36 @@
+{
+  "Crossbows": [
+    {
+      "name": "Rustic Crossbow",
+      "damage": 217,
+      "fireRate": 125,
+      "mag": 1,
+      "rarity": "Common",
+      "weaponType": "Crossbows"
+    },
+    {
+      "name": "Compound Bow",
+      "damage": 310,
+      "fireRate": 125,
+      "mag": 1,
+      "rarity": "Legendary",
+      "weaponType": "Crossbows"
+    },
+    {
+      "name": "Recurve Crossbow",
+      "damage": 279,
+      "fireRate": 125,
+      "mag": 1,
+      "rarity": "Epic",
+      "weaponType": "Crossbows"
+    },
+    {
+      "name": "Recurve Bow",
+      "damage": 189,
+      "fireRate": 65,
+      "mag": 1,
+      "rarity": "Fine",
+      "weaponType": "Crossbows"
+    }
+  ]
+}

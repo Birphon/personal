@@ -1,0 +1,8 @@
+ten-sided.tscn
+	Two ten-sided dice (d10) for each player. These are your challenge dice.
+six-sided.tscn
+	• One six-sided die (d6) for each player. This is your action die
+oracle-dice.tscn
+	Another set of ten-sided.tscn
+tokens.tscn
+	Token counters for game mechanics :V	

@@ -1,0 +1,20 @@
+{
+  "HeavyArtillery": [
+    {
+      "name": "MGL",
+      "damage": 277,
+      "fireRate": 140,
+      "mag": 6,
+      "rarity": "Epic",
+      "weaponType": "Heavy Artillery"
+    },
+    {
+      "name": "RPG7 Rocket Launcher",
+      "damage": 297,
+      "fireRate": 140,
+      "mag": 1,
+      "rarity": "Fine",
+      "weaponType": "Heavy Artillery"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #container {
+            display: flex;
+        }
+
+        #left {
+            flex: 50%;
+        }
+
+        #right {
+            flex: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='container'>
+        <div id='left'>
+            <form id='characterForm'>
+                <input type='text' id='name' placeholder='Name'>
+                <select id='race'>
+                    <option value=''>Select Race</option>
+                </select>
+                <select id='subRace'>
+                    <option value=''>Select Sub Race</option>
+                </select>
+                <select id='class'>
+                    <option value=''>Select Class</option>
+                </select>
+                <select id='subClass'>
+                    <option value=''>Select Sub Class</option>
+                </select>
+                <input type='number' id='strength' placeholder='Strength'>
+                <input type='number' id='dexterity' placeholder='Dexterity'>
+                <input type='number' id='constitution' placeholder='Constitution'>
+                <input type='number' id='intelligence' placeholder='Intelligence'>
+                <input type='number' id='wisdom' placeholder='Wisdom'>
+                <input type='number' id='charisma' placeholder='Charisma'>
+                <button type='submit'>Create Character</button>
+            </form>
+        </div>
+        <div id='right'>
+            <div id='characterDisplay'></div>
+        </div>
+    </div>
+    <script src='CharacterData.js'></script>
+    <script src='CharacterAttributes.js'></script>
+    <script src='CharacterSkills.js'></script>
+    <script src='CharacterAppearance.js'></script>
+    <script src='CharacterBackground.js'></script>
+    <script src='CharacterClass.js'></script>
+    <script src='CharacterRace.js'></script>
+</body>
+
+</html>

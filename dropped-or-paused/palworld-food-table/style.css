@@ -1,0 +1,102 @@
+/* Import Google Fonts - Roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    /* Dark background color */
+    color: #fff;
+    /* White text color */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    /* White border with opacity */
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    /* White border with opacity */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.12);
+    text-align: center;
+    /* White background with opacity */
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    /* White background with opacity on hover */
+}
+
+caption {
+    caption-side: top;
+    text-align: left;
+    font-weight: bold;
+    padding: 8px;
+}
+
+section {
+    padding-left: 1%;
+}
+
+/* Table container */
+.table_component {
+    width: 100%;
+    overflow-x: auto;
+    /* Allow horizontal scrolling if needed */
+}
+
+/* Table styles */
+.table_component table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    /* White border with opacity */
+}
+
+/* Caption styles */
+.table_component caption {
+    caption-side: top;
+    text-align: left;
+    font-weight: bold;
+    padding: 8px;
+}
+
+/* Header cell styles */
+.table_component th {
+    background-color: rgba(255, 255, 255, 0.12);
+    /* White background with opacity */
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    /* White border with opacity */
+    padding: 10px;
+    text-align: left;
+}
+
+/* Data cell styles */
+.table_component td {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    /* White border with opacity */
+    padding: 10px;
+}
+
+/* Alternating row colors */
+.table_component tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.04);
+    /* White background with opacity for even rows */
+}
+
+/* Hover effect */
+.table_component tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    /* White background with opacity on hover */
+}

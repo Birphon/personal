@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Twitch Stream Refresher",
+	"version": "1.0",
+	"description": "A simple extension to refresh Twitch stream player.",
+	"permissions": ["activeTab"],
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://www.twitch.tv/*"],
+			"js": ["content.js"]
+		}
+	]
+}

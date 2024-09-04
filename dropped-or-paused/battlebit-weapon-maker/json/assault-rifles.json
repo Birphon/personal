@@ -1,0 +1,23 @@
+{
+	"name": "M4A1",
+	"data": {
+		"type": "Assault Rifle",
+		"damage": 30,
+		"lightArmorDamage": 4,
+		"heavyArmorDamage": 0,
+		"capacity": 30,
+		"firingModes": ["Semi-Auto", "Burst", "Full-Auto"],
+		"fireRate": 700,
+		"reloadTime": 4.17,
+		"accuracy": 76.25,
+		"control": 0.86,
+		"aimDownTime": 0.24,
+		"runningSpeed": 1.0,
+		"verticalRecoil": 1.5,
+		"horizontalRecoil": 0.6,
+		"firstShotKick": 1.0,
+		"velocity": 700,
+		"soundSpread": 600,
+		"muzzleScale": 0.6
+	}
+}
