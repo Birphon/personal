@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://jd8t05nc1h8h"]
+
+[ext_resource type="Script" path="res://FlappyBird/scripts/pipe.gd" id="1_4kmhl"]
+[ext_resource type="Texture2D" uid="uid://bw1ocpam8x85s" path="res://FlappyBird/assets/pipe.png" id="1_fhrdx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jdsug"]
+size = Vector2(72, 524)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gvpa6"]
+size = Vector2(78, 36)
+
+[node name="Pipe" type="Area2D"]
+script = ExtResource("1_4kmhl")
+
+[node name="Lower" type="Sprite2D" parent="."]
+position = Vector2(0, 380)
+texture = ExtResource("1_fhrdx")
+
+[node name="LowerBody" type="CollisionShape2D" parent="."]
+position = Vector2(0, 398)
+rotation = -3.14159
+shape = SubResource("RectangleShape2D_jdsug")
+
+[node name="LowerCap" type="CollisionShape2D" parent="."]
+position = Vector2(0, 118)
+rotation = -3.14159
+shape = SubResource("RectangleShape2D_gvpa6")
+
+[node name="Upper" type="Sprite2D" parent="."]
+position = Vector2(0, -380)
+rotation = 3.14159
+texture = ExtResource("1_fhrdx")
+
+[node name="UpperBody" type="CollisionShape2D" parent="."]
+position = Vector2(0, -398)
+shape = SubResource("RectangleShape2D_jdsug")
+
+[node name="UpperCap" type="CollisionShape2D" parent="."]
+position = Vector2(0, -118)
+shape = SubResource("RectangleShape2D_gvpa6")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
