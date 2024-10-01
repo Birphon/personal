@@ -1,0 +1,203 @@
+[gd_scene load_steps=2 format=3 uid="uid://7ph8a668pnsx"]
+
+[ext_resource type="Script" path="res://script/car_property_editor.gd" id="1_nxlxg"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nxlxg")
+
+[node name="MenuButton" type="MenuButton" parent="."]
+layout_mode = 2
+offset_right = 169.0
+offset_bottom = 31.0
+text = "Menu Button Is Here
+"
+
+[node name="PerWheelMotion" type="VBoxContainer" parent="MenuButton"]
+offset_right = 88.0
+offset_bottom = 105.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MenuButton/PerWheelMotion"]
+layout_mode = 2
+bbcode_enabled = true
+fit_content = true
+
+[node name="EngineForce" type="HBoxContainer" parent="MenuButton/PerWheelMotion"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/PerWheelMotion/EngineForce"]
+layout_mode = 2
+
+[node name="engine_force" type="SpinBox" parent="MenuButton/PerWheelMotion/EngineForce"]
+layout_mode = 2
+
+[node name="Break" type="HBoxContainer" parent="MenuButton/PerWheelMotion"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/PerWheelMotion/Break"]
+layout_mode = 2
+
+[node name="break" type="SpinBox" parent="MenuButton/PerWheelMotion/Break"]
+layout_mode = 2
+
+[node name="Steering" type="HBoxContainer" parent="MenuButton/PerWheelMotion"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/PerWheelMotion/Steering"]
+layout_mode = 2
+
+[node name="steering" type="SpinBox" parent="MenuButton/PerWheelMotion/Steering"]
+layout_mode = 2
+
+[node name="VehicleBody3D" type="VBoxContainer" parent="MenuButton"]
+offset_top = 109.0
+offset_right = 88.0
+offset_bottom = 165.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MenuButton/VehicleBody3D"]
+layout_mode = 2
+bbcode_enabled = true
+fit_content = true
+
+[node name="isTraction" type="HBoxContainer" parent="MenuButton/VehicleBody3D"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/VehicleBody3D/isTraction"]
+layout_mode = 2
+
+[node name="isTraction" type="CheckBox" parent="MenuButton/VehicleBody3D/isTraction"]
+layout_mode = 2
+
+[node name="IsSteering" type="HBoxContainer" parent="MenuButton/VehicleBody3D"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/VehicleBody3D/IsSteering"]
+layout_mode = 2
+
+[node name="isTraction" type="CheckBox" parent="MenuButton/VehicleBody3D/IsSteering"]
+layout_mode = 2
+
+[node name="Wheel" type="VBoxContainer" parent="MenuButton"]
+offset_top = 169.0
+offset_right = 88.0
+offset_bottom = 309.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MenuButton/Wheel"]
+layout_mode = 2
+
+[node name="RollInfluence" type="HBoxContainer" parent="MenuButton/Wheel"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/Wheel/RollInfluence"]
+layout_mode = 2
+
+[node name="roll_influence" type="SpinBox" parent="MenuButton/Wheel/RollInfluence"]
+layout_mode = 2
+
+[node name="Radius" type="HBoxContainer" parent="MenuButton/Wheel"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/Wheel/Radius"]
+layout_mode = 2
+
+[node name="radius" type="SpinBox" parent="MenuButton/Wheel/Radius"]
+layout_mode = 2
+
+[node name="RestLength" type="HBoxContainer" parent="MenuButton/Wheel"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/Wheel/RestLength"]
+layout_mode = 2
+
+[node name="rest_length" type="SpinBox" parent="MenuButton/Wheel/RestLength"]
+layout_mode = 2
+
+[node name="FrictionSlip" type="HBoxContainer" parent="MenuButton/Wheel"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/Wheel/FrictionSlip"]
+layout_mode = 2
+
+[node name="friction_slip" type="SpinBox" parent="MenuButton/Wheel/FrictionSlip"]
+layout_mode = 2
+
+[node name="Suspension" type="VBoxContainer" parent="MenuButton"]
+offset_top = 313.0
+offset_right = 88.0
+offset_bottom = 418.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MenuButton/Suspension"]
+layout_mode = 2
+
+[node name="Travel" type="HBoxContainer" parent="MenuButton/Suspension"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/Suspension/Travel"]
+layout_mode = 2
+
+[node name="travel" type="SpinBox" parent="MenuButton/Suspension/Travel"]
+layout_mode = 2
+
+[node name="Stiffness" type="HBoxContainer" parent="MenuButton/Suspension"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/Suspension/Stiffness"]
+layout_mode = 2
+
+[node name="stiffness" type="SpinBox" parent="MenuButton/Suspension/Stiffness"]
+layout_mode = 2
+
+[node name="MaxForce" type="HBoxContainer" parent="MenuButton/Suspension"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/Suspension/MaxForce"]
+layout_mode = 2
+
+[node name="max_force" type="SpinBox" parent="MenuButton/Suspension/MaxForce"]
+layout_mode = 2
+
+[node name="Damping" type="VBoxContainer" parent="MenuButton"]
+offset_top = 422.0
+offset_right = 88.0
+offset_bottom = 492.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MenuButton/Damping"]
+layout_mode = 2
+
+[node name="Compression" type="HBoxContainer" parent="MenuButton/Damping"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/Damping/Compression"]
+layout_mode = 2
+
+[node name="compression" type="SpinBox" parent="MenuButton/Damping/Compression"]
+layout_mode = 2
+
+[node name="Relaxation" type="HBoxContainer" parent="MenuButton/Damping"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/Damping/Relaxation"]
+layout_mode = 2
+
+[node name="relaxation" type="SpinBox" parent="MenuButton/Damping/Relaxation"]
+layout_mode = 2
+
+[connection signal="value_changed" from="MenuButton/PerWheelMotion/EngineForce/engine_force" to="." method="_on_engine_force_changed"]
+[connection signal="value_changed" from="MenuButton/PerWheelMotion/Break/break" to="." method="_on_break_value_changed"]
+[connection signal="value_changed" from="MenuButton/PerWheelMotion/Steering/steering" to="." method="_on_steering_value_changed"]
+[connection signal="toggled" from="MenuButton/VehicleBody3D/isTraction/isTraction" to="." method="_on_is_traction_toggled"]
+[connection signal="toggled" from="MenuButton/VehicleBody3D/IsSteering/isTraction" to="." method="_on_is_traction_toggled"]
+[connection signal="value_changed" from="MenuButton/Wheel/RollInfluence/roll_influence" to="." method="_on_roll_influence_value_changed"]
+[connection signal="value_changed" from="MenuButton/Wheel/Radius/radius" to="." method="_on_radius_value_changed"]
+[connection signal="value_changed" from="MenuButton/Wheel/RestLength/rest_length" to="." method="_on_rest_length_value_changed"]
+[connection signal="value_changed" from="MenuButton/Wheel/FrictionSlip/friction_slip" to="." method="_on_friction_slip_value_changed"]
+[connection signal="value_changed" from="MenuButton/Suspension/Travel/travel" to="." method="_on_travel_value_changed"]
+[connection signal="value_changed" from="MenuButton/Suspension/Stiffness/stiffness" to="." method="_on_stiffness_value_changed"]
+[connection signal="value_changed" from="MenuButton/Suspension/MaxForce/max_force" to="." method="_on_max_force_value_changed"]
+[connection signal="value_changed" from="MenuButton/Damping/Compression/compression" to="." method="_on_compression_value_changed"]
+[connection signal="value_changed" from="MenuButton/Damping/Relaxation/relaxation" to="." method="_on_relaxation_value_changed"]

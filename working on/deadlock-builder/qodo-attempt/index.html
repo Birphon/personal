@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="character-selection">
+        <h1>Select a Character</h1>
+        <div id="characters"></div>
+    </div>
+    <div id="character-details" style="display:none;">
+        <h2 id="character-name"></h2>
+        <div id="stats"></div>
+        <h3>Shop</h3>
+        <div id="shop">
+            <div class="shop-category" id="shop-weapons">
+                <h4>Weapons</h4>
+                <div class="shop-items"></div>
+            </div>
+            <div class="shop-category" id="shop-health">
+                <h4>Health</h4>
+                <div class="shop-items"></div>
+            </div>
+            <div class="shop-category" id="shop-magic">
+                <h4>Magic</h4>
+                <div class="shop-items"></div>
+            </div>
+        </div>
+        <h3>Inventory</h3>
+        <div id="item-slots">
+            <div class="slot" id="weapon-slots">
+                <h4>Weapons</h4>
+                <div class="slots"></div>
+            </div>
+            <div class="slot" id="health-slots">
+                <h4>Health</h4>
+                <div class="slots"></div>
+            </div>
+            <div class="slot" id="magic-slots">
+                <h4>Magic</h4>
+                <div class="slots"></div>
+            </div>
+            <div class="slot" id="wildcard-slots">
+                <h4>Wildcard</h4>
+                <div class="slots"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

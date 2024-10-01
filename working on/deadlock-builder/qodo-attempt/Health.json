@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Health Potion",
+		"effects": {
+			"HP": 50,
+			"HPRgen": 2
+		}
+	},
+	{
+		"name": "Shield",
+		"effects": {
+			"BulletRes": 0.05,
+			"SpiritRes": 0.05
+		}
+	}
+]

@@ -1,0 +1,77 @@
+[gd_scene load_steps=6 format=3 uid="uid://p8oloy8k8txe"]
+
+[sub_resource type="GDScript" id="GDScript_dmpw6"]
+script/source = "extends VehicleBody3D
+
+@export var MAX_STEER = 0.35
+@export var ENGINE_POWER = 300
+
+func _physics_process(delta):
+	steering = move_toward(steering, Input.get_axis(\"right\", \"left\") * MAX_STEER, delta * 10)
+	engine_force = Input.get_axis(\"down\", \"up\") * ENGINE_POWER
+	if Input.is_action_just_pressed(\"redo\"):
+		get_tree().reload_current_scene()
+"
+
+[sub_resource type="BoxMesh" id="BoxMesh_paqj0"]
+size = Vector3(4, 1, 2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hu8kl"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ni3pu"]
+material = SubResource("StandardMaterial3D_hu8kl")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_w2455"]
+size = Vector3(1.97644, 1.04102, 1.35144)
+
+[node name="TestCar" type="VehicleBody3D"]
+collision_layer = 3
+collision_mask = 3
+script = SubResource("GDScript_dmpw6")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Body2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0776067, 0.6, 0)
+layers = 3
+mesh = SubResource("BoxMesh_paqj0")
+skeleton = NodePath("")
+
+[node name="FLWheel" type="VehicleWheel3D" parent="."]
+transform = Transform3D(-2.18557e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.18557e-08, 0.62, 0.256, 0.7)
+use_as_steering = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="FLWheel"]
+transform = Transform3D(-4.37114e-08, -0.2, 0, 1, -8.74228e-09, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("CylinderMesh_ni3pu")
+
+[node name="FRWheel" type="VehicleWheel3D" parent="."]
+transform = Transform3D(-2.18557e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.18557e-08, 0.619722, 0.256, -0.7)
+use_as_steering = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="FRWheel"]
+transform = Transform3D(-4.37114e-08, -0.2, 0, 1, -8.74228e-09, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("CylinderMesh_ni3pu")
+
+[node name="BLWheel" type="VehicleWheel3D" parent="."]
+transform = Transform3D(-2.18557e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.18557e-08, -0.728938, 0.256, 0.7)
+use_as_traction = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="BLWheel"]
+transform = Transform3D(-4.37114e-08, -0.2, 0, 1, -8.74228e-09, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("CylinderMesh_ni3pu")
+
+[node name="BRWheel" type="VehicleWheel3D" parent="."]
+transform = Transform3D(-2.18557e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.18557e-08, -0.728938, 0.256, -0.7)
+use_as_traction = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="BRWheel"]
+transform = Transform3D(-4.37114e-08, -0.2, 0, 1, -8.74228e-09, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("CylinderMesh_ni3pu")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0742798, 0.52097, 0.0219116)
+shape = SubResource("BoxShape3D_w2455")

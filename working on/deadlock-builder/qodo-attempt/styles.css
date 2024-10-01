@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#character-selection,
+#character-details {
+    margin-bottom: 20px;
+}
+
+#characters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.character {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.character:hover {
+    background-color: #e0e0e0;
+}
+
+#shop {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop-category {
+    flex: 1;
+    margin: 10px;
+}
+
+.shop-category h4 {
+    margin: 0 0 10px 0;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop-item {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.shop-item:hover {
+    background-color: #e0e0e0;
+}
+
+.shop-item.locked {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}
+
+#item-slots {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slot {
+    flex: 1;
+    margin: 10px;
+}
+
+.slot h4 {
+    margin: 0 0 10px 0;
+}
+
+.slots {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slot-item {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.slot-item:hover {
+    background-color: #e0e0e0;
+}

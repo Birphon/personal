@@ -1,0 +1,64 @@
+turningRadius = (Wheelbase/sin(steering angle)) + (tire width/2)
+
+Acceleration:
+
+Force = Mass * Acceleration
+Acceleration = (Engine Force - Drag Force - Rolling Resistance) / Mass
+
+
+Drag Force:
+
+Drag Force = 0.5 * Air Density * Drag Coefficient * Frontal Area * Velocity ^ 2
+
+
+Rolling Resistance:
+
+Rolling Resistance = Rolling Resistance Coefficient * Vehicle Weight
+
+
+Braking Distance:
+
+Braking Distance = (Initial Velocity ^ 2) / (2 * Deceleration)
+
+
+Lateral Force(Cornering):
+
+Lateral Force = Mass * Velocity ^ 2 / Radius of Turn
+
+
+Weight Transfer:
+
+Longitudinal Weight Transfer = (Mass * Acceleration * Center of Gravity Height) / Wheelbase
+Lateral Weight Transfer = (Mass * Lateral Acceleration * Center of Gravity Height) / Track Width
+
+
+Tire Friction:
+
+Friction Force = Normal Force * Friction Coefficient
+
+
+Suspension:
+
+Spring Force = Spring Constant * Displacement
+Damping Force = Damping Coefficient * Velocity
+
+
+Engine Torque and Power:
+
+Power = Torque * Angular Velocity
+Torque at wheels = Engine Torque * Gear Ratio * Differential Ratio
+
+
+Top Speed:
+
+Top Speed = (Engine Power * Transmission Efficiency) / (Drag Coefficient * Frontal Area * Air Density)
+
+
+Oversteer and Understeer:
+
+Understeer Gradient = (Front Lateral Load Transfer / Front Lateral Acceleration) - (Rear Lateral Load Transfer / Rear Lateral Acceleration)
+
+
+Downforce:
+
+Downforce = 0.5 * Air Density * Downforce Coefficient * Frontal Area * Velocity ^ 2

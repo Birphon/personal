@@ -1,0 +1,15 @@
+[
+	{
+		"name": "Fireball",
+		"effects": {
+			"DPS": 25,
+			"BulletDMG": 10.0
+		}
+	},
+	{
+		"name": "Ice Shield",
+		"effects": {
+			"SpiritRes": 0.1
+		}
+	}
+]

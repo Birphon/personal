@@ -1,0 +1,106 @@
+[gd_scene load_steps=8 format=3 uid="uid://bpsk3iwwnb6xx"]
+
+[ext_resource type="Script" path="res://script/main.gd" id="1_rnq1w"]
+[ext_resource type="PackedScene" uid="uid://p8oloy8k8txe" path="res://scene/test_car.tscn" id="2_sucbi"]
+[ext_resource type="Shader" path="res://shader/ground.gdshader" id="3_ts5ev"]
+[ext_resource type="FontFile" uid="uid://c4xix3l4x8d0p" path="res://fonts/coolvetica rg.otf" id="4_5wndi"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_34vxl"]
+render_priority = 0
+shader = ExtResource("3_ts5ev")
+shader_parameter/subdivisions = 32.0
+shader_parameter/grid_width = 0.02
+shader_parameter/background_color = Color(0.2, 0.2, 0.2, 1)
+shader_parameter/background_color_two = Color(0.1, 0.1, 0.1, 1)
+shader_parameter/grid_color = Color(0.5, 0.5, 0.5, 1)
+shader_parameter/dashed_scale_x = 0.02
+shader_parameter/dashed_scale_y = 0.02
+shader_parameter/dashed_count_x = 1.0
+shader_parameter/dashed_count_y = 1.0
+shader_parameter/point_width = 0.021
+shader_parameter/point_color = Color(0, 0, 0, 1)
+shader_parameter/point_scale_x = 0.05
+shader_parameter/point_scale_y = 0.05
+shader_parameter/inside_width = 0.01
+shader_parameter/inside_subdivisions = 6.0
+shader_parameter/inside_color = Color(0.4, 0.4, 0.4, 1)
+shader_parameter/in_dashed_scale_x = 0.3
+shader_parameter/in_dashed_scale_y = 0.3
+shader_parameter/in_dashed_count_x = 6.0
+shader_parameter/in_dashed_count_y = 6.0
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_26cdy"]
+material = SubResource("ShaderMaterial_34vxl")
+size = Vector2(100, 100)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_1drl6"]
+data = PackedVector3Array(50, 0, 50, -50, 0, 50, 50, 0, -50, -50, 0, 50, -50, 0, -50, 50, 0, -50)
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_rnq1w")
+
+[node name="TestCar" parent="." instance=ExtResource("2_sucbi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.54566, 0)
+visible = false
+
+[node name="Camera3D" type="Camera3D" parent="TestCar"]
+transform = Transform3D(-4.32785e-08, 0.140383, -0.990097, 6.13633e-09, 0.990097, 0.140383, 1, 0, -4.37114e-08, -2.988, 2.131, 0)
+
+[node name="Light" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.63465, 0.7728, 0, -0.7728, -0.63465, 0, 16.0996, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+mesh = SubResource("PlaneMesh_26cdy")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_1drl6")
+
+[node name="hbox" type="HBoxContainer" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -20.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Vehicle Engine Force" type="Label" parent="hbox"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_5wndi")
+text = "Vehicle Engine Force"
+
+[node name="TextEdit" type="TextEdit" parent="hbox/Vehicle Engine Force"]
+custom_minimum_size = Vector2(150, 30)
+layout_mode = 2
+offset_left = 139.0
+offset_top = -6.0
+offset_right = 289.0
+offset_bottom = 26.0
+theme_override_fonts/font = ExtResource("4_5wndi")
+placeholder_text = "Placeholder Text"
+scroll_fit_content_height = true
+caret_blink = true
+
+[node name="Cont" type="HBoxContainer" parent="."]
+offset_left = 174.0
+offset_right = 195.0
+offset_bottom = 40.0
+size_flags_horizontal = 3
+
+[node name="FrontLeftWheel" type="Label" parent="Cont"]
+layout_mode = 2
+
+[node name="FrontRightWheel" type="Label" parent="Cont"]
+layout_mode = 2
+
+[node name="BackLeftWheel" type="Label" parent="Cont"]
+layout_mode = 2
+
+[node name="BackRightWheel" type="Label" parent="Cont"]
+layout_mode = 2
+
+[node name="Vehicle" type="Label" parent="Cont"]
+layout_mode = 2

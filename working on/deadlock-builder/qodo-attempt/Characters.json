@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Warrior",
+		"stats": {
+			"DPS": 100,
+			"BulletDMG": 50.0,
+			"Ammo": 30,
+			"BulletPS": 1.5,
+			"MeleeLight": 20,
+			"MeleeHeavy": 40,
+			"HP": 200,
+			"HPRgen": 5,
+			"BulletRes": 0.1,
+			"SpiritRes": 0.05,
+			"MoveSpeed": 10,
+			"SprintSpeed": 15,
+			"Stamina": 100
+		}
+	},
+	{
+		"name": "Mage",
+		"stats": {
+			"DPS": 80,
+			"BulletDMG": 30.0,
+			"Ammo": 50,
+			"BulletPS": 2.0,
+			"MeleeLight": 10,
+			"MeleeHeavy": 20,
+			"HP": 150,
+			"HPRgen": 4,
+			"BulletRes": 0.05,
+			"SpiritRes": 0.1,
+			"MoveSpeed": 12,
+			"SprintSpeed": 18,
+			"Stamina": 120
+		}
+	}
+]

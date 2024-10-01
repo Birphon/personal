@@ -1,0 +1,108 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpx3i8kt4bry1"]
+
+[ext_resource type="Script" path="res://script/test.gd" id="1_7qaql"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7qaql")
+
+[node name="MenuButton" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Front Left Wheel
+"
+
+[node name="MenuController" type="VBoxContainer" parent="MenuButton"]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 37.0
+offset_right = 164.0
+offset_bottom = 205.0
+
+[node name="PerWheelMotion" type="Button" parent="MenuButton/MenuController"]
+layout_mode = 2
+text = "PerWheelMotion"
+
+[node name="PerWheelMotion" type="VBoxContainer" parent="MenuButton/MenuController/PerWheelMotion"]
+visible = false
+layout_mode = 0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MenuButton/MenuController/PerWheelMotion/PerWheelMotion"]
+layout_mode = 2
+bbcode_enabled = true
+fit_content = true
+
+[node name="EngineForce" type="HBoxContainer" parent="MenuButton/MenuController/PerWheelMotion/PerWheelMotion"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/MenuController/PerWheelMotion/PerWheelMotion/EngineForce"]
+layout_mode = 2
+text = "Engine Force"
+
+[node name="engine_force" type="SpinBox" parent="MenuButton/MenuController/PerWheelMotion/PerWheelMotion/EngineForce"]
+layout_mode = 2
+
+[node name="Break" type="HBoxContainer" parent="MenuButton/MenuController/PerWheelMotion/PerWheelMotion"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/MenuController/PerWheelMotion/PerWheelMotion/Break"]
+layout_mode = 2
+text = "Brake"
+
+[node name="break" type="SpinBox" parent="MenuButton/MenuController/PerWheelMotion/PerWheelMotion/Break"]
+layout_mode = 2
+
+[node name="Steering" type="HBoxContainer" parent="MenuButton/MenuController/PerWheelMotion/PerWheelMotion"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuButton/MenuController/PerWheelMotion/PerWheelMotion/Steering"]
+layout_mode = 2
+text = "Steering"
+
+[node name="steering" type="SpinBox" parent="MenuButton/MenuController/PerWheelMotion/PerWheelMotion/Steering"]
+layout_mode = 2
+
+[node name="VehicleBody3D" type="Button" parent="MenuButton/MenuController"]
+layout_mode = 2
+text = "VehicleBody3D"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MenuButton/MenuController/VehicleBody3D"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Wheel" type="Button" parent="MenuButton/MenuController"]
+layout_mode = 2
+text = "Wheel"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MenuButton/MenuController/Wheel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Suspension" type="Button" parent="MenuButton/MenuController"]
+layout_mode = 2
+text = "Suspension"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MenuButton/MenuController/Suspension"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Damping" type="Button" parent="MenuButton/MenuController"]
+layout_mode = 2
+text = "Damping"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MenuButton/MenuController/Damping"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[connection signal="pressed" from="MenuButton" to="." method="_on_menu_button_pressed"]
+[connection signal="pressed" from="MenuButton/MenuController/PerWheelMotion" to="." method="_on_per_wheel_motion_pressed"]

@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Sword",
+		"effects": {
+			"DPS": 20,
+			"MeleeLight": 10
+		}
+	},
+	{
+		"name": "Bow",
+		"effects": {
+			"DPS": 15,
+			"BulletDMG": 5.0,
+			"Ammo": 10
+		}
+	}
+]

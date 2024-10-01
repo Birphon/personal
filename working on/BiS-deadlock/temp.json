@@ -1,0 +1,75 @@
+{
+    "BulletRes": {
+        "Weapon": {
+            "Restorative Shot": 7,
+            "Berserker": 7,
+            "Escalating Resilience": {
+                "stack 0": 0,
+                "stack 1": 2,
+                "stack 2": 4,
+                "stack 3": 6,
+                "stack 4": 8,
+                "stack 5": 10,
+                "stack 6": 12,
+                "stack 7": 14,
+                "stack 8": 16,
+                "stack 9": 18,
+                "stack 10": 20,
+                "stack 11": 22,
+                "stack 12": 24,
+                "stack 13": 26,
+                "stack 14": 28,
+                "stack 15": 30,
+                "stack 16": 32,
+                "stack 17": 34,
+                "stack 18": 36,
+                "stack 19": 38,
+                "stack 20": 40
+            },
+            "Point Blank": 15,
+            "Titanic Magazine": 15,
+            "Warp Stone - ACTIVE": 30
+        },
+        "Vitality": {
+            "BulletArmor": 20,
+            "Lifestrike": 8,
+            "Imrpoved BulletArmor": 45,
+            "Colossus - ACTIVE": 40,
+            "Phantom Strike - ACTIVE": 50
+        },
+        "Spirit": {
+            "Bullet Resist Shredder": {
+                "Passive": 5,
+                "Condition": -12
+            },
+            "Echo Shard": 16,
+            "Refresher": 8
+        }
+    }
+},{
+    "SpiritRes": {
+        "Gun": {
+            "Pristine Emblem": 12,
+            "Frenzy": {
+                "Condition": 45
+            }
+        },
+        "Vitality": {
+            "Healing Booster": 6,
+            "Spirit Armor": 20,
+            "Restorative Locket": 8,
+            "Improved Spirit Armor": 45,
+            "Colossus - ACTIVE": 40,
+            "Unstoppable": 15
+        },
+        "Spirit": {
+            "Mystic Reach": 6,
+            "Refresher": {"Passive": 6, "Condition": -12},
+            "Cold Front": 10,
+            "Improved Reach": 10,
+            "Escalating Exposure": -15,
+            "Mystic Reverb": 15,
+            "Refresher": 8
+        }
+    }
+}
