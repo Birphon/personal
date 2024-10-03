@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cw8iqvxeru6fy"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_o1gmr"]
+[ext_resource type="Texture2D" uid="uid://dhb8ml3w77aqx" path="res://images.jpg" id="2_mna6u"]
+
+[node name="GoBoard-9x9" type="Node2D"]
+script = ExtResource("1_o1gmr")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(506, 498)
+scale = Vector2(4.23661, 4.23661)
+texture = ExtResource("2_mna6u")

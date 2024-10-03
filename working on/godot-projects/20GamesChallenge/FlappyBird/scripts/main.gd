@@ -104,5 +104,3 @@ func _on_ground_hit():
 
 func _on_game_over_restart():
 	new_game()
-
-

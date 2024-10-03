@@ -45,6 +45,11 @@ layout_mode = 2
 size_flags_vertical = 3
 text = "CPU vs CPU"
 
+[node name="Home" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Main Menu"
+
 [connection signal="pressed" from="VBoxContainer/PvC" to="." method="_on_pv_c_pressed"]
 [connection signal="pressed" from="VBoxContainer/PvP" to="." method="_on_pv_p_pressed"]
 [connection signal="pressed" from="VBoxContainer/CvC" to="." method="_on_cv_c_pressed"]
+[connection signal="pressed" from="VBoxContainer/Home" to="." method="_on_home_pressed"]
